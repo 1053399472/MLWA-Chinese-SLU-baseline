@@ -1,0 +1,1188 @@
+查	O	O
+电	O	O
+话	O	O
+，	O	O
+徐	B-name	B-keyword
+冬	I-name	I-keyword
+冬	Iname	Ikeyword
+的	O	O
+。	O	O
+查 电话 ， 徐 冬冬 的 。
+
+看	O	O
+一	O	O
+个	O	O
+乌	B-city	B-city
+鲁	I-city	Icity
+木	I-city	B-keyword
+齐	Icity	Ikeyword
+的	O	O
+社	B-category	B-category
+会	Icategory	Icategory
+新	O	O
+闻	O	O
+看 一个 乌鲁木齐 的 社会 新闻
+
+草	B-dishName	O
+莓	I-dishName	O
+芒	I-dishName	B-dishName
+果	I-dishName	I-dishName
+西	I-dishName	I-dishName
+米	I-dishName	I-dishName
+露	IdishName	IdishName
+。	O	O
+草莓 芒果 西米露 。
+
+中	O	B-name
+国	O	I-name
+新	B-name	I-name
+华	I-name	I-name
+网	Iname	Iname
+打	O	O
+开	O	O
+中国 新华网 打开
+
+搜	O	O
+索	O	O
+英	B-category	B-name
+文	Icategory	I-name
+歌	O	I-name
+b	B-song	I-name
+a	I-song	I-name
+d	I-song	I-name
+#	I-song	I-name
+g	I-song	I-name
+i	I-song	I-name
+r	I-song	I-name
+l	Isong	Iname
+搜索 英文歌 bad # girl
+
+贵	B-startLoc_area	B-startLoc_city
+溪	IstartLoc_area	IstartLoc_city
+至	O	O
+泉	B-endLoc_city	B-endLoc_city
+州	IendLoc_city	IendLoc_city
+的	O	O
+火	O	O
+车	O	O
+票	O	O
+贵溪 至 泉州 的 火车票
+
+明	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+重	B-city	B-city
+庆	Icity	Icity
+有	O	O
+雨	O	B-keyword
+没	O	Ikeyword
+需	O	O
+不	O	O
+需	O	O
+要	O	O
+带	O	O
+雨	O	B-name
+伞	O	Iname
+明天 重庆 有雨 没 需不需要 带 雨伞
+
+脆	B-dishName	B-keyword
+瓜	IdishName	Ikeyword
+。	O	O
+脆瓜 。
+
+空	O	O
+调	O	O
+设	O	O
+成	O	O
+静	B-attrValue	B-attr
+音	I-attrValue	I-attr
+风	IattrValue	Iattr
+空调 设 成 静音 风
+
+那	O	O
+安	B-city	B-city
+庆	I-city	Icity
+市	Icity	O
+是	O	O
+哪	O	O
+个	O	O
+省	O	O
+的	O	O
+那 安庆市 是 哪个 省 的
+
+给	O	O
+我	O	O
+来	O	O
+首	O	O
+好	B-category	B-song
+听	Icategory	I-song
+的	O	O
+音	O	O
+乐	O	O
+给 我 来首 好听 的 音乐
+
+小	O	B-category
+猫	S-name	Icategory
+叫	O	O
+声	O	O
+小 猫叫声
+
+百	O	O
+家	O	O
+姓	O	O
+排	O	O
+名	O	O
+前	O	O
+1	B-orderIndex	S-orderIndex
+0	IorderIndex	S-orderIndex
+的	O	O
+姓	O	O
+氏	O	O
+百家姓 排名 前 10 的 姓氏
+
+潍	B-startLoc_city	B-startLoc_city
+坊	IstartLoc_city	IstartLoc_city
+到	O	O
+北	B-endLoc_city	B-endLoc_city
+京	IendLoc_city	IendLoc_city
+机	O	O
+票	O	O
+明	B-startDate_date	B-datetime_date
+天	IstartDate_date	Idatetime_date
+的	O	O
+潍坊 到 北京机票 明天 的
+
+浙	B-endLoc_province	B-startLoc_province
+江	IendLoc_province	IstartLoc_province
+温	B-endLoc_city	B-startLoc_city
+州	IendLoc_city	IstartLoc_city
+鹿	B-endLoc_area	B-startLoc_city
+城	I-endLoc_area	I-startLoc_city
+区	IendLoc_area	IstartLoc_city
+的	O	O
+江	B-endLoc_poi	O
+南	I-endLoc_poi	B-endLoc_poi
+皮	I-endLoc_poi	I-endLoc_poi
+革	I-endLoc_poi	I-endLoc_poi
+厂	IendLoc_poi	IendLoc_poi
+怎	O	O
+么	O	O
+走	O	O
+？	O	O
+浙江 温州 鹿城区 的 江南 皮革厂 怎么 走 ？
+
+查	O	O
+询	O	O
+一	B-name	O
+汽	I-name	O
+轿	I-name	B-name
+车	Iname	Iname
+股	O	O
+票	O	O
+查询 一汽 轿车 股票
+
+等	O	O
+一	O	O
+下	O	O
+七	B-datetime_time	B-datetime_time
+点	I-datetime_time	Idatetime_time
+半	Idatetime_time	B-tvchannel
+湖	B-tvchannel	I-tvchannel
+南	I-tvchannel	I-tvchannel
+卫	I-tvchannel	I-tvchannel
+视	Itvchannel	Itvchannel
+会	O	O
+播	O	O
+出	O	O
+什	O	O
+么	O	O
+节	O	O
+目	O	O
+等 一下 七点 半 湖南卫视 会 播出 什么 节目
+
+下	O	O
+一	O	O
+下	O	O
+手	B-name	O
+机	I-name	B-name
+贴	I-name	I-name
+吧	Iname	Iname
+下 一下 手机 贴 吧
+
+天	B-keyword	O
+空	Ikeyword	O
+是	O	O
+说	O	O
+什	O	O
+么	O	O
+的	O	O
+天空 是 说 什么 的
+
+停	O	B-name
+止	O	Iname
+停止
+
+新	O	O
+建	O	O
+联	O	O
+系	O	O
+人	O	O
+许	B-name	B-name
+瑞	I-name	Iname
+鹰	Iname	B-code
+2	B-code	I-code
+3	I-code	I-code
+4	I-code	I-code
+5	I-code	I-code
+6	I-code	I-code
+7	I-code	I-code
+8	I-code	I-code
+9	Icode	Icode
+新建 联系人 许瑞鹰 23456789
+
+西	B-ingredient	B-dishName
+兰	I-ingredient	I-dishName
+花	Iingredient	IdishName
+怎	O	O
+么	O	O
+做	O	O
+？	O	O
+西兰花 怎么 做 ？
+
+国	B-tvchannel	B-tvchannel
+防	I-tvchannel	I-tvchannel
+军	I-tvchannel	I-tvchannel
+事	Itvchannel	I-tvchannel
+频	O	I-tvchannel
+道	O	Itvchannel
+2	B-datetime_date	B-datetime_date
+天	I-datetime_date	Idatetime_date
+后	Idatetime_date	O
+播	O	O
+捍	B-name	B-name
+卫	I-name	I-name
+者	Iname	Iname
+国防 军事 频道 2 天后播 捍卫者
+
+来	O	O
+一	O	O
+个	O	O
+选	B-tag	B-name
+秀	Itag	Iname
+节	B-category	O
+目	Icategory	O
+来 一个 选秀 节目
+
+我	O	O
+想	O	O
+听	O	O
+蔡	B-artist	B-song
+依	I-artist	I-song
+林	Iartist	Isong
+的	O	O
+倒	B-song	B-song
+带	Isong	Isong
+这	O	O
+首	O	O
+歌	O	O
+我 想 听 蔡依林 的 倒 带 这 首歌
+
+你	O	O
+会	O	O
+学	O	O
+乌	B-name	S-name
+鸦	Iname	O
+叫	O	O
+吗	O	O
+你会学 乌鸦 叫 吗
+
+醉	B-dishName	B-ingredient
+虾	IdishName	Iingredient
+的	O	O
+做	O	O
+法	O	O
+。	O	O
+醉 虾 的 做法 。
+
+设	O	O
+定	O	O
+一	O	O
+下	O	O
+九	B-时间	B-时间
+点	I-时间	I-时间
+钟	I时间	I时间
+的	O	O
+闹	O	O
+钟	O	O
+，	O	O
+这	B-日期	O
+周	I-日期	B-datetime_date
+五	I日期	Idatetime_date
+的	O	O
+设定 一下 九点钟 的 闹钟 ， 这 周五 的
+
+为	O	O
+我	O	O
+规	O	B-startLoc_poi
+划	O	IstartLoc_area
+从	O	O
+辽	B-startLoc_province	B-startLoc_poi
+宁	IstartLoc_province	I-startLoc_poi
+省	O	I-startLoc_poi
+文	B-startLoc_area	I-startLoc_poi
+化	I-startLoc_area	I-startLoc_poi
+路	IstartLoc_area	I-startLoc_poi
+东	B-startLoc_poi	I-startLoc_poi
+北	I-startLoc_poi	I-startLoc_poi
+大	I-startLoc_poi	I-startLoc_poi
+学	IstartLoc_poi	IstartLoc_poi
+到	O	O
+花	B-endLoc_poi	B-endLoc_poi
+鸟	I-endLoc_poi	I-endLoc_poi
+市	I-endLoc_poi	I-endLoc_poi
+场	IendLoc_poi	IendLoc_poi
+的	O	O
+路	O	O
+线	O	O
+为 我 规划 从 辽宁省 文化路 东北大学 到 花鸟 市场 的 路线
+
+合	B-city	B-city
+肥	Icity	Icity
+现	B-datetime_time	B-datetime_time
+在	Idatetime_time	Idatetime_time
+冷	O	S-subfocus
+不	S-subfocus	S-subfocus
+冷	O	O
+呀	O	O
+合肥 现在 冷不冷 呀
+
+肩	B-keyword	O
+关	I-keyword	O
+节	I-keyword	B-keyword
+周	I-keyword	I-keyword
+围	I-keyword	I-keyword
+炎	Ikeyword	Ikeyword
+肩关节 周围 炎
+
+八	B-category	B-keyword
+卦	Icategory	I-keyword
+头	O	Ikeyword
+条	O	O
+八卦 头条
+
+让	O	O
+读	O	O
+一	O	O
+下	O	O
+沁	B-name	B-name
+园	I-name	I-name
+春	I-name	I-name
+雪	Iname	I-name
+毛	B-author	I-name
+泽	I-author	I-name
+东	Iauthor	Iname
+。	O	O
+让 读 一下 沁园春 雪 毛泽东 。
+
+最	O	B-timeDescr
+近	O	ItimeDescr
+热	O	O
+播	O	O
+的	O	O
+电	O	B-category
+影	O	Icategory
+有	O	O
+没	O	O
+有	O	O
+最近 热播 的 电影 有没有
+
+1	B-datetime_date	B-keyword
+5	I-datetime_date	I-keyword
+号	Idatetime_date	Ikeyword
+的	O	O
+我	B-name	O
+愿	I-name	O
+意	Iname	O
+15 号 的 我 愿意
+
+背	O	O
+唐	S-dynasty	S-dynasty
+诗	O	O
+李	B-author	B-name
+白	Iauthor	I-name
+侠	B-name	I-name
+客	I-name	I-name
+行	Iname	Iname
+背 唐诗 李白 侠客行
+
+查	O	O
+询	O	O
+合	B-location_poi	B-location_city
+肥	I-location_poi	Ilocation_city
+市	I-location_poi	O
+植	I-location_poi	B-location_poi
+物	I-location_poi	I-location_poi
+园	Ilocation_poi	Ilocation_poi
+的	O	O
+位	O	O
+置	O	O
+查询 合肥市 植物园 的 位置
+
+胜	B-name	B-artist
+女	I-name	Iartist
+的	I-name	O
+代	I-name	O
+价	Iname	O
+电	B-category	B-category
+视	I-category	I-category
+剧	Icategory	Icategory
+胜女 的 代价 电视剧
+
+播	O	O
+放	O	O
+上	B-song	B-name
+海	I-song	I-name
+滩	Isong	Iname
+。	O	O
+播放 上海滩 。
+
+查	O	O
+一	O	O
+下	O	O
+鸦	B-keyword	B-keyword
+雀	I-keyword	I-keyword
+无	I-keyword	I-keyword
+声	Ikeyword	I-keyword
+如	O	Ikeyword
+何	O	O
+造	O	O
+句	O	O
+查 一下 鸦雀无声 如何 造句
+
+查	O	O
+一	O	O
+下	O	O
+从	O	O
+上	B-startLoc_city	B-startLoc_city
+海	IstartLoc_city	IstartLoc_city
+到	O	O
+安	B-endLoc_province	B-endLoc_province
+徽	IendLoc_province	IendLoc_province
+东	B-endLoc_area	B-endLoc_poi
+至	I-endLoc_area	I-endLoc_poi
+县	IendLoc_area	IendLoc_poi
+的	O	O
+路	O	O
+线	O	O
+查 一下 从 上海 到 安徽 东至县 的 路线
+
+给	O	O
+我	O	O
+看	O	O
+高	B-resolution	B-name
+清	Iresolution	I-name
+的	O	I-name
+安	B-name	I-name
+徽	I-name	I-name
+卫	I-name	I-name
+视	Iname	Iname
+给 我 看 高清 的 安徽 卫视
+
+姓	O	O
+氏	O	O
+李	S-name	O
+在	O	O
+什	O	O
+么	O	O
+地	O	O
+区	O	O
+分	B-querytype	B-querytype
+布	Iquerytype	Iquerytype
+最	O	O
+广	O	O
+姓氏 李在 什么 地区 分布 最广
+
+山	B-dishName	B-ingredient
+寨	I-dishName	I-ingredient
+鱼	IdishName	Iingredient
+怎	O	O
+么	O	O
+做	O	O
+？	O	O
+山寨 鱼 怎么 做 ？
+
+1	S-srcNumber	S-srcNumber
+磅	S-srcUnit	S-srcUnit
+多	O	O
+少	O	O
+斤	S-destUnit	O
+怎	O	O
+么	O	O
+换	O	O
+算	O	O
+1 磅 多少 斤 怎么 换算
+
+每	S-repeat	S-repeat
+周	B-datetime_date	B-datetime_date
+一	Idatetime_date	Idatetime_date
+晚	B-datetime_time	B-datetime_time
+上	I-datetime_time	I-datetime_time
+八	I-datetime_time	I-datetime_time
+点	Idatetime_time	Idatetime_time
+打	B-attrValue	B-attrValue
+开	IattrValue	IattrValue
+别	B-region	B-region
+墅	Iregion	Iregion
+三	B-zone	B-room
+楼	Izone	Iroom
+空	O	O
+调	O	O
+每周 一 晚上 八点 打开 别墅 三楼 空调
+
+查	O	O
+询	O	O
+逃	B-artist	B-artist
+跑	I-artist	I-artist
+计	I-artist	I-artist
+划	Iartist	Iartist
+的	O	O
+夜	B-song	O
+空	I-song	O
+中	I-song	B-song
+最	I-song	I-song
+亮	I-song	Isong
+的	I-song	O
+星	Isong	O
+这	O	O
+首	O	O
+歌	O	O
+查询 逃跑 计划 的 夜空 中 最亮 的 星 这 首歌
+
+请	O	O
+给	O	O
+我	O	O
+查	O	O
+下	O	O
+广	B-city	B-city
+州	I-city	Icity
+市	Icity	O
+4	B-datetime_date	B-datetime_date
+月	I-datetime_date	I-datetime_date
+3	I-datetime_date	I-datetime_date
+号	Idatetime_date	Idatetime_date
+限	O	O
+行	O	O
+的	O	O
+尾	O	O
+号	O	O
+是	O	O
+多	O	O
+少	O	O
+请 给 我 查下 广州市 4 月 3 号限行 的 尾号 是 多少
+
+大	B-city	B-name
+同	Icity	Iname
+呢	O	O
+大同 呢
+
+谁	B-keyword	O
+为	I-keyword	O
+含	I-keyword	B-keyword
+愁	I-keyword	I-keyword
+独	I-keyword	I-keyword
+不	I-keyword	I-keyword
+见	Ikeyword	Ikeyword
+谁 为 含愁 独 不见
+
+访	O	O
+问	O	O
+京	B-name	O
+东	Iname	B-name
+商	O	I-name
+城	O	Iname
+的	O	O
+网	O	O
+页	O	O
+访问 京东 商城 的 网页
+
+平	B-endLoc_area	B-endLoc_poi
+阳	IendLoc_area	IendLoc_poi
+怎	O	O
+么	O	O
+走	O	O
+吗	O	O
+平阳 怎么 走 吗
+
+天	B-name	O
+机	I-name	O
+富	I-name	B-name
+春	I-name	I-name
+山	I-name	I-name
+居	I-name	I-name
+图	Iname	Iname
+天机 富春山 居图
+
+一	O	B-name
+起	O	I-name
+听	O	I-name
+听	O	I-name
+新	B-name	I-name
+疆	I-name	I-name
+人	I-name	I-name
+民	I-name	I-name
+广	I-name	I-name
+播	I-name	I-name
+电	I-name	I-name
+台	Iname	Iname
+一起 听听 新疆人民广播电台
+
+合	B-city	B-city
+肥	Icity	Icity
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+需	O	O
+要	O	O
+涂	O	O
+防	B-subfocus	O
+晒	I-subfocus	O
+霜	Isubfocus	O
+吗	O	O
+合肥 今天 需要 涂 防晒霜 吗
+
+烟	B-startLoc_city	B-startLoc_city
+台	IstartLoc_city	IstartLoc_city
+到	O	O
+齐	B-endLoc_city	B-endLoc_city
+齐	I-endLoc_city	IendLoc_city
+哈	I-endLoc_city	B-endLoc_city
+尔	IendLoc_city	IendLoc_city
+的	O	O
+火	O	O
+车	O	O
+票	O	O
+烟台 到 齐齐哈尔 的 火车票
+
+陈	O	B-name
+娴	O	I-name
+T	B-name	I-name
+C	I-name	I-name
+L	Iname	Iname
+股	O	O
+票	O	O
+是	O	O
+涨	O	O
+还	O	O
+是	O	O
+跌	O	O
+了	O	O
+陈娴 TCL 股票 是 涨 还是 跌 了
+
+本	O	B-name
+期	O	I-name
+七	B-name	I-name
+星	I-name	I-name
+彩	Iname	Iname
+的	O	O
+中	O	O
+奖	O	O
+号	O	O
+码	O	O
+是	O	O
+多	O	O
+少	O	O
+？	O	O
+本期 七星 彩 的 中奖号码 是 多少 ？
+
+西	B-city	B-city
+安	Icity	Icity
+最	B-datetime_date	O
+近	Idatetime_date	O
+的	O	O
+降	B-subfocus	O
+水	I-subfocus	B-name
+量	Isubfocus	Iname
+西安 最近 的 降水量
+
+北	B-name	B-tvchannel
+京	I-name	I-tvchannel
+国	I-name	I-tvchannel
+安	Iname	I-tvchannel
+5	B-datetime_date	Itvchannel
+月	I-datetime_date	B-datetime_date
+2	I-datetime_date	I-datetime_date
+3	I-datetime_date	I-datetime_date
+号	Idatetime_date	Idatetime_date
+比	O	O
+赛	O	O
+和	O	O
+谁	O	O
+踢	O	O
+北京国安 5 月 23 号 比赛 和 谁 踢
+
+大	O	B-name
+熊	B-name	I-name
+猫	Iname	Iname
+的	O	O
+叫	O	O
+声	O	O
+怎	O	O
+么	O	O
+样	O	O
+的	O	O
+大熊猫 的 叫声 怎么样 的
+
+童	B-ingredient	B-dishName
+子	I-ingredient	I-dishName
+鸡	Iingredient	IdishName
+的	O	O
+做	O	O
+法	O	O
+。	O	O
+童子鸡 的 做法 。
+
+回	O	O
+播	O	O
+电	O	B-category
+影	O	Icategory
+让	B-tvchannel	B-name
+子	I-tvchannel	I-name
+弹	I-tvchannel	I-name
+飞	Itvchannel	Iname
+，	O	O
+C	B-name	B-tvchannel
+C	I-name	I-tvchannel
+T	I-name	I-tvchannel
+V	I-name	I-tvchannel
+-	I-name	I-tvchannel
+电	I-name	I-tvchannel
+影	Iname	Itvchannel
+频	O	O
+道	O	O
+的	O	O
+。	O	O
+回播 电影 让 子弹 飞 ， CCTV - 电影频道 的 。
+
+看	O	O
+一	O	O
+下	O	O
+古	B-tags	B-album
+诗	Itags	O
+看 一下 古诗
+
+大	B-datetime_date	B-keyword
+后	I-datetime_date	I-keyword
+年	Idatetime_date	Ikeyword
+的	O	O
+新	O	O
+闻	O	O
+大后年 的 新闻
+
+白	O	B-ingredient
+面	O	I-ingredient
+粉	O	Iingredient
+可	O	O
+以	O	O
+怎	O	O
+样	O	O
+做	O	O
+饼	S-ingredient	O
+？	O	O
+白 面粉 可以 怎样 做饼 ？
+
+来	O	O
+一	O	O
+首	O	O
+白	B-author	B-artist
+居	I-author	I-artist
+易	Iauthor	Iartist
+的	O	O
+长	B-name	B-category
+恨	I-name	Icategory
+歌	Iname	O
+来 一首 白居易 的 长恨歌
+
+怎	O	O
+么	O	O
+用	O	O
+豆	B-utensil	B-utensil
+浆	I-utensil	Iutensil
+机	Iutensil	O
+把	O	O
+鱼	B-ingredient	B-ingredient
+肉	Iingredient	Iingredient
+做	O	O
+成	O	O
+鱼	B-dishName	B-dishName
+丸	IdishName	IdishName
+怎么 用 豆浆机 把 鱼肉 做成 鱼丸
+
+去	O	O
+肇	B-Dest	B-Dest
+庆	IDest	I-Dest
+市	O	IDest
+怎	O	O
+么	O	O
+坐	O	O
+车	O	O
+？	O	O
+去 肇庆市 怎么 坐车 ？
+
+发	B-keyword	O
+烧	Ikeyword	O
+好	O	O
+吗	O	O
+？	O	O
+发烧 好 吗 ？
+
+爆	O	B-category
+笑	O	I-category
+谜	B-category	I-category
+语	Icategory	Icategory
+爆笑 谜语
+
+打	O	O
+开	O	O
+聚	B-name	B-name
+划	I-name	I-name
+算	Iname	I-name
+网	O	I-name
+站	O	Iname
+打开 聚 划算 网站
+
+古	O	O
+诗	O	O
+长	B-name	O
+恨	I-name	O
+歌	Iname	O
+。	O	O
+古诗 长恨歌 。
+
+打	O	O
+开	O	O
+楼	B-位置	B-位置
+梯	I位置	I-位置
+上	O	I位置
+的	O	O
+灯	S-灯种	S-灯种
+打开 楼梯 上 的 灯
+
+暴	B-keyword	B-name
+发	I-keyword	I-name
+性	I-keyword	I-name
+紫	I-keyword	I-name
+癜	Ikeyword	Iname
+暴发性 紫癜
+
+去	O	O
+常	B-endLoc_city	B-endLoc_poi
+州	IendLoc_city	I-endLoc_poi
+武	B-endLoc_area	I-endLoc_poi
+进	I-endLoc_area	I-endLoc_poi
+县	IendLoc_area	IendLoc_poi
+路	O	O
+线	O	O
+去 常州 武进县 路线
+
+胜	B-name	O
+者	I-name	O
+即	I-name	O
+是	I-name	O
+正	I-name	O
+义	Iname	O
+胜者 即 是 正义
+
+打	O	O
+开	O	O
+河	B-name	B-name
+南	I-name	I-name
+英	I-name	I-name
+东	Iname	I-name
+网	O	I-name
+站	O	Iname
+打开 河南 英 东 网站
+
+灌	B-location_area	B-location_city
+阳	I-location_area	Ilocation_city
+县	Ilocation_area	O
+位	O	O
+置	O	O
+灌阳县 位置
+
+唐	S-dynasty	S-dynasty
+代	O	O
+诗	O	O
+人	O	O
+李	B-author	B-name
+白	Iauthor	Iname
+。	O	O
+唐代 诗人 李白 。
+
+啤	B-keyword	B-city
+酒	I-keyword	Icity
+肚	Ikeyword	O
+是	O	O
+形	O	O
+容	O	O
+一	O	O
+个	O	O
+人	O	O
+能	O	O
+吃	O	O
+吗	O	O
+啤酒肚 是 形容 一个 人能 吃 吗
+
+打	O	O
+开	O	O
+索	B-name	B-name
+尼	Iname	I-name
+官	O	I-name
+方	O	I-name
+网	O	I-name
+站	O	Iname
+打开 索尼 官方网站
+
+查	O	O
+寻	B-name	O
+标	I-name	B-name
+兵	Iname	Iname
+的	O	O
+号	O	O
+码	O	O
+查寻 标兵 的 号码
+
+阑	B-keyword	O
+尾	I-keyword	O
+炎	Ikeyword	O
+阑尾炎
+
+给	O	O
+我	O	O
+放	O	O
+狗	S-name	B-name
+吠	O	I-name
+声	O	Iname
+给 我 放 狗吠声
+
+传	O	B-name
+简	O	I-name
+讯	O	I-name
+给	O	I-name
+家	B-name	I-name
+里	Iname	Iname
+传 简讯 给 家里
+
+孙	B-location_area	B-location_poi
+端	I-location_area	I-location_poi
+镇	Ilocation_area	Ilocation_poi
+的	O	O
+活	B-location_poi	B-location_poi
+动	I-location_poi	I-location_poi
+中	I-location_poi	I-location_poi
+心	Ilocation_poi	Ilocation_poi
+在	O	O
+哪	O	O
+个	O	O
+位	O	O
+置	O	O
+孙端 镇 的 活动中心 在 哪个 位置
+
+拨	O	O
+号	O	O
+曹	B-name	B-name
+兴	I-name	Iname
+发	Iname	O
+拨号 曹 兴发
+
+给	O	O
+刘	B-name	B-name
+三	Iname	Iname
+发	O	O
+短	O	O
+信	O	O
+说	O	O
+我	B-content	B-content
+今	I-content	I-content
+天	I-content	I-content
+没	I-content	I-content
+有	I-content	I-content
+空	Icontent	I-content
+给 刘三 发短信 说 我 今天 没有 空
+
+怎	O	O
+么	O	O
+用	O	O
+铁	O	B-utensil
+锅	O	Iutensil
+做	O	O
+经	O	B-keyword
+典	O	Ikeyword
+的	O	O
+东	B-keyword	B-keyword
+北	I-keyword	I-keyword
+菜	Ikeyword	I-keyword
+铁	B-dishName	I-keyword
+锅	I-dishName	I-keyword
+炖	IdishName	Ikeyword
+怎么 用 铁锅 做 经典 的 东北菜 铁锅 炖
+
+每	S-repeat	S-repeat
+周	B-datetime_date	B-datetime_date
+四	Idatetime_date	Idatetime_date
+晚	B-datetime_time	B-datetime_time
+上	I-datetime_time	I-datetime_time
+八	I-datetime_time	I-datetime_time
+点	Idatetime_time	Idatetime_time
+关	B-attrValue	B-attrValue
+闭	IattrValue	IattrValue
+办	B-region	S-region
+公	I-region	Iregion
+室	Iregion	B-zone
+四	B-zone	Izone
+楼	Izone	Iroom
+空	O	O
+调	O	O
+每周 四 晚上 八点 关闭 办公室 四楼 空调
+
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+太	O	B-subfocus
+阳	O	I-subfocus
+晒	S-subfocus	Isubfocus
+吗	O	O
+今天 太阳 晒 吗
+
+1	S-srcNumber	S-srcNumber
+千	B-srcUnit	B-srcUnit
+克	IsrcUnit	IsrcUnit
+能	O	O
+换	O	O
+算	O	O
+成	O	O
+多	O	O
+少	O	S-destUnit
+斤	S-destUnit	O
+1 千克 能 换算 成 多少 斤
+
+找	O	O
+一	O	O
+下	O	O
+詹	B-artist	B-artist
+姆	I-artist	I-artist
+斯	I-artist	Iartist
+卡	I-artist	B-artistRole
+梅	I-artist	IartistRole
+隆	Iartist	B-artistRole
+拍	O	IartistRole
+的	O	O
+电	B-category	B-category
+影	Icategory	Icategory
+找 一下 詹姆斯 卡梅隆 拍 的 电影
+
+给	O	O
+查	B-name	O
+乐	Iname	O
+发	O	O
+短	O	O
+信	O	O
+给 查乐 发短信
+
+我	O	O
+要	O	O
+听	O	O
+唐	O	S-dynasty
+诗	O	O
+咯	O	O
+我要 听 唐诗 咯
+
+帮	O	O
+我	O	O
+查	O	O
+下	O	O
+下	B-datetime_date	B-datetime_date
+周	Idatetime_date	I-datetime_date
+演	O	Idatetime_date
+新	B-name	B-name
+闻	I-name	I-name
+联	I-name	I-name
+播	Iname	Iname
+帮 我 查下 下周 演 新闻联播
+
+看	O	O
+一	O	O
+下	O	O
+唐	B-tags	S-dynasty
+诗	Itags	O
+看 一下 唐诗
+
+听	O	O
+个	O	O
+苗	B-actor	B-actor
+阜	I-actor	I-actor
+王	I-actor	I-actor
+声	Iactor	Iactor
+表	O	B-actor
+演	O	Iactor
+的	O	O
+满	B-name	B-name
+腹	I-name	I-name
+经	I-name	I-name
+纶	Iname	Iname
+听个 苗阜 王声 表演 的 满腹经纶
+
+我	O	O
+要	O	O
+看	O	O
+最	B-keyword	B-actor
+新	Ikeyword	Iactor
+的	O	O
+小	B-category	B-category
+品	Icategory	Icategory
+我要 看 最新 的 小品
+
+学	O	B-name
+狗	S-name	Iname
+叫	O	O
+学 狗叫
+
+来	O	O
+个	O	O
+相	B-category	B-category
+声	Icategory	Icategory
+段	O	B-name
+子	O	Iname
+来个 相声 段子
+
+播	O	O
+放	O	O
+落	B-name	B-name
+日	Iname	I-name
+批	O	I-name
+示	O	Iname
+播放 落日 批示
+
+重	O	B-tvchannel
+新	O	I-tvchannel
+回	O	O
+放	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+中	B-datetime_time	B-datetime_time
+午	Idatetime_time	I-datetime_time
+芒	B-tvchannel	Idatetime_time
+果	I-tvchannel	B-datetime_time
+台	Itvchannel	Idatetime_time
+的	O	O
+电	O	B-category
+视	O	I-category
+剧	O	Icategory
+重新 回放 今天 中午 芒果 台 的 电视剧
+
+搜	O	O
+索	O	O
+声	B-name	O
+控	I-name	B-name
+安	I-name	I-name
+卓	Iname	Iname
+软	O	O
+件	O	O
+搜索 声控 安卓 软件
+

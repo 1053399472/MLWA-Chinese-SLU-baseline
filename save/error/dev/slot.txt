@@ -1,0 +1,1430 @@
+播	O	O
+放	O	O
+艾	B-movie_name	B-story_name
+克	I-movie_name	I-story_name
+斯	I-movie_name	I-story_name
+奥	I-movie_name	I-story_name
+特	I-movie_name	I-story_name
+曼	Imovie_name	Istory_name
+播放 艾克斯奥特曼
+
+南	B-song_name	O
+无	I-song_name	B-song_name
+大	I-song_name	I-song_name
+悲	I-song_name	I-song_name
+观	I-song_name	I-song_name
+世	I-song_name	I-song_name
+音	I-song_name	I-song_name
+菩	I-song_name	I-song_name
+萨	Isong_name	Isong_name
+！	O	O
+南 无 大 悲观 世音菩萨 ！
+
+下	B-song_name	O
+个	I-song_name	O
+路	I-song_name	B-song_name
+口	I-song_name	I-song_name
+见	Isong_name	Isong_name
+这	O	O
+首	O	O
+歌	O	O
+。	O	O
+下 个 路口 见 这 首 歌 。
+
+那	O	O
+我	O	O
+换	O	O
+一	O	O
+首	O	O
+猪	B-song_name	B-movie_name
+猪	I-song_name	I-movie_name
+侠	Isong_name	Imovie_name
+那 我 换 一 首 猪猪侠
+
+放	O	O
+歌	O	O
+s	B-song_name	B-singer_name
+o	I-song_name	I-singer_name
+m	I-song_name	I-singer_name
+e	I-song_name	I-singer_name
+o	I-song_name	I-singer_name
+n	I-song_name	I-singer_name
+e	I-song_name	I-singer_name
+l	I-song_name	I-singer_name
+i	I-song_name	I-singer_name
+k	I-song_name	I-singer_name
+e	I-song_name	I-singer_name
+y	I-song_name	I-singer_name
+o	I-song_name	I-singer_name
+u	Isong_name	Isinger_name
+放歌 someonelikeyou
+
+唱	O	O
+一	O	O
+首	O	O
+关	O	B-song_name
+于	O	I-song_name
+傻	B-song_name	I-song_name
+逼	Isong_name	Isong_name
+。	O	O
+唱 一 首 关于 傻逼 。
+
+播	O	O
+放	O	O
+格	B-story_name	B-story_name
+林	I-story_name	I-story_name
+童	I-story_name	I-story_name
+话	Istory_name	I-story_name
+故	O	I-story_name
+事	O	Istory_name
+播放 格林 童话 故事
+
+三	B-song_type	B-song_name
+字	Isong_type	Isong_name
+儿	B-song_type	B-song_type
+歌	Isong_type	Isong_type
+三 字 儿歌
+
+帮	O	O
+我	O	O
+找	O	O
+一	O	O
+首	O	O
+黄	B-song_name	B-singer_name
+土	I-song_name	I-singer_name
+高	I-song_name	I-singer_name
+坡	Isong_name	Isinger_name
+那	O	O
+首	O	O
+歌	O	O
+帮 我 找 一 首 黄土 高坡 那 首 歌
+
+我	O	O
+想	O	O
+听	O	O
+太	B-album_name	B-song_name
+阳	I-album_name	I-song_name
+的	I-album_name	I-song_name
+后	I-album_name	I-song_name
+裔	Ialbum_name	I-song_name
+里	O	Isong_name
+的	O	O
+歌	O	O
+。	O	O
+我 想 听 太阳 的 后裔 里 的 歌 。
+
+你	O	O
+好	O	O
+我	O	O
+想	O	O
+听	O	O
+给	B-song_name	B-singer_name
+自	I-song_name	I-singer_name
+己	I-song_name	Isinger_name
+的	I-song_name	O
+歌	Isong_name	O
+你 好 我 想 听 给 自己 的 歌
+
+红	B-fiction_name	B-movie_name
+楼	I-fiction_name	I-movie_name
+梦	Ifiction_name	Imovie_name
+红楼梦
+
+我	O	O
+想	O	O
+听	O	O
+怀	B-song_type	B-poem_name
+旧	Isong_type	I-poem_name
+经	B-song_type	I-poem_name
+典	Isong_type	Ipoem_name
+我 想 听 怀旧 经典
+
+播	O	O
+放	O	O
+牧	B-song_name	B-song_type
+羊	I-song_name	I-song_type
+曲	Isong_name	Isong_type
+播放 牧羊曲
+
+中	B-song_type	B-song_language
+文	Isong_type	Isong_language
+网	B-song_type	B-song_type
+络	I-song_type	Isong_type
+歌	I-song_type	O
+曲	Isong_type	O
+中文 网络 歌曲
+
+南	B-author_name	B-singer_name
+派	I-author_name	I-singer_name
+三	I-author_name	I-singer_name
+叔	Iauthor_name	Isinger_name
+的	O	O
+盗	B-fiction_name	B-song_name
+墓	I-fiction_name	I-song_name
+笔	I-fiction_name	I-song_name
+记	Ifiction_name	Isong_name
+南派三叔 的 盗墓 笔记
+
+唱	O	O
+一	O	O
+首	O	O
+许	B-singer_name	B-singer_name
+嵩	Isinger_name	Isinger_name
+的	O	O
+断	B-song_name	B-song_name
+桥	I-song_name	I-song_name
+残	I-song_name	Isong_name
+雪	Isong_name	O
+听	O	O
+一	O	O
+下	O	O
+唱 一 首 许嵩 的 断桥 残雪 听 一下
+
+唱	O	O
+歌	B-song_type	O
+舞	Isong_type	S-song_name
+唱歌舞
+
+你	O	O
+好	O	O
+小	O	O
+哦	O	O
+，	O	O
+可	O	O
+以	O	O
+听	O	O
+耶	B-singer_name	B-song_name
+稣	Isinger_name	I-song_name
+爱	B-song_name	I-song_name
+你	Isong_name	Isong_name
+吗	O	O
+你 好 小 哦 ， 可以 听 耶稣 爱 你 吗
+
+播	O	O
+放	O	O
+呼	B-song_name	B-singer_name
+伦	I-song_name	Isinger_name
+贝	I-song_name	B-song_name
+尔	I-song_name	I-song_name
+大	I-song_name	I-song_name
+草	I-song_name	I-song_name
+原	Isong_name	Isong_name
+播放 呼伦贝尔 大 草原
+
+小	O	B-story_name
+狗	O	I-story_name
+小	O	I-story_name
+狗	O	Istory_name
+小狗小狗
+
+我	O	O
+想	O	O
+要	O	O
+听	O	O
+故	O	B-song_name
+事	O	Isong_name
+。	O	O
+我 想 要 听 故事 。
+
+婚	B-song_type	B-singer_name
+礼	Isong_type	Isinger_name
+的	O	O
+时	O	O
+候	O	O
+听	O	O
+什	O	O
+么	O	O
+歌	O	O
+婚礼 的 时候 听 什么 歌
+
+继	O	O
+续	O	O
+播	O	O
+放	O	O
+爆	B-story_name	B-song_name
+裂	I-story_name	I-song_name
+飞	I-story_name	I-song_name
+车	Istory_name	Isong_name
+继续 播放 爆裂 飞车
+
+今	B-date	B-date
+天	Idate	I-date
+风	O	I-date
+力	O	I-date
+多	O	Idate
+大	O	O
+今天 风力 多 大
+
+少	B-song_type	B-song_type
+儿	I-song_type	Isong_type
+歌	I-song_type	O
+曲	Isong_type	O
+少儿 歌曲
+
+刀	B-singer_name	B-song_name
+郎	Isinger_name	Isong_name
+的	O	O
+歌	O	O
+。	O	O
+刀郎 的 歌 。
+
+半	B-date	B-story_name
+小	I-date	I-story_name
+时	I-date	I-story_name
+后	Idate	Istory_name
+关	O	O
+闭	O	O
+半 小时 后 关闭
+
+蓝	O	B-song_name
+波	O	Isong_name
+蓝波
+
+金	B-location	B-date
+州	Ilocation	Idate
+1	B-date	O
+0	I-date	B-date
+月	I-date	I-date
+6	I-date	I-date
+号	Idate	Idate
+的	O	O
+天	O	O
+气	O	O
+金州 10月 6 号 的 天气
+
+来	O	O
+一	O	O
+段	O	O
+岳	B-actor_name	B-crosstalk_name
+云	I-actor_name	I-crosstalk_name
+鹏	Iactor_name	Icrosstalk_name
+的	O	O
+相	O	O
+声	O	O
+来 一 段 岳云鹏 的 相声
+
+就	O	O
+唱	O	O
+老	B-song_name	B-song_name
+婆	I-song_name	I-song_name
+你	I-song_name	I-song_name
+辛	I-song_name	I-song_name
+苦	I-song_name	Isong_name
+了	Isong_name	O
+。	O	O
+就 唱 老婆 你 辛苦 了 。
+
+岳	B-crosstalk_name	B-crosstalk_name
+云	I-crosstalk_name	I-crosstalk_name
+鹏	Icrosstalk_name	Icrosstalk_name
+相	O	O
+声	O	O
+视	O	B-crosstalk_name
+频	O	Icrosstalk_name
+岳云鹏 相声 视频
+
+我	O	O
+要	O	O
+听	O	O
+电	B-song_type	B-song_name
+影	Isong_type	Isong_name
+我 要 听 电影
+
+儿	B-poem_tag	B-song_type
+童	Ipoem_tag	I-song_type
+诗	O	I-song_type
+歌	O	Isong_type
+儿童 诗歌
+
+来	O	O
+一	O	O
+段	O	O
+张	B-singer_name	B-singer_name
+靓	I-singer_name	I-singer_name
+颖	Isinger_name	Isinger_name
+的	O	O
+海	O	O
+豚	O	B-song_type
+音	O	Isong_type
+来 一 段 张靓颖 的 海豚音
+
+你	O	O
+隋	B-album_name	O
+唐	I-album_name	O
+英	I-album_name	B-song_name
+雄	Ialbum_name	Isong_name
+片	B-song_type	B-song_type
+尾	I-song_type	I-song_type
+曲	Isong_type	Isong_type
+。	O	O
+你 隋唐 英雄 片尾曲 。
+
+还	O	B-song_name
+没	O	I-song_name
+有	O	Isong_name
+还 没有
+
+播	O	O
+放	O	O
+降	B-singer_name	B-song_name
+央	I-singer_name	I-song_name
+卓	I-singer_name	I-song_name
+玛	Isinger_name	Isong_name
+播放 降央 卓玛
+
+童	B-song_type	B-song_name
+谣	Isong_type	Isong_name
+童谣
+
+播	O	O
+放	B-album_name	O
+，	I-album_name	O
+美	I-album_name	B-song_name
+妙	I-album_name	I-song_name
+旋	I-album_name	I-song_name
+律	Ialbum_name	Isong_name
+。	O	O
+播放 ， 美妙 旋律 。
+
+给	O	O
+我	O	O
+放	O	O
+强	B-song_name	B-song_name
+军	I-song_name	I-song_name
+战	I-song_name	Isong_name
+歌	Isong_name	O
+给 我 放强 军战歌
+
+唱	O	O
+圣	B-song_name	B-song_type
+诞	I-song_name	I-song_type
+歌	Isong_name	Isong_type
+。	O	O
+唱 圣诞歌 。
+
+我	O	O
+要	O	O
+听	O	O
+带	B-singer_name	B-singer_name
+泪	I-singer_name	Isinger_name
+的	I-singer_name	O
+鱼	Isinger_name	S-song_name
+的	O	O
+歌	O	O
+我 要 听 带泪 的 鱼 的 歌
+
+播	O	O
+放	O	O
+嘟	B-song_name	B-story_tag
+拉	Isong_name	Istory_tag
+播放 嘟拉
+
+播	O	O
+放	O	O
+飞	B-story_tag	B-story_name
+猪	I-story_tag	I-story_name
+星	I-story_tag	I-story_name
+球	I-story_tag	I-story_name
+儿	I-story_tag	I-story_name
+童	I-story_tag	I-story_name
+频	I-story_tag	I-story_name
+道	I-story_tag	Istory_name
+的	I-story_tag	O
+【	I-story_tag	B-story_name
+飞	I-story_tag	I-story_name
+猪	I-story_tag	I-story_name
+侠	I-story_tag	I-story_name
+儿	I-story_tag	I-story_name
+童	I-story_tag	I-story_name
+频	I-story_tag	I-story_name
+道	I-story_tag	I-story_name
+】	Istory_tag	I-story_name
+《	B-story_name	I-story_name
+阿	I-story_name	I-story_name
+卜	I-story_name	I-story_name
+杜	I-story_name	I-story_name
+拉	I-story_name	I-story_name
+法	I-story_name	I-story_name
+兹	I-story_name	I-story_name
+里	I-story_name	I-story_name
+和	I-story_name	I-story_name
+两	I-story_name	I-story_name
+个	I-story_name	I-story_name
+哥	I-story_name	I-story_name
+哥	I-story_name	Istory_name
+的	I-story_name	O
+故	I-story_name	O
+事	I-story_name	O
+-	I-story_name	O
+0	I-story_name	O
+5	I-story_name	O
+》	Istory_name	O
+?	O	O
+小	O	B-story_name
+葱	O	I-story_name
+妈	O	I-story_name
+妈	O	I-story_name
+提	O	I-story_name
+供	O	Istory_name
+播放 飞猪星球 儿童 频道 的 【 飞猪侠 儿童 频道 】 《 阿卜杜拉法兹里 和 两 个 哥哥 的 故事 - 05 》 ? 小葱 妈妈 提供
+
+我	O	O
+心	B-song_name	B-singer_name
+灵	I-song_name	Isinger_name
+的	I-song_name	O
+歌	Isong_name	O
+我 心灵 的 歌
+
+放	O	O
+老	B-song_name	B-song_type
+歌	Isong_name	Isong_type
+杨	B-singer_name	B-singer_name
+又	I-singer_name	Isinger_name
+歌	Isinger_name	O
+放 老 歌杨 又 歌
+
+给	O	O
+我	O	O
+讲	O	O
+个	O	O
+鬼	S-story_tag	B-story_tag
+故	O	I-story_tag
+事	O	Istory_tag
+给 我 讲 个 鬼 故事
+
+唱	O	O
+一	O	O
+首	O	O
+老	O	B-song_name
+公	O	I-song_name
+老	B-song_name	I-song_name
+婆	I-song_name	I-song_name
+我	I-song_name	I-song_name
+想	I-song_name	I-song_name
+你	Isong_name	Isong_name
+。	O	O
+唱 一 首 老公 老婆 我 想 你 。
+
+请	O	O
+播	O	O
+放	O	O
+迷	B-movie_name	B-story_name
+你	I-movie_name	I-story_name
+特	I-movie_name	I-story_name
+工	I-movie_name	I-story_name
+队	Imovie_name	Istory_name
+请 播放 迷 你 特工队
+
+来	O	O
+一	O	O
+首	O	O
+做	B-song_name	B-song_name
+我	I-song_name	I-song_name
+老	I-song_name	I-song_name
+婆	I-song_name	Isong_name
+好	I-song_name	O
+不	I-song_name	O
+好	Isong_name	O
+？	O	O
+来 一 首 做 我 老婆 好 不 好 ？
+
+我	O	O
+要	O	O
+听	O	O
+海	B-album_name	B-story_name
+绵	I-album_name	I-story_name
+宝	I-album_name	I-story_name
+宝	Ialbum_name	Istory_name
+我 要 听 海绵 宝宝
+
+播	O	O
+放	O	O
+相	O	B-song_name
+声	O	I-song_name
+大	B-crosstalk_name	I-song_name
+上	I-crosstalk_name	I-song_name
+寿	Icrosstalk_name	Isong_name
+播放 相声 大上寿
+
+我	O	O
+想	O	O
+听	O	O
+新	B-movie_name	B-fiction_name
+白	I-movie_name	I-fiction_name
+娘	I-movie_name	I-fiction_name
+子	I-movie_name	I-fiction_name
+传	I-movie_name	I-fiction_name
+奇	Imovie_name	Ifiction_name
+我 想 听 新 白 娘子 传奇
+
+为	B-song_name	B-song_name
+你	I-song_name	I-song_name
+钟	I-song_name	I-song_name
+情	Isong_name	I-song_name
+张	B-singer_name	B-singer_name
+国	I-singer_name	I-singer_name
+荣	Isinger_name	Isinger_name
+的	O	O
+歌	O	O
+为 你 钟情 张国荣 的 歌
+
+放	O	O
+一	O	O
+首	O	O
+嗨	B-song_type	B-song_type
+一	I-song_type	Isong_type
+点	Isong_type	O
+的	O	O
+歌	O	O
+放 一 首 嗨 一点 的 歌
+
+佛	B-song_type	B-poem_name
+经	Isong_type	Ipoem_name
+佛经
+
+播	O	O
+放	O	O
+一	O	O
+下	O	O
+命	B-song_name	B-song_name
+运	Isong_name	I-song_name
+图	O	I-song_name
+片	O	Isong_name
+。	O	O
+播放 一下 命运 图片 。
+
+播	O	O
+放	O	O
+网	B-song_type	B-song_type
+络	I-song_type	Isong_type
+音	I-song_type	O
+乐	Isong_type	O
+播放 网络 音乐
+
+唱	O	O
+一	O	O
+首	O	O
+王	B-song_name	B-singer_name
+妃	Isong_name	Isinger_name
+。	O	O
+唱 一 首 王妃 。
+
+小	O	O
+问	O	O
+请	O	O
+播	O	O
+放	O	O
+世	B-story_name	B-story_name
+界	I-story_name	I-story_name
+大	I-story_name	I-story_name
+战	Istory_name	I-story_name
+故	O	I-story_name
+事	O	Istory_name
+小问 请 播放 世界大战 故事
+
+播	O	O
+放	B-song_name	O
+鞭	I-song_name	B-song_name
+炮	Isong_name	I-song_name
+咯	O	Isong_name
+播放 鞭炮咯
+
+一	B-date	B-song_name
+小	I-date	I-song_name
+时	Idate	I-song_name
+后	O	I-song_name
+关	O	I-song_name
+闭	O	Isong_name
+一 小时 后 关闭
+
+中	O	B-song_name
+外	O	I-song_name
+嗨	B-song_type	I-song_name
+曲	Isong_type	Isong_name
+中外 嗨曲
+
+唱	O	O
+首	O	O
+红	B-singer_name	B-song_name
+阳	Isinger_name	Isong_name
+啊	O	O
+！	O	O
+唱 首 红阳 啊 ！
+
+百	B-fiction_name	B-song_name
+鸟	I-fiction_name	I-song_name
+朝	I-fiction_name	I-song_name
+凤	Ifiction_name	Isong_name
+百鸟朝凤
+
+播	O	O
+放	O	O
+想	B-song_name	B-song_type
+唱	I-song_name	Isong_type
+就	I-song_name	B-song_type
+唱	Isong_name	Isong_type
+播放 想 唱 就 唱
+
+我	O	O
+想	O	O
+听	O	O
+大	B-album_name	B-song_name
+头	I-album_name	I-song_name
+儿	I-album_name	I-song_name
+子	Ialbum_name	Isong_name
+歌	O	O
+。	O	O
+我 想 听 大头 儿子 歌 。
+
+仙	B-song_name	B-news_time
+乐	I-song_name	Inews_time
+飘	I-song_name	B-news_tag
+飘	I-song_name	Inews_tag
+处	I-song_name	O
+处	I-song_name	O
+闻	Isong_name	O
+仙乐 飘飘 处处 闻
+
+唱	O	O
+未	B-song_name	B-singer_name
+来	I-song_name	Isinger_name
+的	I-song_name	O
+进	I-song_name	B-song_name
+击	Isong_name	Isong_name
+唱 未来 的 进击
+
+继	O	O
+续	O	O
+播	O	O
+放	O	O
+长	B-fiction_tag	B-fiction_name
+篇	Ifiction_tag	I-fiction_name
+小	O	I-fiction_name
+说	O	I-fiction_name
+李	B-fiction_name	I-fiction_name
+自	I-fiction_name	I-fiction_name
+成	Ifiction_name	Ifiction_name
+继续 播放 长篇小说 李自成
+
+唱	O	O
+一	O	O
+首	O	O
+是	O	B-song_name
+鸭	B-song_name	I-song_name
+子	Isong_name	Isong_name
+。	O	O
+唱 一 首 是 鸭子 。
+
+不	B-song_name	O
+要	I-song_name	O
+认	I-song_name	B-song_name
+为	I-song_name	I-song_name
+自	I-song_name	I-song_name
+己	I-song_name	I-song_name
+没	I-song_name	I-song_name
+有	I-song_name	I-song_name
+用	Isong_name	I-song_name
+成	B-singer_name	I-song_name
+龙	Isinger_name	Isong_name
+。	O	O
+不要 认为 自己 没有 用 成龙 。
+
+心	B-poem_name	B-song_name
+经	Ipoem_name	Isong_name
+。	O	O
+心经 。
+
+我	O	O
+要	O	O
+听	O	O
+贝	B-story_name	B-fiction_name
+贝	I-story_name	I-fiction_name
+熊	I-story_name	I-fiction_name
+系	I-story_name	I-fiction_name
+列	I-story_name	I-fiction_name
+丛	I-story_name	I-fiction_name
+书	Istory_name	Ifiction_name
+我 要 听 贝贝熊 系列 丛书
+
+我	O	O
+要	O	O
+听	O	O
+卓	B-singer_name	B-singer_name
+依	I-singer_name	I-singer_name
+婷	Isinger_name	Isinger_name
+的	O	O
+新	B-song_type	B-song_name
+年	Isong_type	I-song_name
+歌	O	Isong_name
+我 要 听 卓依婷 的 新年歌
+
+你	O	O
+去	O	O
+听	O	O
+过	O	O
+陈	O	B-singer_name
+奕	O	I-singer_name
+迅	O	Isinger_name
+现	B-song_type	B-song_name
+场	Isong_type	Isong_name
+你 去 听 过 陈奕迅 现场
+
+我	O	O
+想	O	O
+听	B-song_name	O
+海	I-song_name	B-song_name
+浪	I-song_name	I-song_name
+的	I-song_name	I-song_name
+声	I-song_name	I-song_name
+音	Isong_name	Isong_name
+我 想 听 海浪 的 声音
+
+那	O	O
+你	O	O
+给	O	O
+我	O	O
+唱	O	O
+一	O	O
+首	O	O
+我	B-song_type	O
+最	I-song_type	O
+喜	I-song_type	B-song_type
+欢	Isong_type	Isong_type
+的	O	O
+歌	O	O
+。	O	O
+那 你 给 我 唱 一 首 我 最 喜欢 的 歌 。
+
+黄	B-singer_name	O
+伟	I-singer_name	O
+文	Isinger_name	O
+唱	O	O
+忐	B-song_name	B-song_name
+忑	Isong_name	Isong_name
+。	O	O
+黄伟文 唱 忐忑 。
+
+我	O	O
+想	O	O
+听	O	O
+雪	B-song_name	B-singer_name
+人	Isong_name	Isinger_name
+。	O	O
+我 想 听 雪人 。
+
+无	B-song_name	B-singer_name
+与	I-song_name	I-singer_name
+伦	I-song_name	I-singer_name
+比	I-song_name	Isinger_name
+的	I-song_name	O
+美	I-song_name	B-song_name
+丽	Isong_name	Isong_name
+无 与 伦比 的 美丽
+
+游	B-song_name	B-song_type
+子	I-song_name	I-song_type
+吟	Isong_name	I-song_type
+歌	O	I-song_type
+曲	O	Isong_type
+游子 吟歌曲
+
+帮	O	O
+我	O	O
+，	O	O
+搜	O	O
+索	O	O
+一	O	O
+下	O	O
+电	B-song_type	B-song_type
+子	I-song_type	I-song_type
+琴	Isong_type	I-song_type
+教	O	I-song_type
+学	O	I-song_type
+红	B-song_name	I-song_type
+星	I-song_name	Isong_type
+歌	Isong_name	O
+。	O	O
+帮 我 ， 搜索 一下 电子琴 教学 红星歌 。
+
+陈	B-singer_name	B-singer_name
+奕	I-singer_name	I-singer_name
+迅	Isinger_name	Isinger_name
+的	O	O
+淘	B-song_name	O
+汰	Isong_name	O
+你	O	O
+会	O	O
+唱	O	O
+吗	O	O
+陈奕迅 的 淘汰 你 会 唱 吗
+
+电	B-song_type	B-song_name
+影	Isong_type	I-song_name
+岁	B-album_name	I-song_name
+月	I-album_name	I-song_name
+神	I-album_name	I-song_name
+偷	Ialbum_name	I-song_name
+的	O	I-song_name
+插	B-song_type	I-song_name
+曲	Isong_type	Isong_name
+电影 岁月 神偷 的 插曲
+
+二	B-date	B-song_type
+十	I-date	Isong_type
+分	I-date	O
+钟	I-date	O
+后	Idate	O
+关	O	O
+闭	O	O
+音	O	O
+乐	O	O
+二十 分钟 后 关闭 音乐
+
+继	O	O
+续	O	O
+播	O	O
+放	O	O
+神	B-fiction_name	B-song_name
+医	I-fiction_name	I-song_name
+毒	I-fiction_name	I-song_name
+妃	Ifiction_name	Isong_name
+继续 播放 神医 毒妃
+
+我	O	O
+要	O	O
+听	O	O
+尼	B-story_name	B-song_name
+尔	I-story_name	I-song_name
+斯	I-story_name	I-song_name
+骑	I-story_name	I-song_name
+鹅	I-story_name	I-song_name
+旅	I-story_name	I-song_name
+行	I-story_name	I-song_name
+记	Istory_name	Isong_name
+我 要 听 尼尔斯 骑 鹅旅 行记
+
+小	O	B-singer_name
+张	B-singer_name	I-singer_name
+帝	Isinger_name	Isinger_name
+的	O	O
+歌	O	O
+小张帝 的 歌
+
+来	O	O
+一	O	O
+首	O	O
+张	B-song_name	B-singer_name
+辽	Isong_name	Isinger_name
+。	O	O
+来 一 首 张辽 。
+
+唱	O	O
+首	O	O
+粤	B-song_type	B-song_type
+语	I-song_type	Isong_type
+歌	I-song_type	O
+曲	Isong_type	O
+。	O	O
+唱首 粤语 歌曲 。
+
+我	O	O
+要	O	O
+听	O	O
+适	O	O
+合	O	O
+咖	B-song_type	B-singer_name
+啡	I-song_type	I-singer_name
+馆	Isong_type	Isinger_name
+的	O	O
+歌	O	O
+我 要 听 适合 咖啡馆 的 歌
+
+放	O	O
+一	O	O
+首	O	O
+左	B-song_name	B-story_name
+眼	I-song_name	I-story_name
+皮	I-song_name	I-story_name
+跳	I-song_name	I-story_name
+跳	Isong_name	Istory_name
+放 一 首 左 眼皮 跳跳
+
+李	B-singer_name	B-singer_name
+荣	I-singer_name	Isinger_name
+浩	Isinger_name	B-song_name
+年	B-song_name	I-song_name
+少	I-song_name	I-song_name
+有	I-song_name	I-song_name
+为	Isong_name	Isong_name
+李荣浩 年少 有 为
+
+我	O	O
+想	O	O
+听	O	O
+采	B-song_name	B-story_name
+蘑	I-song_name	I-story_name
+菇	I-song_name	I-story_name
+的	I-song_name	I-story_name
+小	I-song_name	I-story_name
+姑	I-song_name	I-story_name
+娘	Isong_name	Istory_name
+我 想 听 采 蘑菇 的 小姑娘
+
+放	B-song_name	O
+电	Isong_name	S-song_name
+放电
+
+我	O	O
+要	O	O
+听	O	O
+复	B-album_name	B-song_name
+仇	I-album_name	I-song_name
+者	Ialbum_name	Isong_name
+。	O	O
+我 要 听 复仇者 。
+
+下	B-song_name	O
+坠	I-song_name	B-song_name
+f	I-song_name	I-song_name
+a	I-song_name	I-song_name
+l	I-song_name	I-song_name
+l	I-song_name	I-song_name
+i	I-song_name	I-song_name
+n	I-song_name	I-song_name
+g	Isong_name	Isong_name
+下坠 falling
+
+我	O	O
+要	O	O
+听	O	O
+武	B-fiction_name	B-author_name
+动	I-fiction_name	I-author_name
+乾	I-fiction_name	I-fiction_tag
+坤	Ifiction_name	Ifiction_tag
+的	O	O
+小	O	O
+说	O	O
+我 要 听 武动 乾坤 的 小说
+
+你	O	O
+可	O	O
+不	O	O
+可	O	O
+以	O	O
+放	O	O
+花	B-album_name	B-singer_name
+千	I-album_name	I-singer_name
+骨	Ialbum_name	Isinger_name
+的	O	O
+歌	O	O
+给	O	O
+我	O	O
+听	O	O
+？	O	O
+你 可 不 可以 放花千骨 的 歌 给 我 听 ？
+
+不	B-song_name	O
+放	I-song_name	O
+手	I-song_name	O
+亲	I-song_name	B-song_name
+爱	I-song_name	I-song_name
+的	Isong_name	Isong_name
+这	O	O
+首	O	O
+歌	O	O
+曲	O	O
+。	O	O
+不 放手 亲爱 的 这 首 歌曲 。
+
+给	O	O
+我	O	O
+播	O	O
+放	O	O
+一	O	O
+首	O	O
+采	B-song_name	B-story_name
+蘑	I-song_name	I-story_name
+菇	I-song_name	Istory_name
+的	I-song_name	O
+小	I-song_name	B-story_name
+姑	I-song_name	I-story_name
+娘	Isong_name	Istory_name
+啊	O	O
+给 我 播放 一 首 采 蘑菇 的 小姑娘 啊
+
+播	O	O
+一	O	O
+首	O	O
+李	B-author_name	B-song_name
+白	Iauthor_name	I-song_name
+的	O	I-song_name
+诗	O	Isong_name
+播 一 首 李白 的 诗
+
+我	O	O
+想	O	O
+听	O	O
+米	B-story_tag	B-song_name
+多	I-story_tag	I-song_name
+兔	Istory_tag	Isong_name
+我 想 听 米 多 兔
+
+好	O	B-song_type
+听	O	Isong_type
+的	O	O
+纯	B-song_type	B-song_type
+音	I-song_type	I-song_type
+乐	Isong_type	Isong_type
+好听 的 纯音乐
+
+粤	B-song_type	B-song_language
+语	I-song_type	Isong_language
+歌	I-song_type	O
+曲	Isong_type	O
+。	O	O
+粤语 歌曲 。
+
+唱	O	O
+个	O	O
+屁	O	B-song_name
+霸	B-song_name	I-song_name
+王	Isong_name	Isong_name
+啊	O	O
+！	O	O
+唱 个 屁 霸王 啊 ！
+
+快	O	B-song_name
+乐	O	I-song_name
+男	O	I-song_name
+声	O	I-song_name
+…	O	I-song_name
+华	B-singer_name	Isong_name
+晨	I-singer_name	O
+宇	Isinger_name	O
+快乐 男声 … 华晨宇
+
+我	O	O
+要	O	O
+听	O	O
+训	B-song_name	B-song_name
+练	Isong_name	I-song_name
+哦	O	Isong_name
+。	O	O
+我 要 听 训练 哦 。
+
+播	O	O
+放	O	O
+天	B-song_name	B-song_name
+空	I-song_name	I-song_name
+之	I-song_name	I-song_name
+城	Isong_name	I-song_name
+李	B-singer_name	I-song_name
+志	Isinger_name	Isong_name
+吧	O	O
+播放 天空 之 城 李志吧
+
+唱	O	O
+当	B-song_name	B-song_name
+爱	I-song_name	I-song_name
+已	I-song_name	I-song_name
+成	I-song_name	I-song_name
+往	I-song_name	I-song_name
+事	Isong_name	Isong_name
+#	O	O
+张	B-song_type	B-singer_name
+国	I-song_type	I-singer_name
+荣	Isong_type	I-singer_name
+版	O	Isinger_name
+的	O	O
+唱 当 爱 已 成 往事 # 张国荣 版 的
+
+二	O	B-story_tag
+十	O	Istory_tag
+二十
+
+睡	B-story_tag	B-song_name
+前	Istory_tag	I-song_name
+故	O	I-song_name
+事	O	Isong_name
+。	O	O
+睡前 故事 。
+
+我	O	O
+想	O	O
+问	O	O
+下	B-date	O
+周	I-date	B-date
+一	Idate	Idate
+的	O	O
+天	O	O
+气	O	O
+怎	O	O
+么	O	O
+样	O	O
+我 想 问 下 周一 的 天气 怎么样
+
+亮	O	B-song_name
+了	O	Isong_name
+亮 了
+
+播	O	O
+放	O	O
+于	B-singer_name	B-song_name
+果	Isinger_name	I-song_name
+的	O	I-song_name
+侧	B-song_name	I-song_name
+脸	Isong_name	Isong_name
+播放 于 果 的 侧脸
+
+讲	O	O
+个	O	O
+睡	B-story_name	B-story_tag
+美	I-story_name	I-story_tag
+人	Istory_name	Istory_tag
+的	O	O
+故	O	O
+事	O	O
+讲 个 睡美人 的 故事
+
+劲	B-song_type	B-song_name
+爆	Isong_type	Isong_name
+的	O	O
+歌	O	O
+。	O	O
+劲爆 的 歌 。
+
+今	B-date	B-date
+天	Idate	Idate
+都	B-location	B-location
+江	I-location	Ilocation
+堰	Ilocation	Ilocation
+天	O	O
+气	O	O
+怎	O	O
+么	O	O
+样	O	O
+今天 都 江堰 天气 怎么样
+
+迪	B-song_type	B-song_name
+斯	I-song_type	I-song_name
+科	Isong_type	Isong_name
+迪斯科
+
+来	O	O
+首	O	O
+喊	B-song_type	B-singer_name
+麦	Isong_type	Isinger_name
+的	O	O
+来 首 喊 麦 的
+
+订	O	B-date
+九	B-date	I-date
+点	Idate	Idate
+的	O	O
+闹	O	O
+钟	O	O
+订 九点 的 闹钟
+
+播	O	O
+放	O	O
+房	B-singer_name	B-singer_name
+东	I-singer_name	Isinger_name
+的	I-singer_name	O
+猫	Isinger_name	B-song_name
+的	O	I-song_name
+云	B-song_name	I-song_name
+烟	I-song_name	I-song_name
+成	I-song_name	I-song_name
+雨	Isong_name	Isong_name
+播放 房东 的 猫 的 云烟成雨
+
+我	O	O
+不	O	O
+想	O	O
+听	O	O
+精	O	B-song_type
+选	O	Isong_type
+歌	O	O
+曲	O	O
+,	O	O
+我	O	O
+想	O	O
+听	O	O
+流	B-song_type	B-song_type
+行	I-song_type	I-song_type
+歌	I-song_type	I-song_type
+曲	Isong_type	Isong_type
+。	O	O
+我 不 想 听 精选 歌曲 , 我 想 听 流行 歌曲 。
+
+东	B-song_name	B-fiction_name
+风	I-song_name	I-fiction_name
+破	Isong_name	Ifiction_name
+东风破
+
+播	O	O
+放	O	O
+阿	B-singer_name	B-singer_name
+杜	Isinger_name	Isinger_name
+的	O	O
+这	B-song_name	O
+首	I-song_name	O
+歌	I-song_name	O
+是	I-song_name	O
+谁	I-song_name	O
+写	I-song_name	O
+的	Isong_name	O
+播放 阿杜 的 这 首 歌 是 谁 写 的
+
+出	B-song_name	B-poem_name
+山	Isong_name	Ipoem_name
+出山
+
+我	O	O
+想	O	O
+听	O	O
+爱	B-song_name	B-song_type
+音	I-song_name	I-song_type
+乐	Isong_name	Isong_type
+歌	O	O
+曲	O	O
+。	O	O
+我 想 听爱 音乐 歌曲 。
+
+帮	O	O
+我	O	O
+找	O	O
+一	O	O
+些	O	O
+#	O	O
+#	O	O
+英	B-song_type	B-song_language
+文	I-song_type	Isong_language
+儿	I-song_type	B-song_type
+歌	Isong_type	Isong_type
+帮 我 找 一些 # # 英文 儿歌
+
+我	O	O
+想	O	O
+听	O	O
+韩	B-song_type	B-song_type
+国	I-song_type	Isong_type
+歌	I-song_type	O
+曲	Isong_type	O
+的	O	O
+路	S-song_name	S-song_name
+。	O	O
+我 想 听 韩国 歌曲 的 路 。
+
+我	O	O
+想	O	O
+听	O	O
+想	O	B-song_name
+春	B-song_name	I-song_name
+暖	I-song_name	I-song_name
+花	I-song_name	I-song_name
+开	Isong_name	Isong_name
+这	O	O
+首	O	O
+歌	O	O
+。	O	O
+我 想 听想 春暖 花 开 这 首 歌 。
+
+你	B-song_name	B-song_name
+好	Isong_name	I-song_name
+,	O	Isong_name
+这	O	O
+首	O	O
+歌	O	O
+。	O	O
+你好 , 这 首 歌 。
+
+合	B-song_type	O
+唱	Isong_type	O
+什	O	O
+么	O	O
+呢	O	O
+！	O	O
+合唱 什么 呢 ！
+
+来	O	O
+一	O	O
+首	O	O
+歌	B-song_name	O
+词	Isong_name	O
+。	O	O
+来 一 首 歌词 。
+
+问	O	B-location
+现	B-date	B-date
+在	Idate	Idate
+天	O	O
+气	O	O
+怎	O	O
+么	O	O
+样	O	O
+问 现在 天气 怎么样
+
+辉	O	B-song_name
+煌	O	I-song_name
+的	O	I-song_name
+大	B-song_name	I-song_name
+圆	I-song_name	I-song_name
+舞	I-song_name	I-song_name
+曲	Isong_name	Isong_name
+辉煌 的 大圆 舞曲
+
+播	O	O
+放	O	O
+一	O	O
+个	O	O
+你	B-song_name	B-song_name
+老	I-song_name	I-song_name
+了	Isong_name	I-song_name
+你	O	Isong_name
+播放 一个 你 老 了 你
+
+播	O	O
+放	O	O
+动	B-song_type	B-song_name
+物	Isong_type	I-song_name
+的	O	I-song_name
+声	O	I-song_name
+音	O	Isong_name
+播放 动物 的 声音
+
+播	O	O
+放	O	O
+悲	B-story_name	B-song_name
+伤	I-story_name	I-song_name
+逆	I-story_name	I-song_name
+流	I-story_name	I-song_name
+成	I-story_name	I-song_name
+河	Istory_name	Isong_name
+播放 悲伤 逆流 成河
+
+我	O	O
+想	O	O
+听	O	O
+酒	B-song_type	B-song_name
+吧	Isong_type	Isong_name
+我 想 听 酒吧
+
+播	O	O
+放	O	O
+我	B-story_name	B-song_name
+爱	I-story_name	I-song_name
+我	I-story_name	I-song_name
+的	I-story_name	I-song_name
+家	Istory_name	Isong_name
+播放 我 爱 我 的 家
+
+放	B-album_name	O
+牛	I-album_name	B-song_name
+班	I-album_name	I-song_name
+的	I-album_name	I-song_name
+春	I-album_name	I-song_name
+天	Ialbum_name	Isong_name
+~	O	O
+放牛班 的 春天 ~
+

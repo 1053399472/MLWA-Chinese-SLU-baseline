@@ -1,0 +1,6279 @@
+能	O	O
+帮	O	O
+我	O	O
+看	O	O
+下	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+安	B-province	B-province
+徽	Iprovince	Iprovince
+的	O	O
+限	O	O
+行	O	O
+规	O	O
+则	O	O
+吗	O	O
+能 帮 我 看 下 今天 安徽 的 限行 规则 吗
+QUERY	QUERY
+
+听	O	O
+一	O	O
+下	O	O
+千	B-album	B-album
+字	I-album	I-album
+文	Ialbum	Ialbum
+听 一下 千字文
+QUERY_GROUP	QUERY_GROUP
+
+查	O	O
+电	O	O
+话	O	O
+，	O	O
+徐	B-name	B-keyword
+冬	I-name	I-keyword
+冬	Iname	Ikeyword
+的	O	O
+。	O	O
+查 电话 ， 徐 冬冬 的 。
+QUERY	QUERY
+
+看	O	O
+一	O	O
+个	O	O
+乌	B-city	B-city
+鲁	I-city	Icity
+木	I-city	B-keyword
+齐	Icity	Ikeyword
+的	O	O
+社	B-category	B-category
+会	Icategory	Icategory
+新	O	O
+闻	O	O
+看 一个 乌鲁木齐 的 社会 新闻
+PLAY	PLAY
+
+查	O	O
+询	O	O
+上	B-startLoc_city	B-startLoc_city
+海	IstartLoc_city	IstartLoc_city
+到	O	O
+玉	B-endLoc_city	B-endLoc_city
+林	IendLoc_city	IendLoc_city
+的	O	O
+航	O	O
+班	O	O
+。	O	O
+查询 上海 到 玉林 的 航班 。
+QUERY	QUERY
+
+今	O	O
+天	O	O
+是	O	O
+4	B-datetime_date	B-datetime_date
+月	I-datetime_date	I-datetime_date
+2	I-datetime_date	I-datetime_date
+5	I-datetime_date	I-datetime_date
+号	Idatetime_date	Idatetime_date
+，	O	O
+在	O	O
+1	B-year	B-year
+9	I-year	I-year
+4	I-year	I-year
+5	Iyear	Iyear
+年	O	O
+的	O	O
+今	O	O
+天	O	O
+有	O	O
+什	O	O
+么	O	O
+历	O	O
+史	O	O
+事	O	O
+件	O	O
+吗	O	O
+今天 是 4 月 25 号 ， 在 1945 年 的 今天 有 什么 历史 事件 吗
+HISTORY_YEAR_QUERY	HISTORY_YEAR_QUERY
+
+我	O	O
+想	O	O
+听	O	O
+相	B-category	B-category
+声	Icategory	Icategory
+十	B-name	B-name
+三	I-name	I-name
+香	Iname	Iname
+我 想 听相声 十三 香
+QUERY	QUERY
+
+能	O	O
+告	O	O
+诉	O	O
+我	O	O
+1	S-srcNumber	S-srcNumber
+吨	S-srcUnit	S-srcUnit
+等	O	O
+于	O	O
+多	O	O
+少	O	O
+千	B-destUnit	B-destUnit
+克	IdestUnit	IdestUnit
+吗	O	O
+能 告诉 我 1 吨 等于 多少 千克 吗
+CONVERSION_WITH_NUMBER	CONVERSION_WITH_NUMBER
+
+我	O	O
+背	O	O
+一	O	O
+首	O	O
+生	B-name	B-name
+查	I-name	I-name
+子	Iname	Iname
+。	O	O
+我 背 一首 生查子 。
+QUERY	QUERY
+
+草	B-dishName	O
+莓	I-dishName	O
+芒	I-dishName	B-dishName
+果	I-dishName	I-dishName
+西	I-dishName	I-dishName
+米	I-dishName	I-dishName
+露	IdishName	IdishName
+。	O	O
+草莓 芒果 西米露 。
+QUERY	QUERY
+
+明	B-startDate_date	B-startDate_date
+天	IstartDate_date	IstartDate_date
+去	O	O
+纽	B-endLoc_city	B-endLoc_city
+约	IendLoc_city	IendLoc_city
+的	O	O
+航	O	O
+班	O	O
+。	O	O
+明天 去 纽约 的 航班 。
+QUERY	QUERY
+
+失	B-keyword	B-keyword
+眠	Ikeyword	Ikeyword
+怎	O	O
+么	O	O
+办	O	O
+呀	O	O
+失眠 怎么办 呀
+QUERY	QUERY
+
+中	O	B-name
+国	O	I-name
+新	B-name	I-name
+华	I-name	I-name
+网	Iname	Iname
+打	O	O
+开	O	O
+中国 新华网 打开
+OPEN	OPEN
+
+呼	O	O
+叫	O	O
+鹏	B-name	B-name
+鹏	Iname	Iname
+呼叫 鹏鹏
+DIAL	DIAL
+
+回	B-dishName	B-dishName
+锅	I-dishName	I-dishName
+肉	IdishName	IdishName
+做	O	O
+法	O	O
+。	O	O
+回锅肉 做法 。
+QUERY	QUERY
+
+可	O	O
+不	O	O
+可	O	O
+以	O	O
+用	O	O
+鸦	B-keyword	B-keyword
+雀	I-keyword	I-keyword
+无	I-keyword	I-keyword
+声	Ikeyword	Ikeyword
+造	O	O
+个	O	O
+句	O	O
+子	O	O
+可不可以 用 鸦雀无声 造个 句子
+QUERY	QUERY
+
+羞	B-film	B-film
+羞	I-film	I-film
+的	I-film	I-film
+铁	I-film	I-film
+拳	Ifilm	Ifilm
+评	O	O
+分	O	O
+如	O	O
+何	O	O
+羞羞 的 铁拳 评分 如何
+SCORE_QUERY	SCORE_QUERY
+
+听	O	O
+下	O	O
+儿	O	O
+童	O	O
+国	O	O
+学	O	O
+听下 儿童 国学
+QUERY	QUERY
+
+定	O	O
+个	O	O
+闹	O	O
+钟	O	O
+定个 闹钟
+SET_CLOCK	SET_CLOCK
+
+下	O	O
+一	O	O
+个	O	O
+下 一个
+NEXT	NEXT
+
+问	O	O
+下	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+合	B-city	B-city
+肥	Icity	Icity
+9	B-category	B-category
+5	I-category	I-category
+号	I-category	I-category
+汽	I-category	I-category
+油	Icategory	Icategory
+什	O	O
+么	O	O
+价	O	O
+位	O	O
+问 下 今天 合肥 95 号 汽油 什么 价位
+QUERY	QUERY
+
+今	B-datetime_date	B-datetime_date
+日	Idatetime_date	Idatetime_date
+穿	B-subfocus	B-subfocus
+衣	I-subfocus	I-subfocus
+指	I-subfocus	I-subfocus
+数	Isubfocus	Isubfocus
+今日 穿衣 指数
+QUERY	QUERY
+
+南	B-startLoc_city	B-startLoc_city
+昌	IstartLoc_city	IstartLoc_city
+到	O	O
+广	B-endLoc_city	B-endLoc_city
+州	IendLoc_city	IendLoc_city
+飞	O	O
+机	O	O
+票	O	O
+南昌 到 广州 飞机票
+QUERY	QUERY
+
+海	B-name	B-name
+豚	Iname	Iname
+的	O	O
+声	O	O
+音	O	O
+学	O	O
+一	O	O
+下	O	O
+海豚 的 声音 学 一下
+PLAY	PLAY
+
+新	O	O
+建	O	O
+联	O	O
+系	O	O
+人	O	O
+姓	O	O
+名	O	O
+李	B-name	B-name
+四	Iname	Iname
+号	O	O
+码	O	O
+1	B-code	B-code
+2	I-code	I-code
+3	I-code	I-code
+4	I-code	I-code
+5	I-code	I-code
+6	I-code	I-code
+7	I-code	I-code
+8	I-code	I-code
+9	Icode	Icode
+新建 联系人 姓名 李四 号码 123456789
+CREATE	CREATE
+
+搜	O	O
+索	O	O
+英	B-category	B-name
+文	Icategory	I-name
+歌	O	I-name
+b	B-song	I-name
+a	I-song	I-name
+d	I-song	I-name
+#	I-song	I-name
+g	I-song	I-name
+i	I-song	I-name
+r	I-song	I-name
+l	Isong	Iname
+搜索 英文歌 bad # girl
+SEARCH	SEARCH
+
+得	O	O
+了	O	O
+关	B-keyword	B-keyword
+节	I-keyword	I-keyword
+炎	Ikeyword	Ikeyword
+怎	O	O
+么	O	O
+办	O	O
+？	O	O
+得 了 关节炎 怎么办 ？
+QUERY	QUERY
+
+哈	B-city	B-city
+尔	I-city	I-city
+滨	Icity	Icity
+是	O	O
+哪	O	O
+个	O	O
+省	O	O
+的	O	O
+哈尔滨 是 哪个 省 的
+CITY_QUERY_TWO	CITY_QUERY_TWO
+
+贵	B-startLoc_area	B-startLoc_city
+溪	IstartLoc_area	IstartLoc_city
+至	O	O
+泉	B-endLoc_city	B-endLoc_city
+州	IendLoc_city	IendLoc_city
+的	O	O
+火	O	O
+车	O	O
+票	O	O
+贵溪 至 泉州 的 火车票
+QUERY	QUERY
+
+播	O	O
+放	O	O
+蛇	S-name	S-name
+的	O	O
+叫	O	O
+声	O	O
+播放 蛇 的 叫声
+PLAY	PLAY
+
+几	O	O
+斤	S-srcUnit	S-srcUnit
+等	O	O
+于	O	O
+1	S-srcNumber	S-srcNumber
+千	B-destUnit	B-destUnit
+克	IdestUnit	IdestUnit
+几斤 等于 1 千克
+CONVERSION_HOW	CONVERSION_HOW
+
+桂	B-dishName	B-dishName
+花	I-dishName	I-dishName
+糕	IdishName	IdishName
+。	O	O
+桂花 糕 。
+QUERY	QUERY
+
+明	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+重	B-city	B-city
+庆	Icity	Icity
+有	O	O
+雨	O	B-keyword
+没	O	Ikeyword
+需	O	O
+不	O	O
+需	O	O
+要	O	O
+带	O	O
+雨	O	B-name
+伞	O	Iname
+明天 重庆 有雨 没 需不需要 带 雨伞
+QUERY	QUERY
+
+查	O	O
+找	O	O
+龙	B-name	B-name
+高	I-name	I-name
+军	Iname	Iname
+的	O	O
+电	O	O
+话	O	O
+查找 龙高军 的 电话
+QUERY	QUERY
+
+脆	B-dishName	B-keyword
+瓜	IdishName	Ikeyword
+。	O	O
+脆瓜 。
+QUERY	QUERY
+
+我	O	O
+想	O	O
+搜	O	O
+一	O	O
+下	O	O
+怎	O	O
+么	O	O
+用	O	O
+因	B-keyword	B-keyword
+为	I-keyword	I-keyword
+所	I-keyword	I-keyword
+以	Ikeyword	Ikeyword
+造	O	O
+个	O	O
+句	O	O
+子	O	O
+呢	O	O
+我 想 搜 一下 怎么 用 因为 所以 造个 句子 呢
+QUERY	QUERY
+
+完	B-word	B-word
+美	Iword	Iword
+的	S-character	S-character
+美	O	O
+要	O	O
+怎	O	O
+么	O	O
+写	O	O
+完美 的 美要 怎么 写
+QUERY	QUERY
+
+把	O	O
+天	B-name	B-name
+下	I-name	I-name
+第	I-name	I-name
+一	Iname	Iname
+的	O	O
+电	O	O
+话	O	O
+号	O	O
+码	O	O
+发	O	O
+给	O	O
+王	B-receiver	B-receiver
+帅	I-receiver	I-receiver
+烫	I-receiver	I-receiver
+染	Ireceiver	Ireceiver
+吧	O	O
+把 天下第一 的 电话号码 发给 王帅 烫染 吧
+SENDCONTACTS	SENDCONTACTS
+
+打	O	O
+电	O	O
+话	O	O
+给	O	O
+之	B-name	B-name
+山	Iname	Iname
+打电话 给 之山
+DIAL	DIAL
+
+4	B-datetime_date	B-datetime_date
+月	I-datetime_date	I-datetime_date
+1	I-datetime_date	I-datetime_date
+日	Idatetime_date	Idatetime_date
+的	O	O
+历	O	O
+史	O	O
+性	O	O
+事	O	O
+件	O	O
+替	O	O
+我	O	O
+搜	O	O
+下	O	O
+4 月 1 日 的 历史性 事件 替 我 搜下
+HISTORY_DATE_QUERY	HISTORY_DATE_QUERY
+
+1	S-srcNumber	S-srcNumber
+千	B-srcUnit	B-srcUnit
+克	IsrcUnit	IsrcUnit
+可	O	O
+以	O	O
+换	O	O
+成	O	O
+多	O	O
+少	S-destUnit	S-destUnit
+克	O	O
+1 千克 可以 换成 多少 克
+CONVERSION_WITH_NUMBER	CONVERSION_WITH_NUMBER
+
+腾	B-name	B-name
+讯	Iname	Iname
+公	O	O
+司	O	O
+的	O	O
+股	O	O
+票	O	O
+腾讯 公司 的 股票
+QUERY	QUERY
+
+和	O	O
+我	O	O
+说	O	O
+一	O	O
+下	O	O
+啥	O	O
+是	O	O
+太	B-keyword	B-keyword
+空	Ikeyword	Ikeyword
+和 我 说 一下 啥 是 太空
+QUERY	QUERY
+
+空	O	O
+调	O	O
+设	O	O
+成	O	O
+静	B-attrValue	B-attr
+音	I-attrValue	I-attr
+风	IattrValue	Iattr
+空调 设 成 静音 风
+SET	SET
+
+安	O	O
+徽	O	O
+买	O	O
+中	B-company	B-company
+石	I-company	I-company
+化	Icompany	Icompany
+油	O	O
+最	B-datetime_date	B-datetime_date
+新	Idatetime_date	Idatetime_date
+油	O	O
+价	O	O
+要	O	O
+多	O	O
+少	O	O
+钱	O	O
+安徽 买 中石化 油 最新 油价 要 多少 钱
+QUERY	QUERY
+
+甲	B-keyword	B-keyword
+型	I-keyword	I-keyword
+肝	I-keyword	I-keyword
+炎	Ikeyword	Ikeyword
+。	O	O
+甲型肝炎 。
+QUERY	QUERY
+
+1	S-srcNumber	S-srcNumber
+磅	S-srcUnit	S-srcUnit
+可	O	O
+以	O	O
+换	O	O
+算	O	O
+成	O	O
+多	O	O
+少	O	O
+千	B-destUnit	B-destUnit
+克	IdestUnit	IdestUnit
+1 磅 可以 换算 成 多少 千克
+CONVERSION_WITH_NUMBER	CONVERSION_WITH_NUMBER
+
+查	O	O
+一	O	O
+下	O	O
+南	B-startLoc_city	B-startLoc_city
+昌	IstartLoc_city	IstartLoc_city
+到	O	O
+南	B-endLoc_city	B-endLoc_city
+京	IendLoc_city	IendLoc_city
+的	O	O
+火	O	O
+车	O	O
+查 一下 南昌 到 南京 的 火车
+QUERY	QUERY
+
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+适	O	O
+宜	O	O
+去	O	O
+理	O	O
+发	O	O
+吗	O	O
+今天 适宜 去 理发 吗
+QUERY	QUERY
+
+那	O	O
+安	B-city	B-city
+庆	I-city	Icity
+市	Icity	O
+是	O	O
+哪	O	O
+个	O	O
+省	O	O
+的	O	O
+那 安庆市 是 哪个 省 的
+CITY_QUERY_TWO	CITY_QUERY_TWO
+
+能	O	O
+告	O	O
+诉	O	O
+我	O	O
+梦	O	O
+到	O	O
+死	B-keyword	B-keyword
+人	Ikeyword	Ikeyword
+是	O	O
+要	O	O
+发	O	O
+生	O	O
+什	O	O
+么	O	O
+事	O	O
+吗	O	O
+能 告诉 我梦到 死 人 是 要 发生 什么 事 吗
+QUERY	QUERY
+
+我	O	O
+想	O	O
+听	O	O
+啄	B-name	B-name
+木	I-name	I-name
+鸟	Iname	Iname
+的	O	O
+叫	O	O
+声	O	O
+我 想 听 啄木鸟 的 叫声
+PLAY	PLAY
+
+查	O	O
+看	O	O
+王	B-name	B-name
+老	I-name	I-name
+师	Iname	Iname
+的	O	O
+号	O	O
+码	O	O
+查看 王老师 的 号码
+QUERY	QUERY
+
+帮	O	O
+我	O	O
+看	O	O
+一	O	O
+下	O	O
+尾	O	O
+号	O	O
+为	O	O
+2	S-number	S-number
+的	O	O
+车	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+限	O	O
+行	O	O
+吗	O	O
+帮 我 看 一下 尾号 为 2 的 车 今天 限行 吗
+QUERY	QUERY
+
+看	O	O
+看	O	O
+郑	B-artist	B-artist
+晓	I-artist	I-artist
+龙	Iartist	Iartist
+导	B-artistRole	B-artistRole
+演	IartistRole	IartistRole
+的	O	O
+甄	B-name	B-name
+嬛	I-name	I-name
+传	Iname	Iname
+看看 郑晓龙 导演 的 甄 嬛 传
+QUERY	QUERY
+
+给	O	O
+我	O	O
+查	O	O
+查	O	O
+懒	B-keyword	B-keyword
+惰	Ikeyword	Ikeyword
+的	O	O
+解	O	O
+释	O	O
+给 我 查查 懒惰 的 解释
+QUERY	QUERY
+
+酸	B-dishName	B-dishName
+菜	I-dishName	I-dishName
+鱼	IdishName	IdishName
+怎	O	O
+么	O	O
+做	O	O
+啊	O	O
+酸菜鱼 怎么 做 啊
+QUERY	QUERY
+
+中	B-tvchannel	B-tvchannel
+央	I-tvchannel	I-tvchannel
+电	I-tvchannel	I-tvchannel
+视	I-tvchannel	I-tvchannel
+台	I-tvchannel	I-tvchannel
+少	I-tvchannel	I-tvchannel
+儿	I-tvchannel	I-tvchannel
+频	I-tvchannel	I-tvchannel
+道	Itvchannel	Itvchannel
+大	B-name	B-name
+耳	I-name	I-name
+朵	I-name	I-name
+图	I-name	I-name
+图	Iname	Iname
+中央电视台 少儿 频道 大 耳朵 图 图
+QUERY	QUERY
+
+告	O	O
+诉	O	O
+我	O	O
+百	O	O
+家	O	O
+姓	O	O
+中	O	O
+第	O	O
+6	S-orderIndex	S-orderIndex
+名	O	O
+是	O	O
+什	O	O
+么	O	O
+姓	O	O
+氏	O	O
+告诉 我 百家姓 中 第 6 名是 什么 姓氏
+ORDER_FAMILY_NAME	ORDER_FAMILY_NAME
+
+搜	O	O
+索	O	O
+百	O	O
+家	O	O
+姓	O	O
+有	O	O
+哪	O	O
+些	O	O
+搜索 百家姓 有 哪些
+ALL_FAMILY_NAMES	ALL_FAMILY_NAMES
+
+放	O	O
+下	O	O
+岳	B-actor	B-actor
+云	I-actor	I-actor
+鹏	Iactor	Iactor
+的	O	O
+小	B-category	B-category
+品	Icategory	Icategory
+放下 岳云鹏 的 小品
+QUERY	QUERY
+
+百	O	O
+家	O	O
+姓	O	O
+中	O	O
+有	O	O
+没	O	O
+有	O	O
+合	S-wildcardWords	S-wildcardWords
+姓	O	O
+百家姓 中 有没有 合姓
+EXISTENT_FAMILY_NAMES	EXISTENT_FAMILY_NAMES
+
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+适	O	O
+宜	O	O
+治	O	O
+病	O	O
+吗	O	O
+今天 适宜 治病 吗
+QUERY	QUERY
+
+来	O	O
+一	O	O
+首	O	O
+有	B-song	B-song
+点	I-song	I-song
+舍	I-song	I-song
+不	I-song	I-song
+得	Isong	Isong
+来 一首 有点 舍不得
+PLAY	PLAY
+
+帮	O	O
+我	O	O
+看	O	O
+看	O	O
+懒	B-keyword	B-keyword
+惰	Ikeyword	Ikeyword
+的	O	O
+解	O	O
+释	O	O
+帮 我 看看 懒惰 的 解释
+QUERY	QUERY
+
+怎	O	O
+么	O	O
+做	O	O
+炸	B-dishName	B-dishName
+鸡	I-dishName	I-dishName
+腿	IdishName	IdishName
+？	O	O
+怎么 做 炸鸡腿 ？
+QUERY	QUERY
+
+哦	O	O
+来	O	O
+一	O	O
+首	O	O
+忘	B-song	B-song
+情	I-song	I-song
+水	Isong	Isong
+哦 来 一首 忘情水
+PLAY	PLAY
+
+给	O	O
+我	O	O
+来	O	O
+首	O	O
+好	B-category	B-song
+听	Icategory	I-song
+的	O	O
+音	O	O
+乐	O	O
+给 我 来首 好听 的 音乐
+PLAY	PLAY
+
+帮	O	O
+我	O	O
+看	O	O
+一	O	O
+下	O	O
+到	O	O
+科	B-endLoc_poi	B-endLoc_poi
+大	I-endLoc_poi	I-endLoc_poi
+讯	I-endLoc_poi	I-endLoc_poi
+飞	IendLoc_poi	IendLoc_poi
+最	O	O
+快	O	O
+的	O	O
+是	O	O
+哪	O	O
+条	O	O
+路	O	O
+线	O	O
+帮 我 看 一下 到 科大 讯 飞 最快 的 是 哪条 路线
+ROUTE	ROUTE
+
+告	O	O
+诉	O	O
+我	O	O
+猪	S-name	S-name
+是	O	O
+发	O	O
+出	O	O
+什	O	O
+么	O	O
+样	O	O
+的	O	O
+叫	O	O
+声	O	O
+啊	O	O
+告诉 我 猪 是 发出 什么样 的 叫声 啊
+PLAY	PLAY
+
+打	O	O
+开	O	O
+音	B-name	B-name
+乐	I-name	I-name
+播	I-name	I-name
+放	I-name	I-name
+器	Iname	Iname
+打开 音乐 播放器
+LAUNCH	LAUNCH
+
+小	O	B-category
+猫	S-name	Icategory
+叫	O	O
+声	O	O
+小 猫叫声
+PLAY	PLAY
+
+写	O	O
+短	O	O
+信	O	O
+给	O	O
+颖	B-name	B-name
+村	Iname	Iname
+写 短信 给颖村
+SEND	SEND
+
+新	O	O
+建	O	O
+联	O	O
+系	O	O
+人	O	O
+老	B-name	B-name
+爸	Iname	Iname
+幺	B-code	B-code
+五	I-code	I-code
+九	I-code	I-code
+九	I-code	I-code
+六	I-code	I-code
+五	I-code	I-code
+四	I-code	I-code
+四	I-code	I-code
+四	I-code	I-code
+九	I-code	I-code
+六	Icode	Icode
+新建 联系人 老爸 幺 五 九九 六 五四 四四 九六
+CREATE	CREATE
+
+教	O	O
+我	O	O
+怎	O	O
+么	O	O
+做	O	O
+红	B-dishName	B-dishName
+烧	I-dishName	I-dishName
+肉	IdishName	IdishName
+教 我 怎么 做 红烧肉
+QUERY	QUERY
+
+时	B-content	B-content
+间	Icontent	Icontent
+的	O	O
+英	B-target	B-target
+文	Itarget	Itarget
+怎	O	O
+么	O	O
+讲	O	O
+时间 的 英文 怎么 讲
+TRANSLATION	TRANSLATION
+
+安	B-name	B-name
+徽	I-name	I-name
+频	I-name	I-name
+道	Iname	Iname
+有	O	O
+吗	O	O
+安徽 频道 有 吗
+PLAY	PLAY
+
+不	B-keyword	B-keyword
+但	I-keyword	I-keyword
+而	I-keyword	I-keyword
+且	Ikeyword	Ikeyword
+是	O	O
+怎	O	O
+么	O	O
+造	O	O
+句	O	O
+的	O	O
+不但 而且 是 怎么 造句 的
+QUERY	QUERY
+
+安	B-province	B-province
+徽	Iprovince	Iprovince
+的	O	O
+省	O	O
+会	O	O
+是	O	O
+合	B-city	B-city
+肥	Icity	Icity
+这	O	O
+个	O	O
+城	O	O
+市	O	O
+吗	O	O
+安徽 的 省会 是 合肥 这个 城市 吗
+PROVINCE_CITY	PROVINCE_CITY
+
+可	O	O
+以	O	O
+放	O	O
+一	O	O
+个	O	O
+八	B-category	B-category
+卦	Icategory	Icategory
+新	O	O
+闻	O	O
+么	O	O
+可以 放 一个 八卦新闻 么
+PLAY	PLAY
+
+查	O	O
+下	O	O
+里	S-character	S-character
+的	O	O
+笔	O	O
+画	O	O
+是	O	O
+什	O	O
+么	O	O
+查下 里 的 笔画 是 什么
+QUERY	QUERY
+
+百	O	O
+家	O	O
+姓	O	O
+排	O	O
+名	O	O
+前	O	O
+1	B-orderIndex	S-orderIndex
+0	IorderIndex	S-orderIndex
+的	O	O
+姓	O	O
+氏	O	O
+百家姓 排名 前 10 的 姓氏
+ORDER_FAMILY_NAME	ORDER_FAMILY_NAME
+
+潍	B-startLoc_city	B-startLoc_city
+坊	IstartLoc_city	IstartLoc_city
+到	O	O
+北	B-endLoc_city	B-endLoc_city
+京	IendLoc_city	IendLoc_city
+机	O	O
+票	O	O
+明	B-startDate_date	B-datetime_date
+天	IstartDate_date	Idatetime_date
+的	O	O
+潍坊 到 北京机票 明天 的
+QUERY	QUERY
+
+你	O	O
+说	O	O
+谜	B-category	B-category
+语	Icategory	Icategory
+给	O	O
+我	O	O
+猜	O	O
+。	O	O
+你 说 谜语 给 我 猜 。
+QUERY	QUERY
+
+查	O	O
+询	O	O
+汉	O	O
+字	O	O
+怎	O	O
+么	O	O
+写	O	O
+查询 汉字 怎么 写
+QUERY	QUERY
+
+浙	B-endLoc_province	B-startLoc_province
+江	IendLoc_province	IstartLoc_province
+温	B-endLoc_city	B-startLoc_city
+州	IendLoc_city	IstartLoc_city
+鹿	B-endLoc_area	B-startLoc_city
+城	I-endLoc_area	I-startLoc_city
+区	IendLoc_area	IstartLoc_city
+的	O	O
+江	B-endLoc_poi	O
+南	I-endLoc_poi	B-endLoc_poi
+皮	I-endLoc_poi	I-endLoc_poi
+革	I-endLoc_poi	I-endLoc_poi
+厂	IendLoc_poi	IendLoc_poi
+怎	O	O
+么	O	O
+走	O	O
+？	O	O
+浙江 温州 鹿城区 的 江南 皮革厂 怎么 走 ？
+ROUTE	ROUTE
+
+查	O	O
+询	O	O
+一	B-name	O
+汽	I-name	O
+轿	I-name	B-name
+车	Iname	Iname
+股	O	O
+票	O	O
+查询 一汽 轿车 股票
+QUERY	QUERY
+
+能	O	O
+查	O	O
+找	O	O
+中	B-company	B-company
+石	I-company	I-company
+化	Icompany	Icompany
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+的	O	O
+油	O	O
+价	O	O
+是	O	O
+多	O	O
+少	O	O
+吗	O	O
+能 查找 中石化 今天 的 油价 是 多少 吗
+QUERY	QUERY
+
+从	O	O
+聊	B-Src	B-Src
+城	ISrc	ISrc
+到	O	O
+东	B-Dest	B-Dest
+营	IDest	IDest
+的	O	O
+车	O	O
+。	O	O
+从 聊城 到 东营 的 车 。
+QUERY	QUERY
+
+鱼	S-ingredient	S-ingredient
+的	O	O
+做	O	O
+法	O	O
+鱼 的 做法
+QUERY	QUERY
+
+肉	S-ingredient	S-ingredient
+怎	O	O
+么	O	O
+烧	O	O
+好	O	O
+吃	O	O
+？	O	O
+肉 怎么 烧 好吃 ？
+QUERY	QUERY
+
+我	O	O
+想	O	O
+查	O	O
+看	O	O
+邮	O	O
+件	O	O
+，	O	O
+帮	O	O
+我	O	O
+打	O	O
+开	O	O
+邮	O	O
+件	O	O
+收	O	O
+件	O	O
+箱	O	O
+我 想 查看 邮件 ， 帮 我 打开 邮件 收件箱
+LAUNCH	LAUNCH
+
+等	O	O
+一	O	O
+下	O	O
+七	B-datetime_time	B-datetime_time
+点	I-datetime_time	Idatetime_time
+半	Idatetime_time	B-tvchannel
+湖	B-tvchannel	I-tvchannel
+南	I-tvchannel	I-tvchannel
+卫	I-tvchannel	I-tvchannel
+视	Itvchannel	Itvchannel
+会	O	O
+播	O	O
+出	O	O
+什	O	O
+么	O	O
+节	O	O
+目	O	O
+等 一下 七点 半 湖南卫视 会 播出 什么 节目
+QUERY	QUERY
+
+查	O	O
+询	O	O
+厦	B-startLoc_city	B-startLoc_city
+门	IstartLoc_city	IstartLoc_city
+到	O	O
+三	B-endLoc_city	B-endLoc_city
+亚	IendLoc_city	IendLoc_city
+的	O	O
+航	O	O
+班	O	O
+查询 厦门 到 三亚 的 航班
+QUERY	QUERY
+
+下	O	O
+一	O	O
+下	O	O
+手	B-name	O
+机	I-name	B-name
+贴	I-name	I-name
+吧	Iname	Iname
+下 一下 手机 贴 吧
+DOWNLOAD	DOWNLOAD
+
+从	O	O
+广	B-startLoc_city	B-startLoc_city
+州	IstartLoc_city	IstartLoc_city
+到	O	O
+南	B-endLoc_city	B-endLoc_city
+昌	IendLoc_city	IendLoc_city
+的	O	O
+火	O	O
+车	O	O
+票	O	O
+时	O	O
+刻	O	O
+表	O	O
+从 广州 到 南昌 的 火车票 时刻表
+QUERY	QUERY
+
+帮	O	O
+我	O	O
+找	O	O
+出	O	O
+红	B-dishName	B-dishName
+烧	I-dishName	I-dishName
+肉	IdishName	IdishName
+的	O	O
+做	O	O
+法	O	O
+。	O	O
+帮 我 找出 红烧肉 的 做法 。
+QUERY	QUERY
+
+扬	B-dishName	B-dishName
+州	I-dishName	I-dishName
+炒	I-dishName	I-dishName
+饭	IdishName	IdishName
+扬州 炒饭
+QUERY	QUERY
+
+帮	O	O
+我	O	O
+打	O	O
+开	O	O
+邮	O	O
+箱	O	O
+，	O	O
+我	O	O
+要	O	O
+查	O	O
+看	O	O
+最	O	O
+新	O	O
+的	O	O
+邮	O	O
+件	O	O
+帮 我 打开 邮箱 ， 我要 查看 最新 的 邮件
+LAUNCH	LAUNCH
+
+天	B-keyword	O
+空	Ikeyword	O
+是	O	O
+说	O	O
+什	O	O
+么	O	O
+的	O	O
+天空 是 说 什么 的
+QUERY	QUERY
+
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+上	B-city	B-city
+海	Icity	Icity
+限	O	O
+行	O	O
+的	O	O
+尾	O	O
+号	O	O
+有	O	O
+吗	O	O
+今天 上海 限行 的 尾号 有 吗
+QUERY	QUERY
+
+停	O	B-name
+止	O	Iname
+停止
+CLOSE	QUERY
+
+新	O	O
+建	O	O
+联	O	O
+系	O	O
+人	O	O
+许	B-name	B-name
+瑞	I-name	Iname
+鹰	Iname	B-code
+2	B-code	I-code
+3	I-code	I-code
+4	I-code	I-code
+5	I-code	I-code
+6	I-code	I-code
+7	I-code	I-code
+8	I-code	I-code
+9	Icode	Icode
+新建 联系人 许瑞鹰 23456789
+CREATE	CREATE
+
+呼	O	O
+叫	O	O
+王	B-name	B-name
+希	Iname	Iname
+呼叫 王希
+DIAL	DIAL
+
+新	O	O
+建	O	O
+联	O	O
+系	O	O
+人	O	O
+吕	B-name	B-name
+涵	Iname	Iname
+1	B-code	B-code
+3	I-code	I-code
+1	I-code	I-code
+2	I-code	I-code
+0	I-code	I-code
+7	I-code	I-code
+8	I-code	I-code
+8	I-code	I-code
+2	I-code	I-code
+6	I-code	I-code
+7	Icode	Icode
+新建 联系人 吕涵 13120788267
+CREATE	CREATE
+
+中	B-keyword	B-keyword
+日	Ikeyword	Ikeyword
+军	B-category	B-category
+事	Icategory	Icategory
+新	O	O
+闻	O	O
+中日 军事 新闻
+PLAY	PLAY
+
+西	B-ingredient	B-dishName
+兰	I-ingredient	I-dishName
+花	Iingredient	IdishName
+怎	O	O
+么	O	O
+做	O	O
+？	O	O
+西兰花 怎么 做 ？
+QUERY	QUERY
+
+查	O	O
+看	O	O
+短	O	O
+消	O	O
+息	O	O
+查看 短消息
+VIEW	VIEW
+
+请	O	O
+打	O	O
+开	O	O
+人	B-name	B-name
+人	I-name	I-name
+网	Iname	Iname
+请 打开 人人 网
+OPEN	OPEN
+
+明	B-startDate_date	B-startDate_date
+天	IstartDate_date	IstartDate_date
+去	O	O
+桂	B-endLoc_city	B-endLoc_city
+林	IendLoc_city	IendLoc_city
+的	O	O
+航	O	O
+班	O	O
+。	O	O
+明天 去 桂林 的 航班 。
+QUERY	QUERY
+
+老	B-name	B-name
+姐	Iname	Iname
+的	O	O
+电	O	O
+话	O	O
+是	O	O
+啥	O	O
+来	O	O
+着	O	O
+？	O	O
+老姐 的 电话 是 啥 来 着 ？
+QUERY	QUERY
+
+国	B-tvchannel	B-tvchannel
+防	I-tvchannel	I-tvchannel
+军	I-tvchannel	I-tvchannel
+事	Itvchannel	I-tvchannel
+频	O	I-tvchannel
+道	O	Itvchannel
+2	B-datetime_date	B-datetime_date
+天	I-datetime_date	Idatetime_date
+后	Idatetime_date	O
+播	O	O
+捍	B-name	B-name
+卫	I-name	I-name
+者	Iname	Iname
+国防 军事 频道 2 天后播 捍卫者
+QUERY	QUERY
+
+来	O	O
+一	O	O
+个	O	O
+选	B-tag	B-name
+秀	Itag	Iname
+节	B-category	O
+目	Icategory	O
+来 一个 选秀 节目
+QUERY	QUERY
+
+雄	B-keyword	B-keyword
+关	I-keyword	I-keyword
+漫	I-keyword	I-keyword
+道	I-keyword	I-keyword
+真	I-keyword	I-keyword
+如	I-keyword	I-keyword
+铁	Ikeyword	Ikeyword
+下	B-queryField	B-queryField
+一	I-queryField	I-queryField
+句	IqueryField	IqueryField
+是	O	O
+什	O	O
+么	O	O
+？	O	O
+雄关 漫道 真如铁下 一句 是 什么 ？
+QUERY	QUERY
+
+帮	O	O
+我	O	O
+查	O	O
+一	O	O
+下	O	O
+赣	B-startLoc_city	B-startLoc_city
+州	IstartLoc_city	IstartLoc_city
+到	O	O
+南	B-endLoc_city	B-endLoc_city
+昌	IendLoc_city	IendLoc_city
+的	O	O
+火	O	O
+车	O	O
+票	O	O
+帮 我查 一下 赣州 到 南昌 的 火车票
+QUERY	QUERY
+
+红	B-dishName	B-dishName
+烧	I-dishName	I-dishName
+鱼	IdishName	IdishName
+怎	O	O
+么	O	O
+烧	O	O
+啊	O	O
+？	O	O
+红烧鱼 怎么 烧 啊 ？
+QUERY	QUERY
+
+我	O	O
+想	O	O
+知	O	O
+道	O	O
+合	B-city	B-city
+肥	Icity	Icity
+是	O	O
+不	O	O
+是	O	O
+安	B-province	B-province
+徽	Iprovince	Iprovince
+的	O	O
+省	O	O
+会	O	O
+城	O	O
+市	O	O
+我 想 知道 合肥 是不是 安徽 的 省会 城市
+CITY_PROVINCE	CITY_PROVINCE
+
+到	O	O
+北	B-endLoc_city	B-endLoc_city
+京	IendLoc_city	IendLoc_city
+的	O	O
+火	O	O
+车	O	O
+班	O	O
+次	O	O
+到 北京 的 火车 班次
+QUERY	QUERY
+
+帮	O	O
+我	O	O
+查	O	O
+下	O	O
+里	S-character	S-character
+是	O	O
+怎	O	O
+么	O	O
+写	O	O
+的	O	O
+帮 我查 下里 是 怎么 写 的
+QUERY	QUERY
+
+我	O	O
+想	O	O
+听	O	O
+蔡	B-artist	B-song
+依	I-artist	I-song
+林	Iartist	Isong
+的	O	O
+倒	B-song	B-song
+带	Isong	Isong
+这	O	O
+首	O	O
+歌	O	O
+我 想 听 蔡依林 的 倒 带 这 首歌
+PLAY	PLAY
+
+洗	B-位置	B-位置
+手	I-位置	I-位置
+间	I位置	I位置
+的	O	O
+暖	B-灯种	B-灯种
+光	I-灯种	I-灯种
+灯	I灯种	I灯种
+打	O	O
+开	O	O
+洗手间 的 暖 光灯 打开
+TURN_ON_LIGHT	TURN_ON_LIGHT
+
+十	B-startLoc_city	B-startLoc_city
+堰	IstartLoc_city	IstartLoc_city
+至	O	O
+武	B-endLoc_city	B-endLoc_city
+汉	IendLoc_city	IendLoc_city
+火	O	O
+车	O	O
+票	O	O
+十堰 至 武汉 火车票
+QUERY	QUERY
+
+你	O	O
+会	O	O
+学	O	O
+乌	B-name	S-name
+鸦	Iname	O
+叫	O	O
+吗	O	O
+你会学 乌鸦 叫 吗
+PLAY	PLAY
+
+相	B-category	B-category
+声	Icategory	Icategory
+我	B-name	B-name
+和	I-name	I-name
+公	I-name	I-name
+主	I-name	I-name
+有	I-name	I-name
+个	I-name	I-name
+约	I-name	I-name
+会	Iname	Iname
+相声 我 和 公主 有个 约会
+QUERY	QUERY
+
+醉	B-dishName	B-ingredient
+虾	IdishName	Iingredient
+的	O	O
+做	O	O
+法	O	O
+。	O	O
+醉 虾 的 做法 。
+QUERY	QUERY
+
+查	O	O
+询	O	O
+安	B-startLoc_city	B-startLoc_city
+阳	IstartLoc_city	IstartLoc_city
+到	O	O
+郑	B-endLoc_city	B-endLoc_city
+州	IendLoc_city	IendLoc_city
+的	O	O
+动	B-category	B-category
+车	Icategory	Icategory
+查询 安阳 到 郑州 的 动车
+QUERY	QUERY
+
+小	B-content	B-content
+说	Icontent	Icontent
+英	B-target	B-target
+语	Itarget	Itarget
+怎	O	O
+么	O	O
+说	O	O
+小说 英语 怎么 说
+TRANSLATION	TRANSLATION
+
+设	O	O
+定	O	O
+一	O	O
+下	O	O
+九	B-时间	B-时间
+点	I-时间	I-时间
+钟	I时间	I时间
+的	O	O
+闹	O	O
+钟	O	O
+，	O	O
+这	B-日期	O
+周	I-日期	B-datetime_date
+五	I日期	Idatetime_date
+的	O	O
+设定 一下 九点钟 的 闹钟 ， 这 周五 的
+SET_CLOCK	SET_CLOCK
+
+帮	O	O
+我	O	O
+查	O	O
+一	O	O
+下	O	O
+赣	B-startLoc_city	B-startLoc_city
+州	IstartLoc_city	IstartLoc_city
+到	O	O
+杭	B-endLoc_city	B-endLoc_city
+州	IendLoc_city	IendLoc_city
+的	O	O
+火	O	O
+车	O	O
+票	O	O
+帮 我查 一下 赣州 到 杭州 的 火车票
+QUERY	QUERY
+
+打	O	O
+扫	O	O
+，	O	O
+主	B-位置	B-位置
+卧	I位置	I位置
+打扫 ， 主卧
+CLEAN	CLEAN
+
+南	B-name	B-name
+京	I-name	I-name
+熊	I-name	I-name
+猫	Iname	Iname
+股	O	O
+票	O	O
+南京 熊猫 股票
+QUERY	QUERY
+
+为	O	O
+我	O	O
+规	O	B-startLoc_poi
+划	O	IstartLoc_area
+从	O	O
+辽	B-startLoc_province	B-startLoc_poi
+宁	IstartLoc_province	I-startLoc_poi
+省	O	I-startLoc_poi
+文	B-startLoc_area	I-startLoc_poi
+化	I-startLoc_area	I-startLoc_poi
+路	IstartLoc_area	I-startLoc_poi
+东	B-startLoc_poi	I-startLoc_poi
+北	I-startLoc_poi	I-startLoc_poi
+大	I-startLoc_poi	I-startLoc_poi
+学	IstartLoc_poi	IstartLoc_poi
+到	O	O
+花	B-endLoc_poi	B-endLoc_poi
+鸟	I-endLoc_poi	I-endLoc_poi
+市	I-endLoc_poi	I-endLoc_poi
+场	IendLoc_poi	IendLoc_poi
+的	O	O
+路	O	O
+线	O	O
+为 我 规划 从 辽宁省 文化路 东北大学 到 花鸟 市场 的 路线
+ROUTE	ROUTE
+
+合	B-city	B-city
+肥	Icity	Icity
+现	B-datetime_time	B-datetime_time
+在	Idatetime_time	Idatetime_time
+冷	O	S-subfocus
+不	S-subfocus	S-subfocus
+冷	O	O
+呀	O	O
+合肥 现在 冷不冷 呀
+QUERY	QUERY
+
+帮	O	O
+我	O	O
+搜	O	O
+索	O	O
+一	O	O
+下	O	O
+红	B-dishName	B-dishName
+烧	I-dishName	I-dishName
+排	I-dishName	I-dishName
+骨	IdishName	IdishName
+。	O	O
+帮 我 搜索 一下 红烧 排骨 。
+QUERY	QUERY
+
+查	O	O
+找	O	O
+星	B-name	B-name
+妈	Iname	Iname
+的	O	O
+电	O	O
+话	O	O
+查找 星妈 的 电话
+QUERY	QUERY
+
+糖	B-dishName	B-dishName
+醋	I-dishName	I-dishName
+鲤	I-dishName	I-dishName
+鱼	IdishName	IdishName
+怎	O	O
+么	O	O
+做	O	O
+？	O	O
+而	O	O
+？	O	O
+糖醋 鲤鱼 怎么 做 ？ 而 ？
+QUERY	QUERY
+
+我	O	O
+要	O	O
+转	O	O
+发	O	O
+这	O	O
+条	O	O
+邮	O	O
+件	O	O
+我要 转发 这 条 邮件
+FORWARD	FORWARD
+
+列	O	O
+举	O	O
+下	O	O
+限	B-rule	B-rule
+行	I-rule	I-rule
+规	I-rule	I-rule
+则	Irule	Irule
+列举 下限 行 规则
+QUERY	QUERY
+
+哈	O	O
+哈	O	O
+，	O	O
+吃	O	O
+了	O	O
+水	B-dishName	B-dishName
+煮	I-dishName	I-dishName
+鱼	IdishName	IdishName
+怎	O	O
+么	O	O
+做	O	O
+？	O	O
+哈哈 ， 吃 了 水煮鱼 怎么 做 ？
+QUERY	QUERY
+
+听	O	O
+一	O	O
+下	O	O
+儿	O	O
+童	O	O
+国	O	O
+学	O	O
+听 一下 儿童 国学
+QUERY	QUERY
+
+肩	B-keyword	O
+关	I-keyword	O
+节	I-keyword	B-keyword
+周	I-keyword	I-keyword
+围	I-keyword	I-keyword
+炎	Ikeyword	Ikeyword
+肩关节 周围 炎
+QUERY	QUERY
+
+能	O	O
+让	O	O
+我	O	O
+学	O	O
+学	O	O
+绵	O	O
+羊	S-name	S-name
+怎	O	O
+么	O	O
+叫	O	O
+的	O	O
+吗	O	O
+能 让我学 学 绵羊 怎么 叫 的 吗
+PLAY	PLAY
+
+能	O	O
+帮	O	O
+我	O	O
+收	O	O
+听	O	O
+淄	B-name	B-name
+博	I-name	I-name
+音	I-name	I-name
+乐	I-name	I-name
+广	I-name	I-name
+播	Iname	Iname
+能 帮 我 收听 淄博 音乐 广播
+LAUNCH	LAUNCH
+
+再	O	O
+来	O	O
+一	O	O
+首	O	O
+飞	B-song	B-song
+得	I-song	I-song
+更	I-song	I-song
+高	Isong	Isong
+。	O	O
+再 来 一首 飞得 更 高 。
+PLAY	QUERY
+
+祭	O	O
+祀	O	O
+适	O	O
+宜	O	O
+万	O	O
+年	O	O
+历	O	O
+查	O	O
+询	O	O
+祭祀 适宜 万年历 查询
+QUERY	QUERY
+
+有	O	O
+未	O	O
+发	O	O
+送	O	O
+的	O	O
+邮	O	O
+件	O	O
+吗	O	O
+，	O	O
+帮	O	O
+我	O	O
+发	O	O
+送	O	O
+出	O	O
+去	O	O
+吧	O	O
+有 未 发送 的 邮件 吗 ， 帮 我 发送 出去 吧
+SEND	PLAY
+
+”	O	O
+产	S-wildcardWords	S-wildcardWords
+“	O	O
+是	O	O
+姓	O	O
+氏	O	O
+吗	O	O
+” 产 “ 是 姓氏 吗
+EXISTENT_FAMILY_NAMES	EXISTENT_FAMILY_NAMES
+
+烤	B-dishName	B-dishName
+鸭	IdishName	IdishName
+，	O	O
+啊	O	O
+！	O	O
+烤鸭 ， 啊 ！
+QUERY	QUERY
+
+明	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+的	O	O
+晨	B-subfocus	B-subfocus
+练	I-subfocus	I-subfocus
+指	I-subfocus	I-subfocus
+数	Isubfocus	Isubfocus
+明天 的 晨练 指数
+QUERY	QUERY
+
+哪	O	O
+个	O	O
+是	O	O
+江	B-province	B-province
+苏	Iprovince	Iprovince
+的	O	O
+省	O	O
+会	O	O
+呢	O	O
+哪个 是 江苏 的 省会 呢
+CITY_QUERY	CITY_QUERY
+
+桂	B-dishName	B-dishName
+林	I-dishName	I-dishName
+米	I-dishName	I-dishName
+粉	IdishName	IdishName
+，	O	O
+哦	O	O
+。	O	O
+桂林 米粉 ， 哦 。
+QUERY	QUERY
+
+给	O	O
+我	O	O
+放	O	O
+首	O	O
+歌	O	O
+给 我 放 首歌
+PLAY	PLAY
+
+搞	O	O
+一	O	O
+个	O	O
+儿	O	O
+童	O	O
+国	O	O
+学	O	O
+听	O	O
+听	O	O
+搞 一个 儿童 国学 听听
+QUERY	QUERY
+
+艳	B-name	B-name
+影	Iname	Iname
+的	O	O
+电	O	O
+话	O	O
+是	O	O
+多	O	O
+少	O	O
+艳影 的 电话 是 多少
+QUERY	QUERY
+
+八	B-category	B-keyword
+卦	Icategory	I-keyword
+头	O	Ikeyword
+条	O	O
+八卦 头条
+PLAY	QUERY
+
+合	B-city	B-city
+肥	Icity	Icity
+是	O	O
+省	O	O
+还	O	O
+是	O	O
+省	O	O
+会	O	O
+城	O	O
+市	O	O
+合肥 是 省 还是 省会 城市
+PROVINCE_QUERY	PROVINCE_QUERY
+
+让	O	O
+读	O	O
+一	O	O
+下	O	O
+沁	B-name	B-name
+园	I-name	I-name
+春	I-name	I-name
+雪	Iname	I-name
+毛	B-author	I-name
+泽	I-author	I-name
+东	Iauthor	Iname
+。	O	O
+让 读 一下 沁园春 雪 毛泽东 。
+QUERY	QUERY
+
+查	O	O
+询	O	O
+安	B-province	B-province
+徽	Iprovince	Iprovince
+中	B-company	B-company
+石	I-company	I-company
+化	Icompany	Icompany
+油	O	O
+价	O	O
+多	O	O
+少	O	O
+钱	O	O
+一	O	O
+升	O	O
+行	O	O
+吗	O	O
+查询 安徽 中石化 油价 多少 钱 一升行 吗
+QUERY	QUERY
+
+我	O	O
+想	O	O
+上	O	O
+q	B-name	B-name
+q	Iname	Iname
+我 想 上 qq
+LAUNCH	LAUNCH
+
+给	O	O
+我	O	O
+打	O	O
+个	O	O
+谜	B-category	B-category
+语	Icategory	Icategory
+，	O	O
+啊	O	O
+！	O	O
+给 我 打个 谜语 ， 啊 ！
+QUERY	QUERY
+
+中	B-name	B-name
+国	I-name	I-name
+合	I-name	I-name
+伙	I-name	I-name
+人	Iname	Iname
+中国 合伙人
+QUERY	QUERY
+
+我	O	O
+要	O	O
+听	O	O
+贝	B-album	B-album
+乐	I-album	I-album
+虎	I-album	I-album
+古	I-album	I-album
+诗	Ialbum	Ialbum
+我要 听 贝乐虎 古诗
+QUERY_GROUP	QUERY_GROUP
+
+我	O	O
+想	O	O
+要	O	O
+转	O	O
+发	O	O
+邮	O	O
+件	O	O
+我 想要 转发 邮件
+FORWARD	FORWARD
+
+帮	O	O
+我	O	O
+查	O	O
+询	O	O
+一	O	O
+下	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+合	B-city	B-city
+肥	Icity	Icity
+中	B-company	B-company
+石	I-company	I-company
+化	Icompany	Icompany
+9	B-category	B-category
+5	I-category	I-category
+号	I-category	I-category
+汽	I-category	I-category
+油	Icategory	Icategory
+多	O	O
+少	O	O
+钱	O	O
+一	O	O
+升	O	O
+帮 我 查询 一下 今天 合肥 中石化 95 号 汽油 多少 钱 一升
+QUERY	QUERY
+
+最	O	B-timeDescr
+近	O	ItimeDescr
+热	O	O
+播	O	O
+的	O	O
+电	O	B-category
+影	O	Icategory
+有	O	O
+没	O	O
+有	O	O
+最近 热播 的 电影 有没有
+QUERY	QUERY
+
+查	O	O
+下	O	O
+温	B-startLoc_city	B-startLoc_city
+州	IstartLoc_city	IstartLoc_city
+到	O	O
+杭	B-endLoc_city	B-endLoc_city
+州	IendLoc_city	IendLoc_city
+的	O	O
+火	O	O
+车	O	O
+票	O	O
+查下 温州 到 杭州 的 火车票
+QUERY	QUERY
+
+1	B-datetime_date	B-keyword
+5	I-datetime_date	I-keyword
+号	Idatetime_date	Ikeyword
+的	O	O
+我	B-name	O
+愿	I-name	O
+意	Iname	O
+15 号 的 我 愿意
+QUERY	QUERY
+
+新	O	O
+建	O	O
+联	O	O
+系	O	O
+人	O	O
+张	B-name	B-name
+希	Iname	Iname
+幺	B-code	B-code
+八	I-code	I-code
+六	I-code	I-code
+七	I-code	I-code
+三	I-code	I-code
+九	I-code	I-code
+六	I-code	I-code
+九	I-code	I-code
+九	I-code	I-code
+四	I-code	I-code
+八	Icode	Icode
+新建 联系人 张希 幺 八 六七 三九 六 九九 四八
+CREATE	CREATE
+
+收	O	O
+听	O	O
+中	B-name	B-name
+国	I-name	I-name
+人	I-name	I-name
+民	I-name	I-name
+广	I-name	I-name
+播	I-name	I-name
+电	I-name	I-name
+台	I-name	I-name
+广	I-name	I-name
+播	Iname	Iname
+收听 中国 人民 广播电台 广播
+LAUNCH	LAUNCH
+
+背	O	O
+唐	S-dynasty	S-dynasty
+诗	O	O
+李	B-author	B-name
+白	Iauthor	I-name
+侠	B-name	I-name
+客	I-name	I-name
+行	Iname	Iname
+背 唐诗 李白 侠客行
+QUERY	QUERY
+
+我	O	O
+想	O	O
+看	O	O
+看	O	O
+小	B-actor	B-actor
+沈	I-actor	I-actor
+阳	Iactor	Iactor
+的	O	O
+那	O	O
+个	O	O
+不	B-name	B-name
+差	I-name	I-name
+钱	Iname	Iname
+我 想 看看 小 沈阳 的 那个 不 差钱
+QUERY	QUERY
+
+多	O	O
+少	O	O
+斤	S-srcUnit	S-srcUnit
+等	O	O
+于	O	O
+1	S-srcNumber	S-srcNumber
+千	B-destUnit	B-destUnit
+克	IdestUnit	IdestUnit
+多少 斤 等于 1 千克
+CONVERSION_HOW	CONVERSION_HOW
+
+哈	B-city	B-city
+尔	I-city	I-city
+滨	Icity	Icity
+属	O	O
+于	O	O
+哪	O	O
+个	O	O
+省	O	O
+哈尔滨 属于 哪个 省
+CITY_QUERY_TWO	CITY_QUERY_TWO
+
+说	O	O
+一	O	O
+段	O	O
+马	B-actor	B-actor
+季	Iactor	Iactor
+的	O	O
+相	B-category	B-category
+声	Icategory	Icategory
+说 一段 马季 的 相声
+QUERY	QUERY
+
+风	B-name	B-name
+车	Iname	Iname
+第	B-episode	B-episode
+十	I-episode	I-episode
+五	I-episode	I-episode
+集	Iepisode	Iepisode
+风车 第十五集
+QUERY	QUERY
+
+给	O	O
+我	O	O
+转	O	O
+到	O	O
+安	B-name	B-name
+徽	I-name	I-name
+卫	I-name	I-name
+视	Iname	Iname
+给 我 转到 安徽 卫视
+PLAY	PLAY
+
+来	O	O
+个	O	O
+谜	B-category	B-category
+语	Icategory	Icategory
+吧	O	O
+！	O	O
+来个 谜语 吧 ！
+QUERY	QUERY
+
+白	S-name	S-name
+姓	O	O
+的	O	O
+始	B-querytype	B-querytype
+祖	Iquerytype	Iquerytype
+白姓 的 始祖
+ALLINFO_FAMILY_NAMES	ALLINFO_FAMILY_NAMES
+
+客	B-room	B-room
+厅	Iroom	Iroom
+空	O	O
+调	O	O
+面	O	O
+板	O	O
+制	B-attr	B-attr
+冷	Iattr	Iattr
+模	O	O
+式	O	O
+客厅 空调 面板 制冷 模式
+SET	SET
+
+帮	O	O
+我	O	O
+发	O	O
+一	O	O
+封	O	O
+邮	O	O
+件	O	O
+吧	O	O
+，	O	O
+收	O	O
+件	O	O
+人	O	O
+是	O	O
+张	B-name	B-name
+三	Iname	Iname
+帮 我发 一封 邮件 吧 ， 收件人 是 张 三
+SEND	SEND
+
+查	O	O
+询	O	O
+合	B-location_poi	B-location_city
+肥	I-location_poi	Ilocation_city
+市	I-location_poi	O
+植	I-location_poi	B-location_poi
+物	I-location_poi	I-location_poi
+园	Ilocation_poi	Ilocation_poi
+的	O	O
+位	O	O
+置	O	O
+查询 合肥市 植物园 的 位置
+POSITION	POSITION
+
+4	B-datetime_date	B-datetime_date
+月	I-datetime_date	I-datetime_date
+1	I-datetime_date	I-datetime_date
+日	Idatetime_date	Idatetime_date
+发	O	O
+生	O	O
+过	O	O
+哪	O	O
+些	O	O
+历	O	O
+史	O	O
+性	O	O
+的	O	O
+重	O	O
+大	O	O
+事	O	O
+件	O	O
+4 月 1 日 发生 过 哪些 历史性 的 重大事件
+HISTORY_DATE_QUERY	HISTORY_DATE_QUERY
+
+把	O	O
+淘	B-name	B-name
+宝	I-name	I-name
+网	Iname	Iname
+打	O	O
+开	O	O
+把 淘宝网 打开
+OPEN	OPEN
+
+中	B-name	B-name
+国	I-name	I-name
+最	I-name	I-name
+强	I-name	I-name
+音	Iname	Iname
+中国 最强音
+QUERY	QUERY
+
+胜	B-name	B-artist
+女	I-name	Iartist
+的	I-name	O
+代	I-name	O
+价	Iname	O
+电	B-category	B-category
+视	I-category	I-category
+剧	Icategory	Icategory
+胜女 的 代价 电视剧
+QUERY	QUERY
+
+哪	O	O
+个	O	O
+省	O	O
+的	O	O
+省	O	O
+会	O	O
+是	O	O
+南	B-city	B-city
+京	Icity	Icity
+你	O	O
+知	O	O
+道	O	O
+不	O	O
+哪个 省 的 省会 是 南京 你 知道 不
+PROVINCE_QUERY	PROVINCE_QUERY
+
+打	O	O
+扫	O	O
+书	B-位置	B-位置
+房	I位置	I位置
+打扫 书房
+CLEAN	CLEAN
+
+给	O	O
+我	O	O
+听	O	O
+嘟	B-album	B-album
+拉	I-album	I-album
+三	I-album	I-album
+字	I-album	I-album
+经	Ialbum	Ialbum
+给 我 听 嘟拉 三字经
+QUERY_GROUP	QUERY_GROUP
+
+搜	O	O
+一	O	O
+下	O	O
+今	B-datetime_date	B-datetime_date
+日	Idatetime_date	Idatetime_date
+油	O	O
+价	O	O
+调	O	O
+整	O	O
+信	O	O
+息	O	O
+搜 一下 今日 油价 调整 信息
+WAVE_QUERY	WAVE_QUERY
+
+明	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+安	B-tvchannel	B-tvchannel
+徽	I-tvchannel	I-tvchannel
+卫	I-tvchannel	I-tvchannel
+视	Itvchannel	Itvchannel
+演	O	O
+什	O	O
+么	O	O
+明天 安徽 卫视 演 什么
+QUERY	QUERY
+
+晚	B-content	B-content
+安	Icontent	Icontent
+的	O	O
+英	B-target	B-target
+语	Itarget	Itarget
+晚安 的 英语
+TRANSLATION	TRANSLATION
+
+帮	O	O
+我	O	O
+查	O	O
+一	O	O
+下	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+开	O	O
+奖	O	O
+的	O	O
+1	B-name	B-name
+5	I-name	I-name
+选	I-name	I-name
+5	Iname	Iname
+帮 我查 一下 今天 开奖 的 15 选 5
+NUMBER_QUERY	QUERY
+
+查	O	O
+一	O	O
+下	O	O
+羞	B-film	B-film
+羞	I-film	I-film
+的	I-film	I-film
+铁	I-film	I-film
+拳	Ifilm	Ifilm
+的	O	O
+上	O	O
+映	O	O
+时	O	O
+间	O	O
+查 一下 羞羞 的 铁拳 的 上映 时间
+DATE_QUERY	DATE_QUERY
+
+多	O	O
+少	O	O
+斤	S-srcUnit	S-srcUnit
+相	O	O
+当	O	O
+于	O	O
+1	S-srcNumber	S-srcNumber
+磅	S-destUnit	S-destUnit
+多少 斤 相当于 1 磅
+CONVERSION_HOW	CONVERSION_HOW
+
+讯	O	O
+飞	O	O
+语	O	O
+点	O	O
+请	O	O
+你	O	O
+搜	O	O
+索	O	O
+一	O	O
+下	O	O
+番	B-dishName	B-dishName
+茄	I-dishName	I-dishName
+炒	I-dishName	I-dishName
+蛋	IdishName	IdishName
+怎	O	O
+么	O	O
+做	O	O
+？	O	O
+讯 飞语 点 请 你 搜索 一下 番茄 炒蛋 怎么 做 ？
+QUERY	QUERY
+
+9	B-category	B-category
+5	I-category	I-category
+号	I-category	I-category
+汽	I-category	I-category
+油	Icategory	Icategory
+的	O	O
+报	O	O
+价	O	O
+给	O	O
+我	O	O
+找	O	O
+一	O	O
+下	O	O
+可	O	O
+不	O	O
+可	O	O
+以	O	O
+95 号 汽油 的 报价 给 我 找 一下 可不可以
+QUERY	QUERY
+
+给	O	O
+我	O	O
+搜	O	O
+索	O	O
+怎	O	O
+么	O	O
+用	O	O
+如	B-keyword	B-keyword
+果	Ikeyword	Ikeyword
+这	O	O
+个	O	O
+词	O	O
+语	O	O
+造	O	O
+句	O	O
+给 我 搜索 怎么 用 如果 这个 词语 造句
+QUERY	QUERY
+
+搜	O	O
+一	O	O
+下	O	O
+百	O	O
+家	O	O
+姓	O	O
+都	O	O
+有	O	O
+哪	O	O
+些	O	O
+搜 一下 百家姓 都 有 哪些
+ALL_FAMILY_NAMES	ALL_FAMILY_NAMES
+
+随	O	O
+便	O	O
+来	O	O
+首	O	O
+儿	O	O
+童	O	O
+国	O	O
+学	O	O
+随便 来首 儿童 国学
+QUERY	QUERY
+
+郭	B-author	B-author
+敬	I-author	I-author
+明	Iauthor	Iauthor
+的	O	O
+爱	B-category	B-category
+情	Icategory	Icategory
+小	O	O
+说	O	O
+《	O	O
+悲	B-name	B-name
+伤	I-name	I-name
+逆	I-name	I-name
+流	I-name	I-name
+成	I-name	I-name
+河	Iname	Iname
+》	O	O
+郭敬明 的 爱情小说 《 悲伤 逆流 成河 》
+QUERY	QUERY
+
+你	O	O
+给	O	O
+我	O	O
+学	O	O
+个	O	O
+喜	B-name	B-name
+鹊	Iname	Iname
+叫	O	O
+你 给 我 学个 喜鹊 叫
+PLAY	PLAY
+
+你	O	O
+知	O	O
+道	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+合	B-city	B-city
+肥	Icity	Icity
+中	B-company	B-company
+石	I-company	I-company
+化	Icompany	Icompany
+9	B-category	B-category
+5	I-category	I-category
+号	I-category	I-category
+汽	I-category	I-category
+油	Icategory	Icategory
+多	O	O
+少	O	O
+钱	O	O
+一	O	O
+升	O	O
+吗	O	O
+你 知道 今天 合肥 中石化 95 号 汽油 多少 钱 一升 吗
+QUERY	QUERY
+
+播	O	O
+放	O	O
+上	B-song	B-name
+海	I-song	I-name
+滩	Isong	Iname
+。	O	O
+播放 上海滩 。
+PLAY	QUERY
+
+可	O	O
+不	O	O
+可	O	O
+以	O	O
+给	O	O
+我	O	O
+播	O	O
+放	O	O
+高	B-resolution	B-resolution
+清	Iresolution	Iresolution
+频	O	O
+道	O	O
+可不可以 给 我 播放 高清 频道
+PLAY	PLAY
+
+太	B-name	B-name
+阳	Iname	Iname
+第	B-episode	B-episode
+九	I-episode	I-episode
+集	Iepisode	Iepisode
+太阳 第九集
+QUERY	QUERY
+
+查	O	O
+一	O	O
+下	O	O
+鸦	B-keyword	B-keyword
+雀	I-keyword	I-keyword
+无	I-keyword	I-keyword
+声	Ikeyword	I-keyword
+如	O	Ikeyword
+何	O	O
+造	O	O
+句	O	O
+查 一下 鸦雀无声 如何 造句
+QUERY	QUERY
+
+怎	O	O
+么	O	O
+做	O	O
+馒	B-dishName	B-dishName
+头	IdishName	IdishName
+怎么 做 馒头
+QUERY	QUERY
+
+把	O	O
+王	B-name	B-name
+世	I-name	I-name
+怀	Iname	Iname
+的	O	O
+号	O	O
+码	O	O
+发	O	O
+给	O	O
+乔	B-receiver	B-receiver
+丽	I-receiver	I-receiver
+君	Ireceiver	Ireceiver
+把 王世怀 的 号码 发给 乔丽君
+SENDCONTACTS	SENDCONTACTS
+
+查	O	O
+一	O	O
+下	O	O
+从	O	O
+上	B-startLoc_city	B-startLoc_city
+海	IstartLoc_city	IstartLoc_city
+到	O	O
+安	B-endLoc_province	B-endLoc_province
+徽	IendLoc_province	IendLoc_province
+东	B-endLoc_area	B-endLoc_poi
+至	I-endLoc_area	I-endLoc_poi
+县	IendLoc_area	IendLoc_poi
+的	O	O
+路	O	O
+线	O	O
+查 一下 从 上海 到 安徽 东至县 的 路线
+ROUTE	ROUTE
+
+能	O	O
+不	O	O
+能	O	O
+和	O	O
+我	O	O
+讲	O	O
+一	O	O
+下	O	O
+安	B-province	B-province
+徽	I-province	I-province
+省	Iprovince	Iprovince
+有	O	O
+哪	O	O
+城	O	O
+市	O	O
+能 不能 和 我 讲 一下 安徽省 有 哪 城市
+CITY_QUERY_ONE	CITY_QUERY_ONE
+
+报	O	O
+下	O	O
+周	B-datetime_date	B-datetime_date
+三	Idatetime_date	Idatetime_date
+在	O	O
+上	B-city	B-city
+海	I-city	I-city
+市	Icity	Icity
+什	O	O
+么	O	O
+车	O	O
+限	O	O
+行	O	O
+报下 周三 在 上海市 什么 车限行
+QUERY	QUERY
+
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+什	O	O
+么	O	O
+汽	O	O
+车	O	O
+尾	O	O
+号	O	O
+限	O	O
+行	O	O
+今天 什么 汽车 尾号 限行
+QUERY	QUERY
+
+发	O	O
+消	O	O
+息	O	O
+给	O	O
+周	B-name	B-name
+磊	Iname	Iname
+发消息 给 周磊
+SEND	SEND
+
+粉	B-name	B-name
+红	I-name	I-name
+女	I-name	I-name
+郎	Iname	Iname
+粉红 女郎
+QUERY	QUERY
+
+我	O	O
+想	O	O
+知	O	O
+道	O	O
+词	O	O
+语	O	O
+高	B-keyword	B-keyword
+兴	Ikeyword	Ikeyword
+的	O	O
+解	O	O
+释	O	O
+我 想 知道 词语 高兴 的 解释
+QUERY	QUERY
+
+所	O	O
+以	O	O
+查	O	O
+学	O	O
+西	B-name	B-name
+宁	I-name	I-name
+特	I-name	I-name
+钢	Iname	Iname
+的	O	O
+股	O	O
+票	O	O
+所以 查学 西宁 特钢 的 股票
+QUERY	QUERY
+
+请	O	O
+念	O	O
+一	O	O
+首	O	O
+毛	B-author	B-author
+泽	I-author	I-author
+东	Iauthor	Iauthor
+诗	O	O
+词	O	O
+。	O	O
+请念 一首 毛泽东 诗词 。
+QUERY	QUERY
+
+客	B-room	B-room
+厅	Iroom	Iroom
+空	O	O
+调	O	O
+面	O	O
+板	O	O
+调	O	O
+为	O	O
+制	B-attr	B-attr
+冷	Iattr	Iattr
+客厅 空调 面板 调 为 制冷
+SET	SET
+
+给	O	O
+我	O	O
+看	O	O
+高	B-resolution	B-name
+清	Iresolution	I-name
+的	O	I-name
+安	B-name	I-name
+徽	I-name	I-name
+卫	I-name	I-name
+视	Iname	Iname
+给 我 看 高清 的 安徽 卫视
+PLAY	PLAY
+
+我	O	O
+想	O	O
+知	O	O
+道	O	O
+麻	B-name	B-name
+雀	Iname	Iname
+是	O	O
+怎	O	O
+么	O	O
+叫	O	O
+的	O	O
+我 想 知道 麻雀 是 怎么 叫 的
+PLAY	PLAY
+
+老	B-name	B-name
+鼠	Iname	Iname
+的	O	O
+叫	O	O
+声	O	O
+你	O	O
+会	O	O
+吗	O	O
+老鼠 的 叫声 你 会 吗
+PLAY	PLAY
+
+给	O	O
+我	O	O
+来	O	O
+点	O	O
+儿	O	O
+童	O	O
+国	O	O
+学	O	O
+给 我 来 点 儿童 国学
+QUERY	QUERY
+
+经	S-character	S-character
+的	O	O
+部	O	O
+首	O	O
+是	O	O
+什	O	O
+么	O	O
+经 的 部首 是 什么
+QUERY	QUERY
+
+姓	O	O
+氏	O	O
+李	S-name	O
+在	O	O
+什	O	O
+么	O	O
+地	O	O
+区	O	O
+分	B-querytype	B-querytype
+布	Iquerytype	Iquerytype
+最	O	O
+广	O	O
+姓氏 李在 什么 地区 分布 最广
+ALLINFO_FAMILY_NAMES	ALLINFO_FAMILY_NAMES
+
+切	O	O
+换	O	O
+到	O	O
+另	O	O
+一	O	O
+个	O	O
+新	O	O
+闻	O	O
+切换 到 另 一个 新闻
+CHANGE	CHANGE
+
+梅	B-keyword	B-keyword
+毒	Ikeyword	Ikeyword
+怎	O	O
+么	O	O
+治	O	O
+疗	O	O
+？	O	O
+梅毒 怎么 治疗 ？
+QUERY	QUERY
+
+我	O	O
+要	O	O
+回	O	O
+复	O	O
+这	O	O
+条	O	O
+邮	O	O
+件	O	O
+我要 回复 这 条 邮件
+REPLY	REPLY
+
+山	B-dishName	B-ingredient
+寨	I-dishName	I-ingredient
+鱼	IdishName	Iingredient
+怎	O	O
+么	O	O
+做	O	O
+？	O	O
+山寨 鱼 怎么 做 ？
+QUERY	QUERY
+
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+适	O	O
+宜	O	O
+求	O	O
+医	O	O
+吗	O	O
+#	O	O
+今天 适宜 求医 吗 #
+QUERY	QUERY
+
+给	O	O
+我	O	O
+搞	O	O
+一	O	O
+下	O	O
+厕	B-位置	B-位置
+所	I位置	I位置
+的	O	O
+卫	O	O
+生	O	O
+给 我 搞 一下 厕所 的 卫生
+CLEAN	CLEAN
+
+钢	B-name	B-name
+铁	I-name	I-name
+侠	I-name	I-name
+三	Iname	Iname
+钢铁 侠 三
+QUERY	QUERY
+
+给	O	O
+我	O	O
+搜	O	O
+一	O	O
+下	O	O
+中	O	O
+国	O	O
+的	O	O
+直	O	O
+辖	O	O
+市	O	O
+有	O	O
+哪	O	O
+些	O	O
+给 我 搜 一下 中国 的 直辖市 有 哪些
+CITY_QUERY_FOUR	CITY_QUERY_FOUR
+
+背	O	O
+诗	O	O
+背诗
+DEFAULT	DEFAULT
+
+大	B-startLoc_city	B-startLoc_city
+连	IstartLoc_city	IstartLoc_city
+飞	O	O
+往	O	O
+上	B-endLoc_city	B-endLoc_city
+海	IendLoc_city	IendLoc_city
+的	O	O
+航	O	O
+班	O	O
+大连 飞往 上海 的 航班
+QUERY	QUERY
+
+美	B-name	B-name
+菱	I-name	I-name
+电	I-name	I-name
+器	Iname	Iname
+的	O	O
+昨	B-yesterday	B-yesterday
+日	Iyesterday	Iyesterday
+收	O	O
+盘	O	O
+价	O	O
+是	O	O
+多	O	O
+少	O	O
+美菱电器 的 昨日 收盘价 是 多少
+CLOSEPRICE_QUERY	CLOSEPRICE_QUERY
+
+c	B-tvchannel	B-tvchannel
+h	I-tvchannel	I-tvchannel
+c	I-tvchannel	I-tvchannel
+高	I-tvchannel	I-tvchannel
+清	Itvchannel	Itvchannel
+的	O	O
+节	O	O
+目	O	O
+单	O	O
+chc 高清 的 节目单
+QUERY	QUERY
+
+1	S-srcNumber	S-srcNumber
+磅	S-srcUnit	S-srcUnit
+多	O	O
+少	O	O
+斤	S-destUnit	O
+怎	O	O
+么	O	O
+换	O	O
+算	O	O
+1 磅 多少 斤 怎么 换算
+CONVERSION_WITH_NUMBER	CONVERSION_WITH_NUMBER
+
+你	B-content	B-content
+还	I-content	I-content
+没	I-content	I-content
+有	I-content	I-content
+结	I-content	I-content
+婚	Icontent	Icontent
+用	O	O
+英	B-target	B-target
+语	Itarget	Itarget
+怎	O	O
+么	O	O
+讲	O	O
+你 还 没有 结婚 用 英语 怎么 讲
+TRANSLATION	TRANSLATION
+
+空	O	O
+调	O	O
+上	B-attr	B-attr
+下	I-attr	I-attr
+摆	I-attr	I-attr
+风	Iattr	Iattr
+关	B-attrValue	B-attrValue
+闭	IattrValue	IattrValue
+空调 上 下摆 风 关闭
+SET	SET
+
+每	S-repeat	S-repeat
+周	B-datetime_date	B-datetime_date
+一	Idatetime_date	Idatetime_date
+晚	B-datetime_time	B-datetime_time
+上	I-datetime_time	I-datetime_time
+八	I-datetime_time	I-datetime_time
+点	Idatetime_time	Idatetime_time
+打	B-attrValue	B-attrValue
+开	IattrValue	IattrValue
+别	B-region	B-region
+墅	Iregion	Iregion
+三	B-zone	B-room
+楼	Izone	Iroom
+空	O	O
+调	O	O
+每周 一 晚上 八点 打开 别墅 三楼 空调
+SET	SET
+
+梦	O	O
+见	O	O
+有	B-keyword	B-keyword
+人	I-keyword	I-keyword
+追	I-keyword	I-keyword
+着	I-keyword	I-keyword
+打	I-keyword	I-keyword
+我	Ikeyword	Ikeyword
+是	O	O
+什	O	O
+么	O	O
+原	O	O
+因	O	O
+梦见 有人 追着 打 我 是 什么 原因
+QUERY	QUERY
+
+将	O	O
+茅	B-name	B-name
+佳	I-name	I-name
+峰	Iname	Iname
+的	O	O
+手	B-category	B-category
+机	Icategory	Icategory
+号	O	O
+码	O	O
+发	O	O
+给	O	O
+我	O	O
+老	B-receiver	B-receiver
+妈	Ireceiver	Ireceiver
+。	O	O
+将 茅佳峰 的 手机号码 发给 我 老妈 。
+SENDCONTACTS	SENDCONTACTS
+
+武	B-name	B-name
+汉	I-name	I-name
+卓	I-name	I-name
+尔	Iname	Iname
+的	O	O
+赛	O	O
+程	O	O
+。	O	O
+武汉 卓尔 的 赛程 。
+QUERY	QUERY
+
+相	B-category	B-category
+声	Icategory	Icategory
+假	B-name	B-name
+面	I-name	I-name
+歌	I-name	I-name
+王	Iname	Iname
+相声 假面 歌王
+QUERY	SEARCH
+
+我	O	O
+想	O	O
+知	O	O
+道	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+限	O	O
+行	O	O
+的	O	O
+车	O	O
+牌	O	O
+尾	O	O
+号	O	O
+是	O	O
+不	O	O
+是	O	O
+2	S-number	S-number
+我 想 知道 今天 限行 的 车牌 尾号 是不是 2
+QUERY	QUERY
+
+查	O	O
+询	O	O
+逃	B-artist	B-artist
+跑	I-artist	I-artist
+计	I-artist	I-artist
+划	Iartist	Iartist
+的	O	O
+夜	B-song	O
+空	I-song	O
+中	I-song	B-song
+最	I-song	I-song
+亮	I-song	Isong
+的	I-song	O
+星	Isong	O
+这	O	O
+首	O	O
+歌	O	O
+查询 逃跑 计划 的 夜空 中 最亮 的 星 这 首歌
+SEARCH	SEARCH
+
+帮	O	O
+我	O	O
+找	O	O
+首	O	O
+诗	O	O
+。	O	O
+帮 我 找 首诗 。
+DEFAULT	DEFAULT
+
+我	O	O
+想	O	O
+听	O	O
+沈	B-actor	B-actor
+春	I-actor	I-actor
+阳	Iactor	Iactor
+的	O	O
+小	B-category	B-category
+品	Icategory	Icategory
+我 想 听 沈 春阳 的 小品
+QUERY	QUERY
+
+请	O	O
+给	O	O
+我	O	O
+查	O	O
+下	O	O
+广	B-city	B-city
+州	I-city	Icity
+市	Icity	O
+4	B-datetime_date	B-datetime_date
+月	I-datetime_date	I-datetime_date
+3	I-datetime_date	I-datetime_date
+号	Idatetime_date	Idatetime_date
+限	O	O
+行	O	O
+的	O	O
+尾	O	O
+号	O	O
+是	O	O
+多	O	O
+少	O	O
+请 给 我 查下 广州市 4 月 3 号限行 的 尾号 是 多少
+QUERY	QUERY
+
+哪	O	O
+个	O	O
+省	O	O
+是	O	O
+合	B-city	B-city
+肥	Icity	Icity
+呀	O	O
+哪个 省 是 合肥 呀
+MORECITY_QUERY	MORECITY_QUERY
+
+万	O	O
+年	O	O
+历	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+是	O	O
+什	O	O
+么	O	O
+日	O	O
+子	O	O
+万年历 今天 是 什么 日子
+QUERY	QUERY
+
+点	O	O
+一	O	O
+首	O	O
+爱	B-song	B-song
+情	I-song	I-song
+买	I-song	I-song
+卖	Isong	Isong
+来	O	O
+听	O	O
+听	O	O
+点 一首 爱情 买卖 来 听听
+PLAY	PLAY
+
+看	O	O
+一	O	O
+下	O	O
+电	O	O
+话	O	O
+号	O	O
+码	O	O
+，	O	O
+王	B-name	B-name
+一	I-name	I-name
+电	Iname	Iname
+的	O	O
+电	O	O
+话	O	O
+号	O	O
+码	O	O
+看 一下 电话号码 ， 王一电 的 电话号码
+QUERY	QUERY
+
+2	B-datetime_date	B-datetime_date
+月	I-datetime_date	I-datetime_date
+2	I-datetime_date	I-datetime_date
+0	I-datetime_date	I-datetime_date
+号	Idatetime_date	Idatetime_date
+上	B-city	B-city
+海	Icity	Icity
+的	O	O
+限	O	O
+行	O	O
+尾	O	O
+号	O	O
+有	O	O
+吗	O	O
+2 月 20 号 上海 的 限行 尾号 有 吗
+QUERY	QUERY
+
+编	O	O
+号	O	O
+3	B-code	B-code
+0	I-code	I-code
+0	I-code	I-code
+3	I-code	I-code
+8	I-code	I-code
+9	Icode	Icode
+的	O	O
+神	B-name	B-name
+农	I-name	I-name
+科	I-name	I-name
+技	Iname	Iname
+收	O	O
+盘	O	O
+时	O	O
+候	O	O
+股	O	O
+价	O	O
+是	O	O
+多	O	O
+少	O	O
+呢	O	O
+编号 300389 的 神农 科技 收盘 时候 股价 是 多少 呢
+CLOSEPRICE_QUERY	CLOSEPRICE_QUERY
+
+看	O	O
+下	O	O
+今	B-datetime_date	B-datetime_date
+日	Idatetime_date	Idatetime_date
+油	O	O
+价	O	O
+调	O	O
+整	O	O
+信	O	O
+息	O	O
+看 下 今日 油价 调整 信息
+WAVE_QUERY	WAVE_QUERY
+
+查	O	O
+看	O	O
+石	B-name	B-name
+景	I-name	I-name
+林	Iname	Iname
+手	O	O
+机	O	O
+号	O	O
+查看 石景 林 手机号
+QUERY	QUERY
+
+大	B-city	B-name
+同	Icity	Iname
+呢	O	O
+大同 呢
+MORECITY_QUERY	MOREPROVINCE_QUERY
+
+七	B-name	B-name
+星	I-name	I-name
+彩	Iname	Iname
+七星 彩
+NUMBER_QUERY	OPEN
+
+谁	B-keyword	O
+为	I-keyword	O
+含	I-keyword	B-keyword
+愁	I-keyword	I-keyword
+独	I-keyword	I-keyword
+不	I-keyword	I-keyword
+见	Ikeyword	Ikeyword
+谁 为 含愁 独 不见
+QUERY	QUERY
+
+访	O	O
+问	O	O
+京	B-name	O
+东	Iname	B-name
+商	O	I-name
+城	O	Iname
+的	O	O
+网	O	O
+页	O	O
+访问 京东 商城 的 网页
+OPEN	OPEN
+
+武	B-name	B-name
+林	I-name	I-name
+风	Iname	Iname
+视	O	O
+频	O	O
+武林 风 视频
+QUERY	QUERY
+
+平	B-endLoc_area	B-endLoc_poi
+阳	IendLoc_area	IendLoc_poi
+怎	O	O
+么	O	O
+走	O	O
+吗	O	O
+平阳 怎么 走 吗
+ROUTE	ROUTE
+
+我	O	O
+要	O	O
+听	O	O
+新	O	O
+闻	O	O
+我要 听 新闻
+PLAY	CLOSE
+
+红	B-dishName	B-dishName
+烧	I-dishName	I-dishName
+肉	IdishName	IdishName
+怎	O	O
+么	O	O
+煮	O	O
+啊	O	O
+红烧肉 怎么 煮 啊
+QUERY	QUERY
+
+打	B-attrValue	B-attrValue
+开	IattrValue	IattrValue
+空	O	O
+调	O	O
+E	B-attr	B-attr
+C	I-attr	I-attr
+O	Iattr	Iattr
+功	O	O
+能	O	O
+打开 空调 ECO 功能
+SET	SET
+
+给	O	O
+我	O	O
+写	O	O
+个	O	O
+新	O	O
+邮	O	O
+件	O	O
+给 我 写个 新邮件
+CREATE	CREATE
+
+多	O	O
+少	O	O
+千	B-srcUnit	B-srcUnit
+克	IsrcUnit	IsrcUnit
+是	O	O
+1	S-srcNumber	S-srcNumber
+吨	S-destUnit	S-destUnit
+啊	O	O
+多少 千克 是 1 吨 啊
+CONVERSION_HOW	CONVERSION_HOW
+
+你	O	O
+给	O	O
+我	O	O
+念	O	O
+一	O	O
+首	O	O
+李	B-author	B-author
+白	Iauthor	Iauthor
+的	O	O
+诗	O	O
+。	O	O
+你 给 我念 一首 李白 的 诗 。
+QUERY	QUERY
+
+我	O	O
+想	O	O
+看	O	O
+看	O	O
+未	O	O
+读	O	O
+邮	O	O
+件	O	O
+，	O	O
+帮	O	O
+我	O	O
+把	O	O
+邮	O	O
+件	O	O
+打	O	O
+开	O	O
+吧	O	O
+我 想 看看 未读 邮件 ， 帮 我 把 邮件 打开 吧
+LAUNCH	LAUNCH
+
+猪	B-dishName	B-dishName
+肉	I-dishName	I-dishName
+灌	I-dishName	I-dishName
+汤	I-dishName	I-dishName
+包	IdishName	IdishName
+怎	O	O
+么	O	O
+做	O	O
+？	O	O
+猪肉 灌 汤包 怎么 做 ？
+QUERY	QUERY
+
+请	O	O
+问	O	O
+牛	B-dishName	B-dishName
+排	IdishName	IdishName
+怎	O	O
+么	O	O
+做	O	O
+请问 牛排 怎么 做
+QUERY	QUERY
+
+我	O	O
+想	O	O
+换	O	O
+台	O	O
+我 想 换台
+CHANGECHANNEL	CHANGECHANNEL
+
+天	B-name	O
+机	I-name	O
+富	I-name	B-name
+春	I-name	I-name
+山	I-name	I-name
+居	I-name	I-name
+图	Iname	Iname
+天机 富春山 居图
+QUERY	QUERY
+
+一	O	B-name
+起	O	I-name
+听	O	I-name
+听	O	I-name
+新	B-name	I-name
+疆	I-name	I-name
+人	I-name	I-name
+民	I-name	I-name
+广	I-name	I-name
+播	I-name	I-name
+电	I-name	I-name
+台	Iname	Iname
+一起 听听 新疆人民广播电台
+LAUNCH	LAUNCH
+
+帮	O	O
+我	O	O
+看	O	O
+看	O	O
+合	B-city	B-city
+肥	Icity	Icity
+是	O	O
+不	O	O
+是	O	O
+安	B-province	B-province
+徽	Iprovince	Iprovince
+的	O	O
+帮 我 看看 合肥 是不是 安徽 的
+CITY_QUERY_THREE	CITY_QUERY_THREE
+
+非	B-keyword	B-keyword
+你	I-keyword	I-keyword
+莫	I-keyword	I-keyword
+属	Ikeyword	Ikeyword
+怎	O	O
+么	O	O
+造	O	O
+句	O	O
+非你莫属 怎么 造句
+QUERY	QUERY
+
+安	B-province	B-province
+徽	Iprovince	Iprovince
+的	O	O
+省	O	O
+会	O	O
+就	O	O
+是	O	O
+合	B-city	B-city
+肥	Icity	Icity
+吧	O	O
+安徽 的 省会 就是 合肥 吧
+PROVINCE_CITY	PROVINCE_CITY
+
+上	B-city	B-city
+海	Icity	Icity
+明	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+下	B-datetime_time	B-datetime_time
+午	Idatetime_time	Idatetime_time
+的	O	O
+温	B-subfocus	B-subfocus
+度	Isubfocus	Isubfocus
+上海 明天 下午 的 温度
+QUERY	QUERY
+
+中	O	O
+国	O	O
+的	O	O
+直	O	O
+辖	O	O
+市	O	O
+有	O	O
+哪	O	O
+些	O	O
+中国 的 直辖市 有 哪些
+CITY_QUERY_FOUR	CITY_QUERY_FOUR
+
+合	B-city	B-city
+肥	Icity	Icity
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+需	O	O
+要	O	O
+涂	O	O
+防	B-subfocus	O
+晒	I-subfocus	O
+霜	Isubfocus	O
+吗	O	O
+合肥 今天 需要 涂 防晒霜 吗
+QUERY	QUERY
+
+定	O	O
+个	O	O
+中	B-时间	B-时间
+午	I-时间	I-时间
+1	I-时间	I-时间
+2	I-时间	I-时间
+点	I时间	I时间
+的	O	O
+闹	O	O
+钟	O	O
+定个 中午 12 点 的 闹钟
+SET_CLOCK	SET_CLOCK
+
+帮	O	O
+我	O	O
+跳	O	O
+转	O	O
+到	O	O
+下	O	O
+一	O	O
+个	O	O
+频	O	O
+道	O	O
+帮 我 跳转 到 下 一个 频道
+NEXTCHANNEL	NEXTCHANNEL
+
+包	B-keyword	B-keyword
+皮	I-keyword	I-keyword
+过	I-keyword	I-keyword
+长	Ikeyword	Ikeyword
+怎	O	O
+么	O	O
+办	O	O
+啊	O	O
+？	O	O
+你	O	O
+。	O	O
+包皮 过长 怎么办 啊 ？ 你 。
+QUERY	QUERY
+
+后	B-startDate_date	B-startDate_date
+天	IstartDate_date	IstartDate_date
+去	O	O
+武	B-endLoc_city	B-endLoc_city
+汉	IendLoc_city	IendLoc_city
+的	O	O
+航	O	O
+班	O	O
+后天 去 武汉 的 航班
+QUERY	QUERY
+
+用	O	O
+因	B-keyword	B-keyword
+为	I-keyword	I-keyword
+所	I-keyword	I-keyword
+以	Ikeyword	Ikeyword
+该	O	O
+如	O	O
+何	O	O
+造	O	O
+句	O	O
+用 因为 所以 该 如何 造句
+QUERY	QUERY
+
+烟	B-startLoc_city	B-startLoc_city
+台	IstartLoc_city	IstartLoc_city
+到	O	O
+齐	B-endLoc_city	B-endLoc_city
+齐	I-endLoc_city	IendLoc_city
+哈	I-endLoc_city	B-endLoc_city
+尔	IendLoc_city	IendLoc_city
+的	O	O
+火	O	O
+车	O	O
+票	O	O
+烟台 到 齐齐哈尔 的 火车票
+QUERY	QUERY
+
+人	B-location_poi	B-location_poi
+民	I-location_poi	I-location_poi
+公	I-location_poi	I-location_poi
+园	Ilocation_poi	Ilocation_poi
+在	O	O
+哪	O	O
+里	O	O
+人民 公园 在 哪里
+POSITION	POSITION
+
+帮	O	O
+忙	O	O
+查	O	O
+询	O	O
+下	O	O
+安	B-word	B-word
+静	Iword	Iword
+的	S-character	S-character
+静	O	O
+的	O	O
+笔	O	O
+画	O	O
+是	O	O
+什	O	O
+么	O	O
+帮忙 查询 下 安静 的 静 的 笔画 是 什么
+QUERY	QUERY
+
+听	O	O
+说	O	O
+1	B-year	B-year
+9	I-year	I-year
+4	I-year	I-year
+5	Iyear	Iyear
+年	O	O
+历	O	O
+史	O	O
+上	O	O
+的	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+发	O	O
+生	O	O
+了	O	O
+很	O	O
+多	O	O
+大	O	O
+事	O	O
+情	O	O
+是	O	O
+不	O	O
+是	O	O
+听说 1945 年 历史 上 的 今天 发生 了 很多 大 事情 是不是
+HISTORY_YEAR_QUERY	HISTORY_YEAR_QUERY
+
+陈	O	B-name
+娴	O	I-name
+T	B-name	I-name
+C	I-name	I-name
+L	Iname	Iname
+股	O	O
+票	O	O
+是	O	O
+涨	O	O
+还	O	O
+是	O	O
+跌	O	O
+了	O	O
+陈娴 TCL 股票 是 涨 还是 跌 了
+RISERATE_QUERY	RISERATE_QUERY
+
+给	O	O
+我	O	O
+播	O	O
+放	O	O
+儿	O	O
+童	O	O
+国	O	O
+学	O	O
+听	O	O
+一	O	O
+下	O	O
+吧	O	O
+给 我 播放 儿童 国学 听 一下 吧
+QUERY	QUERY
+
+我	O	O
+想	O	O
+听	O	O
+小	B-actor	B-actor
+沈	I-actor	I-actor
+阳	Iactor	Iactor
+的	O	O
+小	B-category	B-category
+品	Icategory	Icategory
+我 想 听 小 沈阳 的 小品
+QUERY	QUERY
+
+电	O	O
+影	O	O
+羞	B-film	B-film
+羞	I-film	I-film
+的	I-film	I-film
+铁	I-film	I-film
+拳	Ifilm	Ifilm
+主	O	O
+要	O	O
+说	O	O
+的	O	O
+是	O	O
+什	O	O
+么	O	O
+内	O	O
+容	O	O
+电影 羞羞 的 铁拳 主要 说 的 是 什么 内容
+DESCRIPTION_QUERY	DESCRIPTION_QUERY
+
+本	O	B-name
+期	O	I-name
+七	B-name	I-name
+星	I-name	I-name
+彩	Iname	Iname
+的	O	O
+中	O	O
+奖	O	O
+号	O	O
+码	O	O
+是	O	O
+多	O	O
+少	O	O
+？	O	O
+本期 七星 彩 的 中奖号码 是 多少 ？
+NUMBER_QUERY	NUMBER_QUERY
+
+老	B-name	B-name
+伯	Iname	Iname
+电	O	O
+话	O	O
+是	O	O
+多	O	O
+少	O	O
+老伯 电话 是 多少
+QUERY	QUERY
+
+搜	O	O
+索	O	O
+词	O	O
+语	O	O
+懒	B-keyword	B-keyword
+惰	Ikeyword	Ikeyword
+是	O	O
+啥	O	O
+意	O	O
+思	O	O
+搜索 词语 懒惰 是 啥意思
+QUERY	QUERY
+
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+早	B-datetime_time	B-datetime_time
+上	Idatetime_time	Idatetime_time
+有	O	O
+什	O	O
+么	O	O
+新	O	O
+的	O	O
+新	O	O
+闻	O	O
+今天 早上 有 什么 新 的 新闻
+PLAY	PLAY
+
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+适	O	O
+宜	O	O
+嫁	O	O
+娶	O	O
+吗	O	O
+今天 适宜 嫁娶 吗
+QUERY	QUERY
+
+帮	O	O
+忙	O	O
+找	O	O
+一	O	O
+下	O	O
+携	B-name	B-name
+程	Iname	Iname
+帮忙 找 一下 携程
+QUERY	QUERY
+
+梦	O	O
+里	O	O
+自	B-keyword	B-keyword
+己	I-keyword	I-keyword
+生	I-keyword	I-keyword
+病	I-keyword	I-keyword
+了	Ikeyword	Ikeyword
+有	O	O
+什	O	O
+么	O	O
+忌	O	O
+讳	O	O
+梦里 自己 生病 了 有 什么 忌讳
+QUERY	QUERY
+
+查	O	O
+询	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+的	O	O
+限	O	O
+行	O	O
+尾	O	O
+号	O	O
+查询 今天 的 限行 尾号
+QUERY	QUERY
+
+西	B-city	B-city
+安	Icity	Icity
+最	B-datetime_date	O
+近	Idatetime_date	O
+的	O	O
+降	B-subfocus	O
+水	I-subfocus	B-name
+量	Isubfocus	Iname
+西安 最近 的 降水量
+QUERY	QUERY
+
+北	B-name	B-tvchannel
+京	I-name	I-tvchannel
+国	I-name	I-tvchannel
+安	Iname	I-tvchannel
+5	B-datetime_date	Itvchannel
+月	I-datetime_date	B-datetime_date
+2	I-datetime_date	I-datetime_date
+3	I-datetime_date	I-datetime_date
+号	Idatetime_date	Idatetime_date
+比	O	O
+赛	O	O
+和	O	O
+谁	O	O
+踢	O	O
+北京国安 5 月 23 号 比赛 和 谁 踢
+QUERY	QUERY
+
+大	O	B-name
+熊	B-name	I-name
+猫	Iname	Iname
+的	O	O
+叫	O	O
+声	O	O
+怎	O	O
+么	O	O
+样	O	O
+的	O	O
+大熊猫 的 叫声 怎么样 的
+PLAY	PLAY
+
+合	B-city	B-city
+肥	Icity	Icity
+的	O	O
+省	O	O
+会	O	O
+是	O	O
+安	B-province	B-province
+徽	Iprovince	Iprovince
+吗	O	O
+合肥 的 省会 是 安徽 吗
+CITY_PROVINCE	PROVINCE_QUERY
+
+童	B-ingredient	B-dishName
+子	I-ingredient	I-dishName
+鸡	Iingredient	IdishName
+的	O	O
+做	O	O
+法	O	O
+。	O	O
+童子鸡 的 做法 。
+QUERY	QUERY
+
+有	O	O
+儿	O	O
+童	O	O
+国	O	O
+学	O	O
+吗	O	O
+有 儿童 国学 吗
+QUERY	QUERY
+
+查	O	O
+寻	O	O
+天	B-name	B-name
+龙	I-name	I-name
+集	I-name	I-name
+团	Iname	Iname
+的	O	O
+股	O	O
+票	O	O
+查寻 天龙 集团 的 股票
+QUERY	QUERY
+
+我	B-content	B-content
+想	I-content	I-content
+出	I-content	I-content
+去	I-content	I-content
+旅	I-content	I-content
+游	Icontent	Icontent
+英	B-target	B-target
+文	Itarget	Itarget
+怎	O	O
+么	O	O
+说	O	O
+我 想 出去 旅游 英文 怎么 说
+TRANSLATION	TRANSLATION
+
+来	O	O
+点	O	O
+歌	O	O
+听	O	O
+听	O	O
+来 点歌 听听
+PLAY	PLAY
+
+能	O	O
+不	O	O
+能	O	O
+给	O	O
+我	O	O
+找	O	O
+今	B-datetime_date	B-datetime_date
+日	Idatetime_date	Idatetime_date
+油	O	O
+价	O	O
+调	O	O
+整	O	O
+信	O	O
+息	O	O
+能 不能 给 我 找 今日 油价 调整 信息
+WAVE_QUERY	WAVE_QUERY
+
+明	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+南	B-city	B-city
+京	Icity	Icity
+的	O	O
+天	B-subfocus	B-subfocus
+气	Isubfocus	Isubfocus
+状	O	O
+态	O	O
+怎	O	O
+么	O	O
+样	O	O
+明天 南京 的 天气 状态 怎么样
+QUERY	QUERY
+
+我	O	O
+想	O	O
+知	O	O
+道	O	O
+历	O	O
+史	O	O
+上	O	O
+的	O	O
+4	B-datetime_date	B-datetime_date
+月	I-datetime_date	I-datetime_date
+1	I-datetime_date	I-datetime_date
+日	Idatetime_date	Idatetime_date
+发	O	O
+生	O	O
+了	O	O
+什	O	O
+么	O	O
+事	O	O
+件	O	O
+我 想 知道 历史 上 的 4 月 1 日 发生 了 什么 事件
+HISTORY_DATE_QUERY	HISTORY_DATE_QUERY
+
+看	O	O
+一	O	O
+下	O	O
+直	O	O
+播	O	O
+列	O	O
+表	O	O
+看 一下 直播 列表
+CHANNELLISE	CHANNELLISE
+
+香	B-content	B-content
+蕉	Icontent	Icontent
+的	O	O
+英	B-target	B-target
+语	Itarget	Itarget
+怎	O	O
+么	O	O
+说	O	O
+香蕉 的 英语 怎么 说
+TRANSLATION	TRANSLATION
+
+那	O	O
+你	O	O
+爸	O	O
+给	O	O
+我	O	O
+背	O	O
+一	O	O
+首	O	O
+唐	S-dynasty	S-dynasty
+诗	O	O
+了	O	O
+。	O	O
+那 你 爸 给 我 背 一首 唐诗 了 。
+QUERY	QUERY
+
+查	O	O
+询	O	O
+今	B-datetime_date	B-datetime_date
+日	Idatetime_date	Idatetime_date
+油	O	O
+价	O	O
+调	O	O
+整	O	O
+信	O	O
+息	O	O
+行	O	O
+吗	O	O
+查询 今日 油价 调整 信息 行 吗
+WAVE_QUERY	WAVE_QUERY
+
+回	O	O
+播	O	O
+电	O	B-category
+影	O	Icategory
+让	B-tvchannel	B-name
+子	I-tvchannel	I-name
+弹	I-tvchannel	I-name
+飞	Itvchannel	Iname
+，	O	O
+C	B-name	B-tvchannel
+C	I-name	I-tvchannel
+T	I-name	I-tvchannel
+V	I-name	I-tvchannel
+-	I-name	I-tvchannel
+电	I-name	I-tvchannel
+影	Iname	Itvchannel
+频	O	O
+道	O	O
+的	O	O
+。	O	O
+回播 电影 让 子弹 飞 ， CCTV - 电影频道 的 。
+LOOK_BACK	LOOK_BACK
+
+我	O	O
+想	O	O
+搜	O	O
+索	O	O
+怎	O	O
+么	O	O
+用	O	O
+因	B-keyword	B-keyword
+为	I-keyword	I-keyword
+所	I-keyword	I-keyword
+以	Ikeyword	Ikeyword
+这	O	O
+个	O	O
+关	O	O
+联	O	O
+词	O	O
+造	O	O
+句	O	O
+我 想 搜索 怎么 用 因为 所以 这个 关联词 造句
+QUERY	QUERY
+
+看	O	O
+一	O	O
+下	O	O
+古	B-tags	B-album
+诗	Itags	O
+看 一下 古诗
+QUERY_GROUP	DEFAULT
+
+给	O	O
+我	O	O
+查	O	O
+下	O	O
+羞	B-film	B-film
+羞	I-film	I-film
+的	I-film	I-film
+铁	I-film	I-film
+拳	Ifilm	Ifilm
+啥	O	O
+时	O	O
+候	O	O
+上	O	O
+映	O	O
+的	O	O
+给 我 查下 羞羞 的 铁拳 啥时候 上映 的
+DATE_QUERY	DATE_QUERY
+
+凹	B-word	B-word
+凸	I-word	I-word
+不	I-word	I-word
+平	Iword	Iword
+的	S-character	S-character
+凸	O	O
+的	O	O
+笔	O	O
+顺	O	O
+凹凸不平 的 凸 的 笔顺
+QUERY	QUERY
+
+家	B-位置	B-位置
+庭	I-位置	I-位置
+影	I-位置	I-位置
+院	I位置	I位置
+的	O	O
+灯	S-灯种	S-灯种
+帮	O	O
+我	O	O
+打	O	O
+开	O	O
+一	O	O
+下	O	O
+家庭影院 的 灯 帮 我 打开 一下
+TURN_ON_LIGHT	TURN_ON_LIGHT
+
+大	B-datetime_date	B-keyword
+后	I-datetime_date	I-keyword
+年	Idatetime_date	Ikeyword
+的	O	O
+新	O	O
+闻	O	O
+大后年 的 新闻
+PLAY	PLAY
+
+白	O	B-ingredient
+面	O	I-ingredient
+粉	O	Iingredient
+可	O	O
+以	O	O
+怎	O	O
+样	O	O
+做	O	O
+饼	S-ingredient	O
+？	O	O
+白 面粉 可以 怎样 做饼 ？
+QUERY	QUERY
+
+湖	B-tvchannel	B-tvchannel
+南	I-tvchannel	I-tvchannel
+卫	I-tvchannel	I-tvchannel
+视	Itvchannel	Itvchannel
+有	O	O
+什	O	O
+么	O	O
+节	O	O
+目	O	O
+湖南卫视 有 什么 节目
+QUERY	QUERY
+
+帮	O	O
+我	O	O
+查	O	O
+询	O	O
+怎	O	O
+么	O	O
+用	O	O
+因	B-keyword	B-keyword
+为	I-keyword	I-keyword
+所	I-keyword	I-keyword
+以	Ikeyword	Ikeyword
+造	O	O
+个	O	O
+句	O	O
+子	O	O
+帮 我 查询 怎么 用 因为 所以 造个 句子
+QUERY	QUERY
+
+来	O	O
+一	O	O
+首	O	O
+白	B-author	B-artist
+居	I-author	I-artist
+易	Iauthor	Iartist
+的	O	O
+长	B-name	B-category
+恨	I-name	Icategory
+歌	Iname	O
+来 一首 白居易 的 长恨歌
+QUERY	SEARCH
+
+怎	O	O
+么	O	O
+用	O	O
+豆	B-utensil	B-utensil
+浆	I-utensil	Iutensil
+机	Iutensil	O
+把	O	O
+鱼	B-ingredient	B-ingredient
+肉	Iingredient	Iingredient
+做	O	O
+成	O	O
+鱼	B-dishName	B-dishName
+丸	IdishName	IdishName
+怎么 用 豆浆机 把 鱼肉 做成 鱼丸
+QUERY	QUERY
+
+给	O	O
+胡	B-name	B-name
+克	Iname	Iname
+发	O	O
+短	O	O
+信	O	O
+给 胡克 发短信
+SEND	SEND
+
+我	O	O
+要	O	O
+查	O	O
+看	O	O
+新	O	O
+邮	O	O
+件	O	O
+，	O	O
+能	O	O
+帮	O	O
+我	O	O
+把	O	O
+邮	O	O
+箱	O	O
+打	O	O
+开	O	O
+吗	O	O
+我要 查看 新邮件 ， 能 帮 我 把 邮箱 打开 吗
+LAUNCH	LAUNCH
+
+打	O	O
+电	O	O
+话	O	O
+给	O	O
+王	B-name	B-name
+宇	I-name	I-name
+婕	Iname	Iname
+打电话 给 王宇婕
+DIAL	DIAL
+
+去	O	O
+肇	B-Dest	B-Dest
+庆	IDest	I-Dest
+市	O	IDest
+怎	O	O
+么	O	O
+坐	O	O
+车	O	O
+？	O	O
+去 肇庆市 怎么 坐车 ？
+QUERY	QUERY
+
+看	O	O
+一	O	O
+部	O	O
+小	B-category	B-category
+品	Icategory	Icategory
+吧	O	O
+看 一部 小品 吧
+QUERY	QUERY
+
+看	O	O
+东	B-name	B-name
+方	Iname	Iname
+看 东方
+QUERY	QUERY
+
+发	B-keyword	O
+烧	Ikeyword	O
+好	O	O
+吗	O	O
+？	O	O
+发烧 好 吗 ？
+QUERY	QUERY
+
+爆	O	B-category
+笑	O	I-category
+谜	B-category	I-category
+语	Icategory	Icategory
+爆笑 谜语
+QUERY	QUERY
+
+我	O	O
+要	O	O
+看	O	O
+限	B-rule	B-rule
+行	I-rule	I-rule
+规	I-rule	I-rule
+则	Irule	Irule
+我要 看限行 规则
+QUERY	QUERY
+
+打	O	O
+开	O	O
+聚	B-name	B-name
+划	I-name	I-name
+算	Iname	I-name
+网	O	I-name
+站	O	Iname
+打开 聚 划算 网站
+OPEN	OPEN
+
+给	O	O
+杨	B-name	B-name
+燕	I-name	I-name
+姐	Iname	Iname
+发	O	O
+短	O	O
+信	O	O
+给 杨燕姐 发短信
+SEND	SEND
+
+古	O	O
+诗	O	O
+长	B-name	O
+恨	I-name	O
+歌	Iname	O
+。	O	O
+古诗 长恨歌 。
+QUERY	SEARCH
+
+尾	O	O
+号	O	O
+为	O	O
+2	S-number	S-number
+的	O	O
+车	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+限	O	O
+制	O	O
+出	O	O
+行	O	O
+吗	O	O
+尾号 为 2 的 车 今天 限制 出行 吗
+QUERY	QUERY
+
+我	O	O
+想	O	O
+看	O	O
+粤	B-category	B-category
+语	Icategory	Icategory
+频	O	O
+道	O	O
+我 想 看 粤语 频道
+PLAY	PLAY
+
+关	O	O
+闭	O	O
+三	B-位置	B-位置
+楼	I位置	I位置
+的	O	O
+灯	S-灯种	S-灯种
+。	O	O
+关闭 三楼 的 灯 。
+TURN_OFF_LIGHT	TURN_OFF_LIGHT
+
+刘	S-name	S-name
+姓	O	O
+分	B-querytype	B-querytype
+布	Iquerytype	Iquerytype
+最	O	O
+广	O	O
+的	O	O
+地	O	O
+区	O	O
+刘姓 分布 最广 的 地区
+ALLINFO_FAMILY_NAMES	ALLINFO_FAMILY_NAMES
+
+打	O	O
+开	O	O
+楼	B-位置	B-位置
+梯	I位置	I-位置
+上	O	I位置
+的	O	O
+灯	S-灯种	S-灯种
+打开 楼梯 上 的 灯
+TURN_ON_LIGHT	TURN_ON_LIGHT
+
+请	O	O
+播	O	O
+放	O	O
+相	B-category	B-category
+声	Icategory	Icategory
+逗	B-name	B-name
+你	I-name	I-name
+玩	Iname	Iname
+请 播放 相声 逗你玩
+QUERY	QUERY
+
+神	B-name	B-name
+兵	I-name	I-name
+小	I-name	I-name
+将	Iname	Iname
+神兵 小将
+QUERY	QUERY
+
+可	O	O
+以	O	O
+帮	O	O
+我	O	O
+查	O	O
+看	O	O
+下	O	O
+怎	O	O
+么	O	O
+用	O	O
+如	B-keyword	B-keyword
+果	Ikeyword	Ikeyword
+造	O	O
+句	O	O
+吗	O	O
+可以 帮 我 查看 下 怎么 用 如果 造句 吗
+QUERY	QUERY
+
+今	B-content	B-content
+天	I-content	I-content
+的	I-content	I-content
+天	I-content	I-content
+气	I-content	I-content
+真	I-content	I-content
+是	I-content	I-content
+好	Icontent	Icontent
+用	O	O
+英	B-target	B-target
+语	Itarget	Itarget
+怎	O	O
+么	O	O
+说	O	O
+今天 的 天气 真是 好用 英语 怎么 说
+TRANSLATION	TRANSLATION
+
+能	O	O
+不	O	O
+能	O	O
+帮	O	O
+我	O	O
+接	O	O
+听	O	O
+中	B-name	B-name
+广	I-name	I-name
+流	I-name	I-name
+行	I-name	I-name
+网	Iname	Iname
+能 不能 帮 我 接听 中 广 流行 网
+LAUNCH	OPEN
+
+给	O	O
+张	B-name	B-name
+宁	Iname	Iname
+打	O	O
+电	O	O
+话	O	O
+给 张宁 打电话
+DIAL	DIAL
+
+明	B-startDate_date	B-startDate_date
+天	IstartDate_date	IstartDate_date
+回	O	O
+广	B-endLoc_city	B-endLoc_city
+州	IendLoc_city	IendLoc_city
+的	O	O
+航	O	O
+班	O	O
+明天 回 广州 的 航班
+QUERY	QUERY
+
+列	O	O
+举	O	O
+下	O	O
+北	B-city	B-city
+京	Icity	Icity
+的	O	O
+限	B-rule	B-rule
+行	I-rule	I-rule
+规	I-rule	I-rule
+则	Irule	Irule
+有	O	O
+哪	O	O
+些	O	O
+列举 下 北京 的 限行 规则 有 哪些
+QUERY	QUERY
+
+暴	B-keyword	B-name
+发	I-keyword	I-name
+性	I-keyword	I-name
+紫	I-keyword	I-name
+癜	Ikeyword	Iname
+暴发性 紫癜
+QUERY	SEND
+
+我	O	O
+想	O	O
+看	O	O
+下	O	O
+天	B-subfocus	B-subfocus
+气	I-subfocus	I-subfocus
+预	I-subfocus	I-subfocus
+报	Isubfocus	Isubfocus
+我 想 看 下 天气预报
+QUERY	QUERY
+
+去	O	O
+常	B-endLoc_city	B-endLoc_poi
+州	IendLoc_city	I-endLoc_poi
+武	B-endLoc_area	I-endLoc_poi
+进	I-endLoc_area	I-endLoc_poi
+县	IendLoc_area	IendLoc_poi
+路	O	O
+线	O	O
+去 常州 武进县 路线
+ROUTE	ROUTE
+
+胜	B-name	O
+者	I-name	O
+即	I-name	O
+是	I-name	O
+正	I-name	O
+义	Iname	O
+胜者 即 是 正义
+QUERY	QUERY
+
+能	O	O
+不	O	O
+能	O	O
+放	O	O
+一	O	O
+个	O	O
+儿	O	O
+童	O	O
+国	O	O
+学	O	O
+给	O	O
+我	O	O
+听	O	O
+能 不能 放 一个 儿童 国学 给 我 听
+QUERY	QUERY
+
+打	O	O
+开	O	O
+河	B-name	B-name
+南	I-name	I-name
+英	I-name	I-name
+东	Iname	I-name
+网	O	I-name
+站	O	Iname
+打开 河南 英 东 网站
+OPEN	OPEN
+
+给	O	O
+我	O	O
+看	O	O
+下	O	O
+是	O	O
+什	O	O
+么	O	O
+频	O	O
+道	O	O
+给 我 看 下 是 什么 频道
+CHANNELNAME	CHANNELNAME
+
+明	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+的	O	O
+万	O	O
+年	O	O
+历	O	O
+信	O	O
+息	O	O
+有	O	O
+吗	O	O
+明天 的 万年历 信息 有 吗
+QUERY	QUERY
+
+我	O	O
+给	O	O
+我	O	O
+念	O	O
+一	O	O
+首	O	O
+李	B-author	B-author
+白	Iauthor	Iauthor
+的	O	O
+诗	O	O
+吧	O	O
+？	O	O
+我 给 我念 一首 李白 的 诗 吧 ？
+QUERY	QUERY
+
+关	O	O
+闭	O	O
+卧	B-位置	B-位置
+室	I位置	I位置
+的	O	O
+床	B-灯种	B-灯种
+头	I-灯种	I-灯种
+灯	I灯种	I灯种
+关闭 卧室 的 床头灯
+TURN_OFF_LIGHT	TURN_OFF_LIGHT
+
+灌	B-location_area	B-location_city
+阳	I-location_area	Ilocation_city
+县	Ilocation_area	O
+位	O	O
+置	O	O
+灌阳县 位置
+POSITION	POSITION
+
+唐	S-dynasty	S-dynasty
+代	O	O
+诗	O	O
+人	O	O
+李	B-author	B-name
+白	Iauthor	Iname
+。	O	O
+唐代 诗人 李白 。
+QUERY	QUERY
+
+麻	O	O
+烦	O	O
+您	O	O
+能	O	O
+否	O	O
+帮	O	O
+我	O	O
+调	O	O
+频	O	O
+9	B-code	B-code
+7	I-code	I-code
+.	I-code	I-code
+1	Icode	Icode
+汉	B-name	B-name
+中	I-name	I-name
+音	I-name	I-name
+乐	I-name	I-name
+广	I-name	I-name
+播	I-name	I-name
+电	I-name	I-name
+台	Iname	Iname
+麻烦 您 能否 帮 我 调频 97.1 汉中 音乐 广播电台
+LAUNCH	LAUNCH
+
+啤	B-keyword	B-city
+酒	I-keyword	Icity
+肚	Ikeyword	O
+是	O	O
+形	O	O
+容	O	O
+一	O	O
+个	O	O
+人	O	O
+能	O	O
+吃	O	O
+吗	O	O
+啤酒肚 是 形容 一个 人能 吃 吗
+QUERY	QUERY
+
+点	O	O
+一	O	O
+首	O	O
+儿	O	O
+童	O	O
+国	O	O
+学	O	O
+点 一首 儿童 国学
+QUERY	QUERY
+
+可	O	O
+不	O	O
+可	O	O
+以	O	O
+搜	O	O
+一	O	O
+下	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+合	B-city	B-city
+肥	Icity	Icity
+中	B-company	B-company
+石	I-company	I-company
+化	Icompany	Icompany
+9	B-category	B-category
+5	I-category	I-category
+号	I-category	I-category
+汽	I-category	I-category
+油	Icategory	Icategory
+什	O	O
+么	O	O
+价	O	O
+位	O	O
+可不可以 搜 一下 今天 合肥 中石化 95 号 汽油 什么 价位
+QUERY	QUERY
+
+我	O	O
+要	O	O
+听	O	O
+上	O	O
+一	O	O
+个	O	O
+我要 听 上 一个
+PREVIOUS	PREVIOUS
+
+能	O	O
+不	O	O
+能	O	O
+查	O	O
+下	O	O
+合	B-city	B-city
+肥	Icity	Icity
+是	O	O
+安	B-province	B-province
+徽	Iprovince	Iprovince
+的	O	O
+吗	O	O
+能 不能 查下 合肥 是 安徽 的 吗
+CITY_QUERY_THREE	CITY_QUERY_THREE
+
+给	O	O
+我	O	O
+说	O	O
+下	O	O
+这	B-datetime_date	B-datetime_date
+个	I-datetime_date	I-datetime_date
+月	Idatetime_date	Idatetime_date
+忌	O	O
+讳	O	O
+搬	O	O
+家	O	O
+的	O	O
+日	O	O
+子	O	O
+给 我 说 下 这个 月 忌讳 搬家 的 日子
+QUERY	QUERY
+
+你	O	O
+会	O	O
+儿	O	O
+童	O	O
+国	O	O
+学	O	O
+吗	O	O
+你 会 儿童 国学 吗
+QUERY	QUERY
+
+来	O	O
+用	O	O
+无	B-keyword	B-keyword
+所	I-keyword	I-keyword
+事	I-keyword	I-keyword
+事	Ikeyword	Ikeyword
+造	O	O
+个	O	O
+句	O	O
+子	O	O
+给	O	O
+我	O	O
+听	O	O
+听	O	O
+来 用 无所事事 造个 句子 给 我 听听
+QUERY	QUERY
+
+我	O	O
+想	O	O
+听	O	O
+儿	O	O
+童	O	O
+国	O	O
+学	O	O
+我 想 听 儿童 国学
+QUERY	QUERY
+
+最	O	O
+新	O	O
+军	B-category	B-category
+事	Icategory	Icategory
+新	O	O
+闻	O	O
+最新 军事 新闻
+PLAY	PLAY
+
+挑	B-content	B-content
+逗	I-content	I-content
+你	I-content	I-content
+真	I-content	I-content
+好	I-content	I-content
+玩	I-content	I-content
+儿	Icontent	Icontent
+英	B-target	B-target
+语	Itarget	Itarget
+怎	O	O
+么	O	O
+说	O	O
+挑逗 你 真 好玩儿 英语 怎么 说
+TRANSLATION	TRANSLATION
+
+打	O	O
+开	O	O
+索	B-name	B-name
+尼	Iname	I-name
+官	O	I-name
+方	O	I-name
+网	O	I-name
+站	O	Iname
+打开 索尼 官方网站
+OPEN	OPEN
+
+查	O	O
+寻	B-name	O
+标	I-name	B-name
+兵	Iname	Iname
+的	O	O
+号	O	O
+码	O	O
+查寻 标兵 的 号码
+QUERY	QUERY
+
+常	B-location_city	B-location_city
+州	Ilocation_city	Ilocation_city
+在	O	O
+哪	O	O
+常州 在 哪
+POSITION	POSITION
+
+可	O	O
+以	O	O
+和	O	O
+我	O	O
+说	O	O
+下	O	O
+完	B-word	B-word
+美	Iword	Iword
+的	S-character	S-character
+美	O	O
+该	O	O
+怎	O	O
+么	O	O
+写	O	O
+吗	O	O
+可以 和 我 说 下 完美 的 美该 怎么 写 吗
+QUERY	QUERY
+
+空	O	O
+调	O	O
+关	B-attrValue	B-attrValue
+闭	IattrValue	IattrValue
+干	B-attr	B-attr
+燥	Iattr	Iattr
+功	O	O
+能	O	O
+空调 关闭 干燥 功能
+SET	SET
+
+不	O	O
+辣	O	O
+，	O	O
+猜	O	O
+谜	B-category	B-category
+语	Icategory	Icategory
+。	O	O
+不辣 ， 猜谜语 。
+QUERY	QUERY
+
+帮	O	O
+我	O	O
+查	O	O
+询	O	O
+一	O	O
+下	O	O
+安	B-word	B-word
+静	Iword	Iword
+的	S-character	S-character
+静	O	O
+是	O	O
+怎	O	O
+么	O	O
+写	O	O
+的	O	O
+帮 我 查询 一下 安静 的 静 是 怎么 写 的
+QUERY	QUERY
+
+阑	B-keyword	O
+尾	I-keyword	O
+炎	Ikeyword	O
+阑尾炎
+QUERY	QUERY
+
+腊	B-dishName	B-dishName
+鱼	IdishName	IdishName
+。	O	O
+腊鱼 。
+QUERY	QUERY
+
+播	O	O
+放	O	O
+非	B-name	B-name
+诚	I-name	I-name
+勿	I-name	I-name
+扰	Iname	Iname
+播放 非诚 勿扰
+QUERY	QUERY_GROUP
+
+我	O	O
+想	O	O
+看	O	O
+下	O	O
+在	O	O
+1	B-year	B-year
+9	I-year	I-year
+4	I-year	I-year
+5	Iyear	Iyear
+年	O	O
+历	O	O
+史	O	O
+上	O	O
+的	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+发	O	O
+生	O	O
+了	O	O
+哪	O	O
+些	O	O
+事	O	O
+情	O	O
+我 想 看 下 在 1945 年 历史 上 的 今天 发生 了 哪些 事情
+HISTORY_YEAR_QUERY	HISTORY_YEAR_QUERY
+
+电	B-category	B-category
+影	Icategory	Icategory
+中	B-name	B-name
+国	I-name	I-name
+合	I-name	I-name
+伙	I-name	I-name
+人	Iname	Iname
+电影 中国 合伙人
+QUERY	QUERY
+
+帮	O	O
+我	O	O
+打	O	O
+开	O	O
+步	B-name	B-name
+步	I-name	I-name
+惊	I-name	I-name
+心	Iname	Iname
+帮 我 打开 步步 惊心
+QUERY	LAUNCH
+
+给	O	O
+我	O	O
+放	O	O
+狗	S-name	B-name
+吠	O	I-name
+声	O	Iname
+给 我 放 狗吠声
+PLAY	QUERY
+
+海	B-ingredient	B-ingredient
+虾	Iingredient	Iingredient
+的	O	O
+做	O	O
+法	O	O
+。	O	O
+海虾 的 做法 。
+QUERY	QUERY
+
+车	O	O
+牌	O	O
+尾	O	O
+号	O	O
+是	O	O
+4	S-number	S-number
+的	O	O
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+不	O	O
+限	O	O
+行	O	O
+车牌 尾号 是 4 的 什么 时候 不限行
+QUERY	QUERY
+
+传	O	B-name
+简	O	I-name
+讯	O	I-name
+给	O	I-name
+家	B-name	I-name
+里	Iname	Iname
+传 简讯 给 家里
+SEND	QUERY
+
+看	O	O
+下	O	O
+儿	O	O
+童	O	O
+国	O	O
+学	O	O
+看 下 儿童 国学
+QUERY	QUERY
+
+请	O	O
+帮	O	O
+我	O	O
+调	O	O
+频	O	O
+9	B-code	B-code
+0	I-code	I-code
+.	I-code	I-code
+2	Icode	Icode
+连	B-name	B-name
+云	I-name	I-name
+港	I-name	I-name
+经	I-name	I-name
+济	I-name	I-name
+广	I-name	I-name
+播	I-name	I-name
+电	I-name	I-name
+台	Iname	Iname
+请 帮 我 调频 90.2 连云港 经济 广播电台
+LAUNCH	LAUNCH
+
+孙	B-location_area	B-location_poi
+端	I-location_area	I-location_poi
+镇	Ilocation_area	Ilocation_poi
+的	O	O
+活	B-location_poi	B-location_poi
+动	I-location_poi	I-location_poi
+中	I-location_poi	I-location_poi
+心	Ilocation_poi	Ilocation_poi
+在	O	O
+哪	O	O
+个	O	O
+位	O	O
+置	O	O
+孙端 镇 的 活动中心 在 哪个 位置
+POSITION	POSITION
+
+湖	B-tvchannel	B-tvchannel
+南	I-tvchannel	I-tvchannel
+卫	I-tvchannel	I-tvchannel
+视	Itvchannel	Itvchannel
+明	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+播	O	O
+什	O	O
+么	O	O
+节	O	O
+目	O	O
+湖南卫视 明天 播 什么 节目
+QUERY	QUERY
+
+到	O	O
+鼓	B-endLoc_poi	B-endLoc_poi
+楼	IendLoc_poi	IendLoc_poi
+怎	O	O
+么	O	O
+走	O	O
+到 鼓楼 怎么 走
+ROUTE	ROUTE
+
+看	O	O
+一	O	O
+下	O	O
+短	O	O
+信	O	O
+消	O	O
+息	O	O
+看 一下 短信 消息
+VIEW	VIEW
+
+给	O	O
+我	O	O
+听	O	O
+听	O	O
+儿	O	O
+童	O	O
+国	O	O
+学	O	O
+给 我 听听 儿童 国学
+QUERY	QUERY
+
+打	O	O
+电	O	O
+话	O	O
+给	O	O
+吴	B-name	B-name
+荣	I-name	I-name
+因	Iname	Iname
+打电话 给 吴荣 因
+DIAL	DIAL
+
+有	O	O
+哪	O	O
+些	O	O
+淮	B-keyword	B-keyword
+扬	I-keyword	I-keyword
+菜	Ikeyword	Ikeyword
+？	O	O
+有 哪些 淮扬菜 ？
+QUERY	QUERY
+
+康	B-name	B-name
+师	I-name	I-name
+傅	Iname	Iname
+的	O	O
+股	O	O
+票	O	O
+涨	O	O
+了	O	O
+几	O	O
+成	O	O
+康师傅 的 股票 涨 了 几成
+RISERATE_QUERY	RISERATE_QUERY
+
+你	O	O
+可	O	O
+以	O	O
+讲	O	O
+下	O	O
+1	B-year	B-year
+9	I-year	I-year
+4	I-year	I-year
+5	Iyear	Iyear
+年	O	O
+历	O	O
+史	O	O
+上	O	O
+的	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+的	O	O
+大	O	O
+事	O	O
+件	O	O
+吗	O	O
+你 可以 讲下 1945 年 历史 上 的 今天 的 大 事件 吗
+HISTORY_YEAR_QUERY	HISTORY_YEAR_QUERY
+
+有	O	O
+没	O	O
+有	O	O
+麻	B-name	B-name
+雀	Iname	Iname
+的	O	O
+叫	O	O
+声	O	O
+放	O	O
+一	O	O
+下	O	O
+有没有 麻雀 的 叫声 放 一下
+PLAY	PLAY
+
+江	B-province	B-province
+苏	Iprovince	Iprovince
+的	O	O
+嘞	O	O
+江苏 的 嘞
+MOREPROVINCE_QUERY	MOREPROVINCE_QUERY
+
+x	B-name	B-name
+战	I-name	I-name
+警	Iname	Iname
+第	B-season	B-season
+一	I-season	I-season
+部	Iseason	Iseason
+x 战警 第一部
+QUERY	QUERY
+
+那	O	O
+就	O	O
+看	O	O
+电	O	O
+视	O	O
+吧	O	O
+那 就 看电视 吧
+LIVE	LIVE
+
+几	O	O
+斤	S-srcUnit	S-srcUnit
+是	O	O
+1	S-srcNumber	S-srcNumber
+磅	S-destUnit	S-destUnit
+啊	O	O
+几斤 是 1 磅 啊
+CONVERSION_HOW	CONVERSION_HOW
+
+来	O	O
+首	O	O
+李	B-author	B-author
+白	Iauthor	Iauthor
+的	O	O
+诗	O	O
+集	O	O
+。	O	O
+来首 李白 的 诗集 。
+QUERY	QUERY
+
+鸡	S-name	S-name
+是	O	O
+怎	O	O
+么	O	O
+叫	O	O
+的	O	O
+鸡 是 怎么 叫 的
+PLAY	PLAY
+
+拨	O	O
+号	O	O
+曹	B-name	B-name
+兴	I-name	Iname
+发	Iname	O
+拨号 曹 兴发
+DIAL	QUERY
+
+去	O	O
+网	O	O
+上	O	O
+搜	O	O
+索	O	O
+兰	B-name	B-name
+陵	I-name	I-name
+王	Iname	Iname
+。	O	O
+去 网上 搜索 兰陵王 。
+QUERY	QUERY
+
+给	O	O
+刘	B-name	B-name
+三	Iname	Iname
+发	O	O
+短	O	O
+信	O	O
+说	O	O
+我	B-content	B-content
+今	I-content	I-content
+天	I-content	I-content
+没	I-content	I-content
+有	I-content	I-content
+空	Icontent	I-content
+给 刘三 发短信 说 我 今天 没有 空
+SEND	SEND
+
+漂	B-word	B-word
+亮	Iword	Iword
+的	S-character	S-character
+漂	O	O
+一	O	O
+共	O	O
+有	O	O
+多	O	O
+少	O	O
+笔	O	O
+画	O	O
+漂亮 的 漂 一共 有 多少 笔画
+QUERY	QUERY
+
+查	O	O
+看	O	O
+才	B-name	B-name
+志	I-name	I-name
+华	Iname	Iname
+的	O	O
+号	O	O
+码	O	O
+查看 才志华 的 号码
+QUERY	QUERY
+
+下	O	O
+载	O	O
+一	O	O
+个	O	O
+软	O	O
+件	O	O
+，	O	O
+美	B-name	B-name
+图	I-name	I-name
+秀	I-name	I-name
+秀	Iname	Iname
+。	O	O
+下载 一个 软件 ， 美图秀 秀 。
+DOWNLOAD	DOWNLOAD
+
+我	O	O
+梦	O	O
+到	O	O
+了	O	O
+老	B-keyword	B-keyword
+虎	Ikeyword	Ikeyword
+有	O	O
+什	O	O
+么	O	O
+寓	O	O
+意	O	O
+我梦到 了 老虎 有 什么 寓意
+QUERY	QUERY
+
+羞	B-film	B-film
+羞	I-film	I-film
+的	I-film	I-film
+铁	I-film	I-film
+拳	Ifilm	Ifilm
+评	O	O
+分	O	O
+高	O	O
+不	O	O
+高	O	O
+羞羞 的 铁拳 评分 高不高
+SCORE_QUERY	SCORE_QUERY
+
+怎	O	O
+么	O	O
+治	O	O
+疗	O	O
+牛	B-keyword	B-keyword
+皮	I-keyword	I-keyword
+癣	Ikeyword	Ikeyword
+怎么 治疗 牛皮癣
+QUERY	QUERY
+
+怎	O	O
+么	O	O
+用	O	O
+铁	O	B-utensil
+锅	O	Iutensil
+做	O	O
+经	O	B-keyword
+典	O	Ikeyword
+的	O	O
+东	B-keyword	B-keyword
+北	I-keyword	I-keyword
+菜	Ikeyword	I-keyword
+铁	B-dishName	I-keyword
+锅	I-dishName	I-keyword
+炖	IdishName	Ikeyword
+怎么 用 铁锅 做 经典 的 东北菜 铁锅 炖
+QUERY	QUERY
+
+关	B-attrValue	B-attrValue
+上	IattrValue	IattrValue
+空	O	O
+调	O	O
+关上 空调
+SET	SET
+
+那	O	O
+广	B-province	B-province
+东	Iprovince	Iprovince
+呢	O	O
+那 广东 呢
+MOREPROVINCE_QUERY	MOREPROVINCE_QUERY
+
+明	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+去	O	O
+上	B-city	B-city
+海	Icity	Icity
+需	O	O
+要	O	O
+带	O	O
+口	B-subfocus	B-subfocus
+罩	Isubfocus	Isubfocus
+吗	O	O
+明天 去 上海 需要 带 口罩 吗
+QUERY	QUERY
+
+北	B-city	B-city
+京	Icity	Icity
+有	O	O
+哪	O	O
+些	O	O
+限	O	O
+行	O	O
+号	O	O
+码	O	O
+北京 有 哪些 限行 号码
+QUERY	QUERY
+
+每	S-repeat	S-repeat
+周	B-datetime_date	B-datetime_date
+四	Idatetime_date	Idatetime_date
+晚	B-datetime_time	B-datetime_time
+上	I-datetime_time	I-datetime_time
+八	I-datetime_time	I-datetime_time
+点	Idatetime_time	Idatetime_time
+关	B-attrValue	B-attrValue
+闭	IattrValue	IattrValue
+办	B-region	S-region
+公	I-region	Iregion
+室	Iregion	B-zone
+四	B-zone	Izone
+楼	Izone	Iroom
+空	O	O
+调	O	O
+每周 四 晚上 八点 关闭 办公室 四楼 空调
+SET	SET
+
+解	O	O
+答	O	O
+一	O	O
+下	O	O
+梦	O	O
+见	O	O
+自	B-keyword	B-keyword
+己	I-keyword	I-keyword
+被	I-keyword	I-keyword
+追	I-keyword	I-keyword
+杀	Ikeyword	Ikeyword
+的	O	O
+梦	O	O
+境	O	O
+解答 一下 梦见 自己 被 追杀 的 梦境
+QUERY	QUERY
+
+茶	S-content	S-content
+用	O	O
+英	B-target	B-target
+语	Itarget	Itarget
+怎	O	O
+么	O	O
+说	O	O
+呀	O	O
+茶用 英语 怎么 说 呀
+TRANSLATION	TRANSLATION
+
+告	O	O
+诉	O	O
+我	O	O
+梦	O	O
+到	O	O
+死	B-keyword	B-keyword
+人	Ikeyword	Ikeyword
+会	O	O
+怎	O	O
+样	O	O
+告诉 我梦到 死 人会 怎样
+QUERY	QUERY
+
+懒	B-keyword	B-keyword
+惰	Ikeyword	Ikeyword
+是	O	O
+什	O	O
+么	O	O
+意	O	O
+思	O	O
+懒惰 是 什么 意思
+QUERY	QUERY
+
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+太	O	B-subfocus
+阳	O	I-subfocus
+晒	S-subfocus	Isubfocus
+吗	O	O
+今天 太阳 晒 吗
+QUERY	QUERY
+
+给	O	O
+蛋	B-dishName	B-dishName
+炒	I-dishName	I-dishName
+饭	IdishName	IdishName
+怎	O	O
+么	O	O
+做	O	O
+？	O	O
+给 蛋炒饭 怎么 做 ？
+QUERY	QUERY
+
+鸡	S-ingredient	S-ingredient
+怎	O	O
+么	O	O
+做	O	O
+才	O	O
+好	O	O
+吃	O	O
+？	O	O
+鸡 怎么 做 才 好吃 ？
+QUERY	QUERY
+
+能	O	O
+不	O	O
+能	O	O
+告	O	O
+诉	O	O
+我	O	O
+羞	B-film	B-film
+羞	I-film	I-film
+的	I-film	I-film
+铁	I-film	I-film
+拳	Ifilm	Ifilm
+这	O	O
+部	O	O
+电	O	O
+影	O	O
+说	O	O
+的	O	O
+是	O	O
+什	O	O
+么	O	O
+能 不能 告诉 我 羞羞 的 铁拳 这部 电影 说 的 是 什么
+DESCRIPTION_QUERY	DESCRIPTION_QUERY
+
+我	B-content	B-content
+要	I-content	I-content
+和	I-content	I-content
+妹	I-content	I-content
+妹	I-content	I-content
+睡	I-content	I-content
+觉	Icontent	Icontent
+英	B-target	B-target
+语	Itarget	Itarget
+怎	O	O
+么	O	O
+说	O	O
+我要 和 妹妹 睡觉 英语 怎么 说
+TRANSLATION	TRANSLATION
+
+给	O	O
+石	B-name	B-name
+荣	I-name	I-name
+福	Iname	Iname
+发	O	O
+短	O	O
+信	O	O
+给 石荣福 发短信
+SEND	SEND
+
+类	B-keyword	B-keyword
+风	I-keyword	I-keyword
+湿	Ikeyword	Ikeyword
+怎	O	O
+么	O	O
+治	O	O
+？	O	O
+类风湿 怎么 治 ？
+QUERY	QUERY
+
+1	S-srcNumber	S-srcNumber
+千	B-srcUnit	B-srcUnit
+克	IsrcUnit	IsrcUnit
+能	O	O
+换	O	O
+算	O	O
+成	O	O
+多	O	O
+少	O	S-destUnit
+斤	S-destUnit	O
+1 千克 能 换算 成 多少 斤
+CONVERSION_WITH_NUMBER	CONVERSION_WITH_NUMBER
+
+我	O	O
+想	O	O
+了	O	O
+解	O	O
+下	O	O
+历	O	O
+史	O	O
+上	O	O
+4	B-datetime_date	B-datetime_date
+月	I-datetime_date	I-datetime_date
+1	I-datetime_date	I-datetime_date
+日	Idatetime_date	Idatetime_date
+发	O	O
+生	O	O
+的	O	O
+事	O	O
+件	O	O
+我 想 了解 下 历史 上 4 月 1 日 发生 的 事件
+HISTORY_DATE_QUERY	HISTORY_DATE_QUERY
+
+找	O	O
+一	O	O
+下	O	O
+詹	B-artist	B-artist
+姆	I-artist	I-artist
+斯	I-artist	Iartist
+卡	I-artist	B-artistRole
+梅	I-artist	IartistRole
+隆	Iartist	B-artistRole
+拍	O	IartistRole
+的	O	O
+电	B-category	B-category
+影	Icategory	Icategory
+找 一下 詹姆斯 卡梅隆 拍 的 电影
+QUERY	QUERY
+
+给	O	O
+我	O	O
+说	O	O
+下	O	O
+今	B-datetime_date	B-datetime_date
+日	Idatetime_date	Idatetime_date
+油	O	O
+价	O	O
+调	O	O
+整	O	O
+信	O	O
+息	O	O
+给 我 说 下 今日 油价 调整 信息
+WAVE_QUERY	WAVE_QUERY
+
+给	O	O
+黄	B-name	B-name
+杠	Iname	Iname
+发	O	O
+短	O	O
+信	O	O
+给 黄杠 发短信
+SEND	SEND
+
+你	O	O
+和	O	O
+我	O	O
+说	O	O
+说	O	O
+1	B-year	B-year
+9	I-year	I-year
+4	I-year	I-year
+5	Iyear	Iyear
+年	O	O
+历	O	O
+史	O	O
+上	O	O
+的	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+的	O	O
+大	O	O
+事	O	O
+件	O	O
+你 和 我 说 说 1945 年 历史 上 的 今天 的 大 事件
+HISTORY_YEAR_QUERY	HISTORY_YEAR_QUERY
+
+将	O	O
+空	O	O
+调	O	O
+模	O	O
+式	O	O
+设	O	O
+为	O	O
+送	B-attr	B-attr
+风	Iattr	Iattr
+将 空调 模式 设 为 送风
+SET	SET
+
+新	O	O
+建	O	O
+联	O	O
+系	O	O
+人	O	O
+张	B-name	B-name
+雨	Iname	Iname
+号	O	O
+码	O	O
+是	O	O
+五	B-code	B-code
+六	I-code	I-code
+七	Icode	Icode
+新建 联系人 张雨 号码 是 五 六七
+CREATE	CREATE
+
+央	B-tvchannel	B-tvchannel
+视	I-tvchannel	I-tvchannel
+少	I-tvchannel	I-tvchannel
+儿	I-tvchannel	I-tvchannel
+频	I-tvchannel	I-tvchannel
+道	Itvchannel	Itvchannel
+的	O	O
+节	O	O
+目	O	O
+的	O	O
+央视 少儿 频道 的 节目 的
+QUERY	QUERY
+
+上	B-city	B-city
+海	I-city	I-city
+市	Icity	Icity
+的	O	O
+限	B-rule	B-rule
+行	I-rule	I-rule
+规	I-rule	I-rule
+则	Irule	Irule
+是	O	O
+什	O	O
+么	O	O
+上海市 的 限行 规则 是 什么
+QUERY	QUERY
+
+看	O	O
+看	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+的	O	O
+万	O	O
+年	O	O
+历	O	O
+看看 今天 的 万年历
+QUERY	QUERY
+
+《	O	O
+武	B-name	B-name
+动	I-name	I-name
+乾	I-name	I-name
+坤	Iname	Iname
+》	O	O
+《 武动 乾坤 》
+QUERY	QUERY
+
+耳	B-keyword	B-keyword
+鸣	Ikeyword	Ikeyword
+怎	O	O
+么	O	O
+办	O	O
+耳鸣 怎么办
+QUERY	QUERY
+
+给	O	O
+查	B-name	O
+乐	Iname	O
+发	O	O
+短	O	O
+信	O	O
+给 查乐 发短信
+SEND	SEND
+
+为	O	O
+什	O	O
+么	O	O
+做	O	O
+梦	O	O
+总	O	O
+梦	O	O
+到	O	O
+蛇	S-keyword	S-keyword
+为什么 做梦 总梦到 蛇
+QUERY	QUERY
+
+查	O	O
+询	O	O
+安	B-word	B-word
+静	Iword	Iword
+的	S-character	S-character
+静	O	O
+是	O	O
+怎	O	O
+么	O	O
+写	O	O
+的	O	O
+查询 安静 的 静 是 怎么 写 的
+QUERY	QUERY
+
+梦	O	O
+见	O	O
+跳	B-keyword	B-keyword
+楼	Ikeyword	Ikeyword
+梦见 跳楼
+QUERY	QUERY
+
+帮	O	O
+我	O	O
+答	O	O
+复	O	O
+这	O	O
+个	O	O
+邮	O	O
+件	O	O
+帮 我 答复 这个 邮件
+REPLY	REPLY
+
+我	O	O
+要	O	O
+听	O	O
+唐	O	S-dynasty
+诗	O	O
+咯	O	O
+我要 听 唐诗 咯
+DEFAULT	QUERY
+
+杭	B-startLoc_city	B-startLoc_city
+州	IstartLoc_city	IstartLoc_city
+到	O	O
+北	B-endLoc_city	B-endLoc_city
+京	IendLoc_city	IendLoc_city
+的	O	O
+火	O	O
+车	O	O
+班	O	O
+次	O	O
+杭州 到 北京 的 火车 班次
+QUERY	QUERY
+
+客	B-位置	B-位置
+房	I位置	I位置
+的	O	O
+床	B-灯种	B-灯种
+头	I-灯种	I-灯种
+灯	I灯种	I灯种
+关	O	O
+了	O	O
+客房 的 床头灯 关 了
+TURN_OFF_LIGHT	TURN_OFF_LIGHT
+
+帮	O	O
+我	O	O
+查	O	O
+下	O	O
+下	B-datetime_date	B-datetime_date
+周	Idatetime_date	I-datetime_date
+演	O	Idatetime_date
+新	B-name	B-name
+闻	I-name	I-name
+联	I-name	I-name
+播	Iname	Iname
+帮 我 查下 下周 演 新闻联播
+QUERY	QUERY
+
+可	O	O
+以	O	O
+帮	O	O
+我	O	O
+跳	O	O
+转	O	O
+到	O	O
+上	O	O
+一	O	O
+个	O	O
+频	O	O
+道	O	O
+吗	O	O
+可以 帮 我 跳转 到 上 一个 频道 吗
+PREVIOUSCHANNEL	PREVIOUSCHANNEL
+
+看	O	O
+一	O	O
+下	O	O
+唐	B-tags	S-dynasty
+诗	Itags	O
+看 一下 唐诗
+QUERY_GROUP	QUERY
+
+说	O	O
+下	O	O
+词	O	O
+语	O	O
+高	B-keyword	B-keyword
+兴	Ikeyword	Ikeyword
+的	O	O
+意	O	O
+思	O	O
+说 下 词语 高兴 的 意思
+QUERY	QUERY
+
+听	O	O
+个	O	O
+苗	B-actor	B-actor
+阜	I-actor	I-actor
+王	I-actor	I-actor
+声	Iactor	Iactor
+表	O	B-actor
+演	O	Iactor
+的	O	O
+满	B-name	B-name
+腹	I-name	I-name
+经	I-name	I-name
+纶	Iname	Iname
+听个 苗阜 王声 表演 的 满腹经纶
+QUERY	QUERY
+
+那	O	O
+就	O	O
+来	O	O
+一	O	O
+首	O	O
+李	B-author	B-author
+白	Iauthor	Iauthor
+的	O	O
+诗	O	O
+词	O	O
+吗	O	O
+？	O	O
+那 就 来 一首 李白 的 诗词 吗 ？
+QUERY	QUERY
+
+合	B-city	B-city
+肥	Icity	Icity
+是	O	O
+安	B-province	B-province
+徽	I-province	I-province
+省	Iprovince	Iprovince
+内	O	O
+的	O	O
+一	O	O
+个	O	O
+城	O	O
+市	O	O
+吧	O	O
+合肥 是 安徽省 内 的 一个 城市 吧
+CITY_QUERY_THREE	CITY_QUERY_THREE
+
+帮	O	O
+我	O	O
+查	O	O
+一	O	O
+下	O	O
+红	B-dishName	B-dishName
+烧	I-dishName	I-dishName
+肉	IdishName	IdishName
+的	O	O
+做	O	O
+法	O	O
+帮 我查 一下 红烧肉 的 做法
+QUERY	QUERY
+
+我	O	O
+要	O	O
+看	O	O
+最	B-keyword	B-actor
+新	Ikeyword	Iactor
+的	O	O
+小	B-category	B-category
+品	Icategory	Icategory
+我要 看 最新 的 小品
+QUERY	QUERY
+
+发	O	O
+短	O	O
+信	O	O
+方	B-name	B-name
+钰	I-name	I-name
+玲	Iname	Iname
+发短信 方钰玲
+SEND	SEND
+
+怎	O	O
+么	O	O
+做	O	O
+冰	B-dishName	B-dishName
+激	I-dishName	I-dishName
+凌	IdishName	IdishName
+？	O	O
+怎么 做 冰激凌 ？
+QUERY	QUERY
+
+我	O	O
+想	O	O
+知	O	O
+道	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+的	O	O
+万	O	O
+年	O	O
+历	O	O
+情	O	O
+况	O	O
+我 想 知道 今天 的 万年历 情况
+QUERY	QUERY
+
+青	B-tvchannel	B-tvchannel
+海	I-tvchannel	I-tvchannel
+卫	I-tvchannel	I-tvchannel
+视	Itvchannel	Itvchannel
+频	O	O
+道	O	O
+的	O	O
+节	O	O
+目	O	O
+单	O	O
+青海 卫视 频道 的 节目单
+QUERY	QUERY
+
+怎	O	O
+么	O	O
+用	O	O
+因	B-keyword	B-keyword
+为	I-keyword	I-keyword
+所	I-keyword	I-keyword
+以	Ikeyword	Ikeyword
+造	O	O
+个	O	O
+句	O	O
+子	O	O
+怎么 用 因为 所以 造个 句子
+QUERY	QUERY
+
+学	O	B-name
+狗	S-name	Iname
+叫	O	O
+学 狗叫
+PLAY	PLAY
+
+哪	O	O
+些	O	O
+城	O	O
+市	O	O
+是	O	O
+安	B-province	B-province
+徽	I-province	I-province
+省	Iprovince	Iprovince
+内	O	O
+的	O	O
+你	O	O
+知	O	O
+道	O	O
+吗	O	O
+哪些 城市 是 安徽省 内 的 你 知道 吗
+CITY_QUERY_ONE	CITY_QUERY_ONE
+
+热	B-tag	B-tag
+血	Itag	Itag
+动	B-category	B-category
+漫	Icategory	Icategory
+热血 动漫
+QUERY	QUERY
+
+来	O	O
+个	O	O
+相	B-category	B-category
+声	Icategory	Icategory
+段	O	B-name
+子	O	Iname
+来个 相声 段子
+QUERY	QUERY
+
+糖	B-dishName	B-dishName
+醋	I-dishName	I-dishName
+排	I-dishName	I-dishName
+骨	IdishName	IdishName
+怎	O	O
+么	O	O
+做	O	O
+？	O	O
+好	O	O
+了	O	O
+额	O	O
+，	O	O
+你	O	O
+。	O	O
+糖醋排骨 怎么 做 ？ 好 了 额 ， 你 。
+QUERY	QUERY
+
+西	B-dishName	B-dishName
+红	I-dishName	I-dishName
+柿	I-dishName	I-dishName
+炒	I-dishName	I-dishName
+鸡	I-dishName	I-dishName
+蛋	IdishName	IdishName
+做	O	O
+法	O	O
+。	O	O
+西红柿 炒鸡蛋 做法 。
+QUERY	QUERY
+
+上	B-startLoc_city	B-startLoc_city
+海	IstartLoc_city	IstartLoc_city
+到	O	O
+苏	B-endLoc_city	B-endLoc_city
+州	IendLoc_city	IendLoc_city
+上海 到 苏州
+ROUTE	QUERY
+
+请	O	O
+帮	O	O
+我	O	O
+打	O	O
+开	O	O
+电	B-category	B-category
+影	Icategory	Icategory
+请 帮 我 打开 电影
+QUERY	QUERY
+
+我	O	O
+想	O	O
+了	O	O
+解	O	O
+怎	O	O
+么	O	O
+用	O	O
+因	B-keyword	B-keyword
+为	I-keyword	I-keyword
+所	I-keyword	I-keyword
+以	Ikeyword	Ikeyword
+这	O	O
+个	O	O
+关	O	O
+联	O	O
+词	O	O
+造	O	O
+句	O	O
+我 想 了解 怎么 用 因为 所以 这个 关联词 造句
+QUERY	QUERY
+
+都	O	O
+有	O	O
+哪	O	O
+些	O	O
+英	B-category	B-category
+文	Icategory	Icategory
+歌	O	O
+曲	O	O
+？	O	O
+都 有 哪些 英文歌曲 ？
+SEARCH	SEARCH
+
+给	O	O
+熊	B-name	B-name
+媛	I-name	I-name
+媛	Iname	Iname
+打	O	O
+电	O	O
+话	O	O
+给 熊媛媛 打电话
+DIAL	DIAL
+
+播	O	O
+放	O	O
+落	B-name	B-name
+日	Iname	I-name
+批	O	I-name
+示	O	Iname
+播放 落日 批示
+QUERY	PLAY
+
+客	B-room	B-room
+厅	Iroom	Iroom
+空	O	O
+调	O	O
+网	O	O
+关	O	O
+中	B-attrValue	B-attrValue
+风	IattrValue	IattrValue
+客厅 空调网 关中 风
+SET	SET
+
+历	O	O
+史	O	O
+上	O	O
+4	B-datetime_date	B-datetime_date
+月	I-datetime_date	I-datetime_date
+1	I-datetime_date	I-datetime_date
+日	Idatetime_date	Idatetime_date
+那	O	O
+天	O	O
+有	O	O
+哪	O	O
+些	O	O
+重	O	O
+大	O	O
+事	O	O
+件	O	O
+历史 上 4 月 1 日 那天 有 哪些 重大事件
+HISTORY_DATE_QUERY	HISTORY_DATE_QUERY
+
+重	O	B-tvchannel
+新	O	I-tvchannel
+回	O	O
+放	O	O
+今	B-datetime_date	B-datetime_date
+天	Idatetime_date	Idatetime_date
+中	B-datetime_time	B-datetime_time
+午	Idatetime_time	I-datetime_time
+芒	B-tvchannel	Idatetime_time
+果	I-tvchannel	B-datetime_time
+台	Itvchannel	Idatetime_time
+的	O	O
+电	O	B-category
+视	O	I-category
+剧	O	Icategory
+重新 回放 今天 中午 芒果 台 的 电视剧
+LOOK_BACK	LOOK_BACK
+
+搜	O	O
+索	O	O
+声	B-name	O
+控	I-name	B-name
+安	I-name	I-name
+卓	Iname	Iname
+软	O	O
+件	O	O
+搜索 声控 安卓 软件
+QUERY	QUERY
+
+我	O	O
+要	O	O
+听	O	O
+陈	B-actor	B-actor
+佩	I-actor	I-actor
+斯	Iactor	Iactor
+的	O	O
+宇	B-name	B-name
+宙	I-name	I-name
+体	I-name	I-name
+操	I-name	I-name
+选	I-name	I-name
+拔	I-name	I-name
+赛	Iname	Iname
+我要 听 陈佩斯 的 宇宙 体操 选拔赛
+QUERY	QUERY
+
+湖	B-province	B-province
+北	Iprovince	Iprovince
+的	O	O
+省	O	O
+会	O	O
+是	O	O
+什	O	O
+么	O	O
+湖北 的 省会 是 什么
+CITY_QUERY	CITY_QUERY
+

@@ -1,0 +1,867 @@
+我
+真
+爱
+听
+演
+唱
+。
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+我 真爱 听 演唱 。
+Chat	PlayMusic
+
+放
+学
+别
+走
+放
+学
+别
+走
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+放学 别 走放 学别 走
+Chat	PlayMusic
+
+现
+在
+多
+少
+时
+间
+了
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+现在 多少 时间 了
+GetDate	PlayMusic
+
+讲
+西
+游
+记
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+讲西 游记
+PlayFMFiction	PlayFMStory
+
+我
+想
+听
+吹
+牛
+大
+王
+历
+险
+记
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+我 想 听 吹牛 大王 历 险记
+PlayMusic	PlayFMStory
+
+李
+白
+的
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+李白 的
+PlayPoem	PlayMusic
+
+播
+放
+卡
+酷
+幼
+儿
+园
+的
+白
+雪
+皇
+后
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+播放 卡酷 幼儿园 的 白雪皇 后
+PlayFMStory	PlayMusic
+
+e
+a
+s
+y
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+easy
+Chat	PlayMusic
+
+换
+首
+八
+连
+杀
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+换 首八 连杀
+PlayMusic	ControlSystem
+
+那
+吾
+克
+热
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+那 吾克热
+AskKnowledge	PlayMusic
+
+铠
+甲
+勇
+士
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+铠甲 勇士
+PlayMusic	PlayFMStory
+
+播
+放
+琵
+琶
+行
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+播放 琵琶 行
+PlayPoem	PlayMusic
+
+满
+江
+红
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+满江红
+PlayPoem	PlayMusic
+
+播
+放
+情
+深
+深
+雨
+蒙
+蒙
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+播放情 深深 雨 蒙蒙
+PlayMusic	PlayFMFiction
+
+十
+分
+钟
+后
+播
+放
+周
+杰
+伦
+的
+歌
+<PAD>
+<PAD>
+十 分钟 后 播放 周杰伦 的 歌
+Remind	PlayMusic
+
+给
+他
+听
+，
+我
+。
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+给 他 听 ， 我 。
+Chat	PlayMusic
+
+请
+播
+放
+黑
+猫
+警
+长
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+请 播放 黑猫 警长
+PlayMusic	PlayFMStory
+
+害
+我
+想
+唱
+每
+当
+我
+走
+过
+老
+师
+的
+窗
+前
+。
+<PAD>
+<PAD>
+害 我 想 唱 每当 我 走过 老师 的 窗前 。
+Sing	PlayMusic
+
+客
+厅
+灯
+打
+开
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+客厅灯 打开
+ControlSystem	PlayMusic
+
+那
+你
+打
+个
+，
+孤
+独
+给
+我
+听
+。
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+那 你 打 个 ， 孤独 给 我 听 。
+Chat	PlayMusic
+
+播
+放
+睡
+前
+西
+游
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+播放 睡 前 西游
+PlayFMStory	PlayMusic
+
+我
+要
+听
+加
+油
+妈
+妈
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+我 要 听 加油 妈妈
+PlayFMStory	PlayMusic
+
+播
+放
+三
+国
+演
+义
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+播放 三国演义
+PlayFMFiction	PlayFMStory
+
+传
+说
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+传说
+PlayMusic	PlayFMFiction
+
+侏
+罗
+纪
+世
+界
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+侏罗 纪世界
+PlayMusic	PlayFMStory
+
+不
+是
+你
+放
+的
+歌
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+不 是 你 放 的 歌
+Chat	PlayMusic
+
+我
+想
+听
+读
+者
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+我 想 听 读者
+PlayMusic	PlayFMStory
+
+夜
+～
+夜
+～
+夜
+夜
+笙
+歌
+<PAD>
+<PAD>
+<PAD>
+夜 ～ 夜 ～ 夜夜 笙歌
+Chat	PlayFMStory
+
+我
+想
+听
+红
+楼
+梦
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+我 想 听 红楼梦
+PlayFMFiction	PlayMusic
+
+扫
+地
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+扫地
+Chat	PlayMusic
+
+你
+休
+眠
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+你 休眠
+ControlSystem	Chat
+
+我
+要
+听
+伊
+索
+寓
+言
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+我 要 听 伊索 寓言
+PlayFMStory	PlayMusic
+
+e
+m
+m
+a
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+emma
+Chat	PlayMusic
+
+听
+书
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+听书
+PlayFMFiction	PlayMusic
+
+我
+想
+听
+白
+雪
+公
+主
+<PAD>
+<PAD>
+<PAD>
+我 想 听 白雪 公主
+PlayFMStory	PlayMusic
+
+听
+恶
+人
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+听 恶人
+Chat	PlayMusic
+
+二
+十
+分
+钟
+后
+停
+止
+播
+放
+<PAD>
+二十 分钟 后 停止 播放
+ControlSystem	Remind
+
+播
+放
+段
+子
+来
+了
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+播放 段子 来 了
+PlayFMJoke	PlayMusic
+
+我
+怎
+么
+这
+么
+好
+看
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+我 怎么 这么 好看
+PlayMusic	Chat
+
+不
+是
+那
+个
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+不 是 那个
+ControlSystem	Chat
+
+三
+十
+分
+钟
+后
+关
+闭
+音
+乐
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+三十 分钟 后 关闭 音乐
+ControlSystem	Remind
+
+白
+月
+光
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+白月光
+PlayFMStory	PlayMusic
+
+来
+一
+首
+李
+白
+的
+诗
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+来 一 首 李白 的 诗
+PlayPoem	PlayMusic
+
+播
+放
+的
+陨
+落
+的
+天
+才
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+播放 的 陨落 的 天才
+PlayFMFiction	PlayMusic
+
+播
+放
+采
+蘑
+菇
+的
+小
+姑
+娘
+<PAD>
+<PAD>
+播放采 蘑菇 的 小姑娘
+PlayMusic	PlayFMStory
+
+我
+想
+听
+小
+猪
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+我 想 听 小猪
+PlayFMStory	PlayMusic
+
+播
+放
+海
+绵
+宝
+宝
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+播放 海绵 宝宝
+PlayMusic	PlayFMStory
+
+今
+天
+的
+热
+点
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+今天 的 热点
+GetNews	GetWeather
+
+我
+想
+听
+我
+的
+世
+界
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+我 想 听 我 的 世界
+PlayFMStory	PlayMusic
+

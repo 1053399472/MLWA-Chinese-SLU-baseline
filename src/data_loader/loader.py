@@ -538,7 +538,10 @@ class DatasetManager(object):
                     if len(word) != 0:
                         word_text.append(word)
                         align_info.append(len(word))
-                    assert len(char_text) == sum(align_info)
+                    try:
+                        assert len(char_text) == sum(align_info)
+                    except:
+                        print("数据未对齐")
                     char_texts.append(char_text)
                     word_texts.append(word_text)
                     align_infos.append(align_info)
@@ -554,6 +557,8 @@ class DatasetManager(object):
                     if len(char_text) >= max_char_seq_len:
                         continue
                     char_text.append(char)
+                    if slot_tag.split('-')[0] == 'E':
+                        slot_tag = 'I' + slot_tag.split('-')[1]
                     slot.append(slot_tag)
                     if len(items) == 2:
                         word_text.append(char)

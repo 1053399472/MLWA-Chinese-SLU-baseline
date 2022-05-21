@@ -1,0 +1,296 @@
+播
+放
+断
+点
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+播放 断点
+PLAY	QUERY
+
+帮
+我
+找
+一
+首
+我
+的
+好
+兄
+弟
+<PAD>
+<PAD>
+帮 我 找 一首 我 的 好 兄弟
+SEARCH	QUERY
+
+B
+T
+V
+生
+活
+节
+目
+选
+择
+回
+放
+<PAD>
+BTV 生活 节目 选择 回放
+LOOK_BACK	QUERY
+
+北
+京
+财
+经
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+北京 财经
+PLAY	QUERY
+
+全
+部
+应
+答
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+全部 应答
+REPLAY_ALL	QUERY
+
+上
+一
+期
+双
+色
+球
+开
+什
+么
+<PAD>
+<PAD>
+<PAD>
+上 一期 双色球 开 什么
+NUMBER_QUERY	QUERY
+
+来
+一
+首
+，
+灵
+岩
+。
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+来 一首 ， 灵岩 。
+QUERY	PLAY
+
+天
+津
+电
+视
+台
+的
+国
+际
+频
+道
+，
+拜
+托
+了
+哈
+<PAD>
+<PAD>
+天津 电视台 的 国际 频道 ， 拜托 了 哈
+PLAY	QUERY
+
+来
+一
+首
+水
+调
+歌
+头
+。
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+来 一首 水调歌头 。
+QUERY	PLAY
+
+苏
+泊
+尔
+股
+价
+大
+跌
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+苏泊尔 股价 大跌
+QUERY	ROUTE
+
+来
+一
+首
+钟
+汉
+良
+的
+视
+觉
+动
+物
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+来 一首 钟汉良 的 视觉 动物
+PLAY	QUERY
+
+王
+菲
+传
+奇
+。
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+王菲 传奇 。
+PLAY	QUERY
+
+查
+一
+下
+沿
+途
+的
+科
+大
+讯
+飞
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+查 一下 沿途 的 科大 讯 飞
+POSITION	ROUTE
+
+特
+莫
+文
+蔚
+的
+阴
+天
+。
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+特 莫文蔚 的 阴天 。
+PLAY	QUERY
+
+老
+故
+事
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+老 故事
+QUERY	PLAY
+
+帮
+我
+找
+到
+微
+信
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+<PAD>
+帮 我 找到 微信
+QUERY	ROUTE
+

@@ -15,13 +15,57 @@ from seqeval.metrics import precision_score, recall_score, f1_score
 
 def computeF1Score(correct_slots, pred_slots):
     assert len(pred_slots) == len(correct_slots)
-
-    f1 = precision_score(correct_slots, pred_slots)
-    recall = recall_score(correct_slots, pred_slots)
-    precision =  f1_score(correct_slots, pred_slots)
+    pred_slots=tospan(pred_slots)
+    correct_slots=tospan(correct_slots)
+    origins,founds,rights=[],[],[]
+    for T,S in zip(correct_slots,pred_slots):
+        origins.extend(T)
+        founds.extend(S)
+        rights.extend([s for s in S if s in T])
+    origin = len(origins)
+    found = len(founds)
+    right = len(rights)
+    recall = 0 if origin == 0 else (right / origin)
+    precision = 0 if found == 0 else (right / found)
+    f1 = 0. if recall + precision == 0 else (2 * precision * recall) / (precision + recall)
+    # f1 = precision_score(correct_slots, pred_slots)
+    # recall = recall_score(correct_slots, pred_slots)lun
+    # precision =  f1_score(correct_slots, pred_slots)
 
     return f1, precision, recall
-
+def tospan(slots):
+    examples = []
+    for items in slots:
+        chunks = []
+        chunk = [-1, -1, -1]
+        for indx, tag in enumerate(items):
+            if tag.startswith("S-"):
+                if chunk[2] != -1:
+                    chunks.append(chunk)
+                chunk = [-1, -1, -1]
+                chunk[1] = indx
+                chunk[2] = indx
+                chunk[0] = tag.split('-')[1]
+                chunks.append(chunk)
+                chunk = (-1, -1, -1)
+            if tag.startswith("B-"):
+                if chunk[2] != -1:
+                    chunks.append(chunk)
+                chunk = [-1, -1, -1]
+                chunk[1] = indx
+                chunk[0] = tag.split('-')[1]
+            elif tag.startswith('I-') and chunk[1] != -1:
+                _type = tag.split('-')[1]
+                if _type == chunk[0]:
+                    chunk[2] = indx
+                if indx == len(items) - 1:
+                    chunks.append(chunk)
+            else:
+                if chunk[2] != -1:
+                    chunks.append(chunk)
+                chunk = [-1, -1, -1]
+        examples.append(chunks)
+    return examples
 
 def restore_order(sorted_list, sorted_index):
     second_sorted_index = np.argsort(sorted_index)
